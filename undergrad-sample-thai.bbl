@@ -1,0 +1,326 @@
+\begin{thebibliography}{10}
+
+\bibitem{tagmean}
+Orn Smith,  2017,
+\newblock ``{\textthai{แนะนำวิธีใช้ Category และ
+  Tag คืออะไร
+  อันไหนใช้เมื่อไรอย่างไร}},''
+  จากเว็บไซต์
+  \url{https://contentshifu.com/blog/category-vs-tag-best-practices},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{pantip}
+MK,  2016,
+\newblock ``{\textthai{Pantip.com จับมือ ม.เกษตร
+  เปิดตัวระบบ Auto Tag ด้วย Machine Learning}},''
+  จากเว็บไซต์ \url{https://www.blognone.com/node/79057},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{ai_tagging}
+Michael Andrews,  2022,
+\newblock ``{AI-based auto-tagging of content: what you need to know},''
+  จากเว็บไซต์
+  \url{https://kontent.ai/blog/ai-based-auto-tagging-of-content-what-you-need-to-know/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{nlp}
+SAS,  2022,
+\newblock
+  ``{\textthai{การประมวลผลภาษาธรรมชาติ
+  (Natural language processing)}},'' จากเว็บไซต์
+  \url{https://www.sas.com/th_th/insights/analytics/what-is-natural-language-processing-nlp.html},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{word}
+Patipan Prasertsom,  2021,
+\newblock
+  ``{\textthai{การค้นหาตัวแทนเชิงความหมายของข้อความ:
+  Word2Vec Word Embedding}},'' จากเว็บไซต์
+  \url{https://bigdata.go.th/big-data-101/word2vec/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{tfidf}
+Patipan Prasertsom,  2020,
+\newblock
+  ``{\textthai{สกัดใจความสำคัญของข้อความด้วยเทคนิคการประมวลผลทางภาษาเบื้องต้น:
+  TF-IDF}},'' จากเว็บไซต์
+  \url{https://bigdata.go.th/big-data-101/tf-idf-1/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{tf}
+CHAKRIT,  2019,
+\newblock ``{\textthai{TF-IDF ทำงานอย่างไร?}},''
+  จากเว็บไซต์
+  \href{https://www.softnix.co.th/2019/05/28/tf-idf-ทำงานยังไง/}{\textthai{https://www.softnix.co.th/2019/05/28/tf-idf-ทำงานยังไง/}},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{data_sci}
+\textthai{ไกรศักดิ์ เกษร},
+\newblock  2021, {\bf
+  \textthai{วิทยาศาสตร์ข้อมูล(Data
+  Science)}},
+\newblock
+  \textthai{ภาควิชาวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ
+  คณะวิทยาศาสตร์มหาวิทยาลัยนเรศวร},
+\newblock p.352.
+
+\bibitem{api}
+AWS,  2022,
+\newblock ``{\textthai{RESTful API คืออะไร}},''
+  จากเว็บไซต์
+  \url{https://aws.amazon.com/th/what-is/restful-api/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{three_model}
+S.~Joni, Y.~Vignesh, C.~Juan, J.~Bernard, and J.~Soon-Gyo,
+\newblock  2019, ``Machine learning approach to auto-tagging online content for
+  content marketing efficiency: A comparative analysis between methods and
+  content type,''
+\newblock {\bf Journal of Business Research}, vol. 101, pp. 203--217, Aug 2019.
+
+\bibitem{aws}
+AWS,  2022,
+\newblock ``{Amazon Comprehend},'' จากเว็บไซต์
+  \url{https://aws.amazon.com/th/comprehend/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{js}
+Marcuscode,  2020,
+\newblock ``{\textthai{แนะนำภาษา JavaScript}},''
+  จากเว็บไซต์
+  \url{http://marcuscode.com/lang/javascript/introducing-to-javascript},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{go}
+Skooldio,  2021,
+\newblock ``{\textthai{TECHNOLOGY Golang คืออะไร?
+  ดียังไง? ทำไมคนใช้เยอะ?
+  รวมสิ่งที่ควรรู้เกี่ยวกับ
+  Golang}},'' จากเว็บไซต์
+  \url{https://blog.skooldio.com/what-is-golang/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{python}
+AWS,  2022,
+\newblock ``{\textthai{Python คืออะไร}},''
+  จากเว็บไซต์
+  \url{https://aws.amazon.com/th/what-is/python/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{colab}
+Hardwarelibre,  2022,
+\newblock ``{\textthai{Google Collab หรือ Google Colaboratory:
+  มันคืออะไร}},'' จากเว็บไซต์
+  \url{https://www.hwlibre.com/th/google-colaboratory/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{figma}
+Patchara Boonmathanaruk,  2022,
+\newblock ``{\textthai{Figma คืออะไร?
+  ทำไมถึงเป็น Tool
+  มาแรงที่สุดในวงการ Design!}},''
+  จากเว็บไซต์
+  \url{https://blog.skooldio.com/figma-ui-design-tool/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{postgresql}
+Linux-Console.net,  2019,
+\newblock ``{\textthai{PostgreSQL คืออะไร? PostgreSQL
+  ทำงานอย่างไร}},'' จากเว็บไซต์
+  \url{https://th.linux-console.net/?p=1801},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{git}
+Codebee,  2020,
+\newblock ``{\textthai{Git คืออะไร การใช้งาน
+  Git ฉบับผู้เริ่มต้น}},''
+  จากเว็บไซต์
+  \href{https://www.codebee.co.th/labs/git-คืออะไร-การใช้งาน-git/}{\textthai{https://www.codebee.co.th/labs/git-คืออะไร-การใช้งาน-git/}},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{github}
+Fern,  2021,
+\newblock ``{\textthai{GitHub คืออะไร}},''
+  จากเว็บไซต์
+  \href{https://wrksoftware.co/th/github-คืออะไร}{\textthai{https://wrksoftware.co/th/github-คืออะไร}},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{docker}
+AWS,  2021,
+\newblock ``{\textthai{GitHub คืออะไร}},''
+  จากเว็บไซต์ \url{https://aws.amazon.com/th/docker/},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{gg_tran}
+MdsiGlobal,  2019,
+\newblock ``{\textthai{Google Translate คืออะไร}},''
+  จากเว็บไซต์
+  \url{https://www.mdsiglobal.com/google-translate/},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{gin}
+Piirapol Pajharawat,  2019,
+\newblock ``{\textthai{GIN 101: สร้าง Web Service บน Golang}},''
+  จากเว็บไซต์
+  \url{https://medium.com/insightera/gin-101-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-web-service-%E0%B8%9A%E0%B8%99-golang-32f46aadeaa6},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{gorm}
+Lungmaker19,  2022,
+\newblock ``{\textthai{การใช้ GORM กับ MySQL}},''
+  จากเว็บไซต์
+  \url{https://www.lungmaker.com/go-programming/gorm/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{vue1}
+\textthai{พรหมหัฒน์ ไชยเดช},  2019,
+\newblock ``{\textthai{Vue.JS สร้าง Web Application สุด Wow
+  สู่เส้นทาง Front-End Developer}},''
+  จากเว็บไซต์ \url{https://page.futureskill.co/vuejs},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{vue2}
+Ltd Developer Team BorntoDev~Co.,  2020,
+\newblock ``{\textthai{Vue.Js 101 ฉบับมาเร็ว
+  ไปเร็ววว}},'' จากเว็บไซต์
+  \url{https://www.borntodev.com/2020/07/14/vue-js-101/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{nuxt}
+\textthai{มานพ กองอุ่น},  2019,
+\newblock ``{\textthai{เริ่มต้นทำ Web Application
+  ด้วย NuxtJS}},'' จากเว็บไซต์
+  \url{https://www.programmerthailand.com/tutorial/post/view?id=314},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{pandas}
+Mindphp.com,  2022,
+\newblock ``{\textthai{Pandas คืออะไร?}},''
+  จากเว็บไซต์
+  \href{https://www.mindphp.com/บทเรียนออนไลน์/83-python/8493-what-is-the-pandas.html}{\textthai{https://www.mindphp.com/บทเรียนออนไลน์/83-python/8493-what-is-the-pandas.html}},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{numpy}
+Ltd Developer Team BorntoDev~Co.,  2022,
+\newblock ``{\textthai{NumPy คืออะไร ?}},''
+  จากเว็บไซต์
+  \href{https://www.borntodev.com/2020/04/16/พื้นฐานการใช้-numpy-ใน-python-3/}{\textthai{https://www.borntodev.com/2020/04/16/พื้นฐานการใช้-numpy-ใน-python-3/}},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{spacy}
+Top'p Kullawattana,  2019,
+\newblock ``{Introduction NLP with spaCy in Software Engineering},''
+  จากเว็บไซต์
+  \url{https://suttipong-kull.medium.com/introduction-nlp-in-software-engineering-88ff3cd5ca86t},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{pylib}
+Punna Rirkvaleekul,  2020,
+\newblock ``{\textthai{สิ่งจำเป็นที่สาย Machine
+  Learning ต้องรู้}},'' จากเว็บไซต์
+  \href{https://twinsynergy.co.th/สิ่งจำเป็นที่สาย-machine-learning-ต้อง/}{\textthai{https://twinsynergy.co.th/สิ่งจำเป็นที่สาย-machine-learning-ต้อง/}},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{gcp}
+BERYL8,  2019,
+\newblock ``{\textthai{เหตุผลที่หลายๆ
+  ธุรกิจเลือกใช้ GCP (Google Cloud Platform)
+  เพื่อเพิ่มประสิทธิภาพในการทำงาน}},''
+  จากเว็บไซต์
+  \href{https://www.beryl8.com/th/newsroom/insights/102/เหตุผลที่หลายๆ-ธุรกิจเลือกใช้-gcp-google-cloud-platform-เพื่อเพิ่มประสิทธิภาพในการทำงาน}
+  {\textthai{https://www.beryl8.com/th/newsroom/insights/102/เหตุผลที่หลายๆ-ธุรกิจเลือกใช้-gcp-google-cloud-platform-เพื่อเพิ่มประสิทธิภาพในการทำงาน}},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤศจิกายน 2022].
+
+\bibitem{pubsub}
+Niw Popkorn,  2020,
+\newblock
+  ``{\textthai{ออกแบบระบบให้คุยข้าม
+  module กันได้ ด้วย Pub/Sub}},''
+  จากเว็บไซต์
+  \url{https://blog.niwpopkorn.com/2020/04/module-pubsub.html},
+\newblock [ออนไลน์; วันที่สืบค้น 12
+  พฤศจิกายน 2022].
+
+\bibitem{GCR}
+Sirawit,  2018,
+\newblock ``{\textthai{ส่ง Docker image ขึ้น Google Container
+  Registry (GCR)}},'' จากเว็บไซต์
+  \href{https://medium.com/@sirawit/ส่ง-docker-image-ขึ้น-google-container-registry-gcr-92a46868a341/}
+  {\textthai{https://medium.com/@sirawit/ส่ง-docker-image-ขึ้น-google-container-registry-gcr-92a46868a341/}},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{cloud_build}
+Peem Srinikorn,  2020,
+\newblock ``{\textthai{ส่ง Docker image ขึ้น Google Container
+  Registry (GCR)}},'' จากเว็บไซต์
+  \url{https://cloud-ace.co.th/blogs/w0w7e1-ci-cd-services-google-cloud/},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{cloud_run}
+NUUNEOI,  2019,
+\newblock ``{\textthai{Cloud Run คืออะไร}},''
+  จากเว็บไซต์
+  \url{https://nuuneoi.com/blog/blog.php?read_id=973/},
+\newblock [ออนไลน์; วันที่สืบค้น 13
+  พฤศจิกายน 2022].
+
+\bibitem{clickup}
+Cartoon Tanaporn,  2020,
+\newblock ``{\textthai{ไม่ใช้ไม่ได้แล้ว!
+  ทำไม ClickUp
+  ถึงเหมาะเป็นตัวช่วยในการ Work
+  From Home ในองค์กรของคุณ}},''
+  จากเว็บไซต์
+  \url{https://thegrowthmaster.com/blog/clickup-work-from-home},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{miro}
+1TOALL~COMPANY LIMITED,  2021,
+\newblock ``{MIRO : THE ONLINE COLLABORATIVE WHITEBOARD PLATFORM},''
+  จากเว็บไซต์
+  \url{https://www.1-to-all.com/blog/miro-the-online-collaborativenbspwhiteboard-platform},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\bibitem{discord}
+I~Plan~Digital Agency,  2022,
+\newblock ``{\textthai{Discord คืออะไร?
+  ต่างจากแพลตฟอร์มแชตอื่น ๆ
+  อย่างไร?}},'' จากเว็บไซต์
+  \url{https://www.iplandigital.co.th/collaborative-apps/what-is-discord/},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
+\end{thebibliography}
