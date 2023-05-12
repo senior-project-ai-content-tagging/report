@@ -733,6 +733,12 @@
       นอกจากประสิทธิภาพแล้ว ความง่ายในการเรียนรู้ของภาษา Golang 
       ยังสามารถทำความเข้าใจได้ง่าย ทำให้เป็นภาษาที่ได้รับความนิยมในวงกว้าง 
 
+      \item Java
+      \hspace{1cm}เป็นภาษาเขียนโปรแกรมที่ได้รับความนิยมเป็นอย่างมาก มีการใช้งานอย่างกว้างขวาง เป็นจากมีประสิทธิภาพการทำงานสูง และสามารถรันได้ในทุก Platform โดย
+      ไม่ต้องทำการ Compile Code ใหม่ผ่าน JVM (Java Virtual Machine) เนื่องด้วยเป็นภาษาที่มีการพัฒนาต่อเนื่องมาอย่างยาวนาน จึงทำให้มี Library ให้เลือกใช้งานมากมาย
+            โดยรูปแบบการเขียนโปรแกรมภาษา Java จะเขียนโดยใช้หลักการ OOP (Object Oriented Programming) \cite{java}
+      
+
       \hspace{1cm}Golang เป็นภาษาที่เหมาะสำหรับการทำ Web Development มาก เนื่องจากสามารถใช้สร้างระบบที่รองรับการทำงานใน Scale ใหญ่ที่มี Request จำนวนมากได้ 
       ซึ่ง Golang ถูกออกแบบมาเพื่องานประเภทนี้โดยเฉพาะ ยกตัวอย่างเช่น มี HTTP Package อยู่ใน Standard Library ของ Go โดยที่ไม่ต้องลง Library เพิ่มเติม 
       หรือจะใช้ Framework ต่าง ๆ ช่วยให้ทำ Web Development ได้ง่ายและสะดวกขึ้น \cite{go}
@@ -844,16 +850,6 @@
     \end{itemize}
   \subsection{Library Tools}
     \begin{itemize}
-      \item Gin
-      
-      \hspace{1cm}เป็น Golang Web Framework ยอดนิยมในการพัฒนาระบบ Web Backend ช่วยให้สามารถจัดการกับ Routing, Middleware, และอื่น ๆ ที่เกี่ยวกับพัฒนาระบบเบื้องหลัง ให้มีความง่ายมากยิ่งขึ้น
-       อีกทั้งยังมีการทำงานที่รวดเร็ว และใช้ทรัพยากรในการทำงานน้อย \cite{gin}
-
-      \item Gorm
-      
-      \hspace{1cm}เป็น Golang ORM (Object Relational Mapping) ช่วยให้เราสามารถ Map ระหว่างโครงสร้างของ Column ใน Table ของ Database
-      ของ Field ของ Struct ในภาษา Golang ได้ ซึ่งจะทำให้ช่วยลดการ redundant, duplicate ของโค้ด \cite{gorm}
-
       \item Vue
       
       \hspace{1cm}เป็น JS Library ที่รวมเอาข้อดีของ Angular กับ React มารวมกัน มีการประมวลผลที่รวดเร็ว \cite{vue1}
@@ -921,6 +917,12 @@
       
       \hspace{1cm}เป็น Library สำหรับสร้าง Machine Learning Models แบบ Open Source จาก Google สามารถใช้งานได้ดีกับภาษา Python 
       แต่ก็ใช้งานร่วมกับภาษาอื่นๆ เช่น C, Java หรือ Go ได้เช่นกัน และยังมี Community ขนาดใหญ่ ทำให้สามารถค้นหาข้อมูลหรือสอบถามเวลาเจอปัญหาได้ง่าย \cite{pylib}
+
+      \item BeautifulSoup
+
+          \hspace{1cm}เป็น Library สำหรับทำ Web scraping หรือการดึงข้อมูลผ่านทางหน้าเว็บไซต์ ซึ่งหลังจากดึงข้อมูลเสร็จ จะเข้าสู่กระบวนการสกัด (Extract) เอา
+          เฉพาะข้อมูลที่ต้องการ เพื่อนำมาเก็บไว้ในรูปแบบที่ต้องการเป็นแหล่ง Data Source เพื่อใช้งานต่อไป โดยจะใช้ภาษา Python ในการเขียน Script \cite{beautifulsoup}
+
     \end{itemize}
   \subsection{Infrastructure Tools}
     \begin{itemize}
