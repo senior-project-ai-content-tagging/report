@@ -725,6 +725,11 @@
         ทำให้เว็บไซต์สามารถตอบสนองกับผู้ใช้งาน 
         ทั้งมี Library ที่ช่วยให้การพัฒนาเว็บไซต์ได้ง่ายขึ้นจำนวนมาก 
         จึงเป็นภาษาที่นิยมในการเขียนเว็บไซต์
+      \item Java
+      
+        \hspace{1cm}เป็นภาษาเขียนโปรแกรมที่ได้รับความนิยมเป็นอย่างมาก มีการใช้งานอย่างกว้างขวาง เป็นจากมีประสิทธิภาพการทำงานสูง และสามารถรันได้ในทุก Platform 
+        โดยไม่ต้องทำการ Compile Code ใหม่ผ่าน JVM (Java Virtual Machine) เนื่องด้วยเป็นภาษาที่มีการพัฒนาต่อเนื่องมาอย่างยาวนาน 
+        จึงทำให้มี Library ให้เลือกใช้งานมากมาย โดยรูปแบบการเขียนโปรแกรมภาษา Java จะเขียนโดยใช้หลักการ OOP (Object Oriented Programming) \cite{java}
       \item  Golang
       
       \hspace{1cm}เป็นภาษาเขียนโปรแกรมแบบ Open Source ที่ถูกพัฒนาขึ้นโดยบริษัท Google ในปี 2007 
@@ -732,7 +737,7 @@
       อีกทั้งยังมี Garbage Collector ในการช่วยจัดการกับ Memory 
       นอกจากประสิทธิภาพแล้ว ความง่ายในการเรียนรู้ของภาษา Golang 
       ยังสามารถทำความเข้าใจได้ง่าย ทำให้เป็นภาษาที่ได้รับความนิยมในวงกว้าง 
-
+      
       \hspace{1cm}Golang เป็นภาษาที่เหมาะสำหรับการทำ Web Development มาก เนื่องจากสามารถใช้สร้างระบบที่รองรับการทำงานใน Scale ใหญ่ที่มี Request จำนวนมากได้ 
       ซึ่ง Golang ถูกออกแบบมาเพื่องานประเภทนี้โดยเฉพาะ ยกตัวอย่างเช่น มี HTTP Package อยู่ใน Standard Library ของ Go โดยที่ไม่ต้องลง Library เพิ่มเติม 
       หรือจะใช้ Framework ต่าง ๆ ช่วยให้ทำ Web Development ได้ง่ายและสะดวกขึ้น \cite{go}
@@ -844,15 +849,15 @@
     \end{itemize}
   \subsection{Library Tools}
     \begin{itemize}
-      \item Gin
+      % \item Gin
       
-      \hspace{1cm}เป็น Golang Web Framework ยอดนิยมในการพัฒนาระบบ Web Backend ช่วยให้สามารถจัดการกับ Routing, Middleware, และอื่น ๆ ที่เกี่ยวกับพัฒนาระบบเบื้องหลัง ให้มีความง่ายมากยิ่งขึ้น
-       อีกทั้งยังมีการทำงานที่รวดเร็ว และใช้ทรัพยากรในการทำงานน้อย \cite{gin}
+      % \hspace{1cm}เป็น Golang Web Framework ยอดนิยมในการพัฒนาระบบ Web Backend ช่วยให้สามารถจัดการกับ Routing, Middleware, และอื่น ๆ ที่เกี่ยวกับพัฒนาระบบเบื้องหลัง ให้มีความง่ายมากยิ่งขึ้น
+      %  อีกทั้งยังมีการทำงานที่รวดเร็ว และใช้ทรัพยากรในการทำงานน้อย \cite{gin}
 
-      \item Gorm
+      % \item Gorm
       
-      \hspace{1cm}เป็น Golang ORM (Object Relational Mapping) ช่วยให้เราสามารถ Map ระหว่างโครงสร้างของ Column ใน Table ของ Database
-      ของ Field ของ Struct ในภาษา Golang ได้ ซึ่งจะทำให้ช่วยลดการ redundant, duplicate ของโค้ด \cite{gorm}
+      % \hspace{1cm}เป็น Golang ORM (Object Relational Mapping) ช่วยให้เราสามารถ Map ระหว่างโครงสร้างของ Column ใน Table ของ Database
+      % ของ Field ของ Struct ในภาษา Golang ได้ ซึ่งจะทำให้ช่วยลดการ redundant, duplicate ของโค้ด \cite{gorm}
 
       \item Vue
       
@@ -921,6 +926,11 @@
       
       \hspace{1cm}เป็น Library สำหรับสร้าง Machine Learning Models แบบ Open Source จาก Google สามารถใช้งานได้ดีกับภาษา Python 
       แต่ก็ใช้งานร่วมกับภาษาอื่นๆ เช่น C, Java หรือ Go ได้เช่นกัน และยังมี Community ขนาดใหญ่ ทำให้สามารถค้นหาข้อมูลหรือสอบถามเวลาเจอปัญหาได้ง่าย \cite{pylib}
+
+      \item BeautifulSoup
+
+        \hspace{1cm}เป็น Library สำหรับทำ Web scraping หรือการดึงข้อมูลผ่านทางหน้าเว็บไซต์ ซึ่งหลังจากดึงข้อมูลเสร็จ จะเข้าสู่กระบวนการสกัด (Extract) 
+        เอาเฉพาะข้อมูลที่ต้องการ เพื่อนำมาเก็บไว้ในรูปแบบที่ต้องการเป็นแหล่ง Data Source เพื่อใช้งานต่อไป โดยจะใช้ภาษา Python ในการเขียน Script \cite{beautifulsoup}
     \end{itemize}
   \subsection{Infrastructure Tools}
     \begin{itemize}
@@ -1856,29 +1866,19 @@
     \hspace{1cm}ในส่วนของการเก็บข้อมูลสำหรับการพัฒนาโมเดล จะได้ผลลัพธ์ดังนี้
 
     \hspace{1cm}การเก็บ URL จากหน้าเว็บไซต์ ซึ่งในขั้นตอนนี้สามารถทำได้ 2 วิธี ได้แก่ วิธีแรก คือ การบันทึกหน้าเว็บไซต์ที่มีข้อมูลบทความจำนวนมาก นำมาอ่านข้อมูล HTML 
-    แล้วจึงเก็บ URL ของบทความต่าง ๆ และวิธีที่สอง คือ การอ่าน URL ผ่าน Request โดยเว็บไซต์จะทำการส่ง Request ร้องขอเพื่อดูบทความเพิ่มเติม ได้ผลลัพธ์ดังรูปที่ \ref{fig:col_link}
-    \begin{figure}[!ht]\centering
-      \includegraphics[width=\textwidth]{./img/data_col1.png}
-      \caption{ตัวอย่างการเก็บ URL จากหน้าเว็ปไซต์}\label{fig:col_link}
-    \end{figure}
-    
-    \hspace{1cm}เมื่อได้ URL มาครบตามที่ต้องการแล้ว จะทำการดึงข้อมูลเป็นไฟล์ HTML จาก URL ที่เก็บมาจากหน้าเว็บไซต์ ได้ผลลัพธ์ดังรูปที่ \ref{fig:html_file}
-    \begin{figure}[!ht]\centering
-      \includegraphics[width=\textwidth]{./img/data_col2.png}
-      \caption{ตัวอย่างการดึงข้อมูลเป็นไฟล์ HTML จาก URL ที่เก็บมาจากหน้าเว็บไซต์}\label{fig:html_file}
-    \end{figure}
-    \newpage
-    \hspace{1cm}ทำการเข้าถึงไฟล์ HTML ที่ได้จาก URL ที่เก็บมาจากหน้าเว็บไซต์ จากนั้นทำการดึงเนื้อหาบทความด้วยการใช้ Python BeautifulSoup มาเก็บไว้ 
+    แล้วจึงเก็บ URL ของบทความต่าง ๆ และวิธีที่สอง คือ การอ่าน URL ผ่าน Request โดยเว็บไซต์จะทำการส่ง Request ร้องขอเพื่อดูบทความเพิ่มเติม 
+    เมื่อได้ URL มาครบตามที่ต้องการแล้ว จะทำการดึงข้อมูลเป็นไฟล์ HTML จาก URL ที่เก็บมาจากหน้าเว็บไซต์ 
+    จากนั้นทำการเข้าถึงไฟล์ HTML ที่ได้จาก URL ที่เก็บมาจากหน้าเว็บไซต์และทำการดึงเนื้อหาบทความด้วยการใช้ Python BeautifulSoup มาเก็บไว้ 
     เพื่อเป็นชุดข้อมูลสำหรับพัฒนาโมเดล ได้ผลลัพธ์ดังรูปที่ \ref{fig:data_thai}
     \begin{figure}[!ht]\centering
-      \includegraphics[width=\textwidth]{./img/data_col_thai.png}
+      \includegraphics[width=0.9\textwidth]{./img/data_col_thai.png}
       \caption{ตัวอย่างการดึงเนื้อหาบทความจากไฟล์ HTML ด้วยการใช้ Python BeautifulSoup}\label{fig:data_thai}
     \end{figure}
-    
+
     \hspace{1cm}ทำการแปลเนื้อหาที่ได้จากรูปภาพที่ \ref{fig:data_thai} ซึ่งเป็นเนื้อหาที่เป็นภาษาไทยให้กลายเป็นภาษาอังกฤษด้วยการใช้ Translator Service
     เพื่อใช้สำหรับการพัฒนาโมเดลที่ใช้ชุดข้อมูลเป็นภาษาอังกฤษ ได้ผลลัพธ์ดังรูปที่ \ref{fig:data_thai}
     \begin{figure}[!ht]\centering
-      \includegraphics[width=\textwidth]{./img/data_col_eng.png}
+      \includegraphics[width=0.9\textwidth]{./img/data_col_eng.png}
       \caption{ตัวอย่างการแปลเนื้อหาจากภาษาไทยเป็นภาษาอังกฤษ}\label{fig:data_eng}
     \end{figure}
     \newpage
@@ -1886,7 +1886,7 @@
   \section{การออกแบบโมเดลสำหรับวิเคราะห์หมวดหมู่ของเนื้อหาในบทความต่าง ๆ}
     \subsection{การเตรียมข้อมูลสำหรับการพัฒนาโมเดล}
       \hspace{1cm}ข้อมูลที่ใช้ในการพัฒนาโมเดลจะมีทั้งหมด 2 รูปแบบด้วยกัน ได้แก่ ชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยและชุดข้อมูลวที่มีเนื้อหาเป็นภาษาอังกฤษ
-      ชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยจะมีทั้งหมด 5712 ชุด และชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษจะมีทั้งหมด 4862 ชุด ซึ่งมีลักษณะข้อมูลเป็นไฟล์ Text
+      ชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยจะมีทั้งหมด 9,000 ชุด และชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษจะมีทั้งหมด 9,000 ชุด ซึ่งมีลักษณะข้อมูลเป็นไฟล์ Text
       และมีหมวดหมู่กำกับในแต่ละชุดข้อมูล โดยมีรายละเอียดดังนี้
 
       \begin{longtable}[!ht]{p{0.15\linewidth}m{0.45\linewidth}}
@@ -1896,11 +1896,13 @@
         \multicolumn{1}{c}{\textbf{หมวดหมู่}} & \multicolumn{1}{c}{\textbf{จำนวนชุดข้อมูลข่าว}} \\ \hline
         \endhead
         %
-        อาชญากรรม                              & \multicolumn{1}{c}{2997}                        \\ %\hline
-        การเงิน                                   & \multicolumn{1}{c}{999}                         \\ %\hline
-        การเมือง                               & \multicolumn{1}{c}{998}                          \\ %\hline
-        กีฬา                                 & \multicolumn{1}{c}{718}                          \\ \hline
-        \textbf{รวม}                           & \multicolumn{1}{c}{\textbf{5712}}                        \\ \hhline{==}
+        อาชญากรรม                              & \multicolumn{1}{c}{1,500}                        \\ %\hline
+        กีฬา                                   & \multicolumn{1}{c}{1,500}                         \\ %\hline
+        การเมือง                               & \multicolumn{1}{c}{1,500}                          \\ %\hline
+        ธุรกิจ                                 & \multicolumn{1}{c}{1,500}                          \\ %\hline
+        บันเทิง                                & \multicolumn{1}{c}{1,500}                          \\ %\hline
+        เทคโนโลยี                              & \multicolumn{1}{c}{1,500}                          \\ \hline
+        \textbf{รวม}                           & \multicolumn{1}{c}{\textbf{9,000}}                        \\ \hhline{==}
       \end{longtable}
 
       \begin{figure}[!ht]\centering
@@ -1915,13 +1917,13 @@
         \multicolumn{1}{c}{\textbf{หมวดหมู่}} & \multicolumn{1}{c}{\textbf{จำนวนชุดข้อมูลข่าว}} \\ \hline
         \endhead
         %
-        อาชญากรรม                              & \multicolumn{1}{c}{1740}                        \\ %\hline
-        กีฬา                                   & \multicolumn{1}{c}{1272}                         \\ %\hline
-        การเมือง                               & \multicolumn{1}{c}{980}                          \\ %\hline
-        ธุรกิจ                                 & \multicolumn{1}{c}{336}                          \\ %\hline
-        บันเทิง                                & \multicolumn{1}{c}{273}                          \\ %\hline
-        เทคโนโลยี                              & \multicolumn{1}{c}{261}                          \\ \hline
-        \textbf{รวม}                           & \multicolumn{1}{c}{\textbf{4862}}                        \\ \hhline{==}
+        อาชญากรรม                              & \multicolumn{1}{c}{1,500}                        \\ %\hline
+        กีฬา                                   & \multicolumn{1}{c}{1,500}                         \\ %\hline
+        การเมือง                               & \multicolumn{1}{c}{1,500}                          \\ %\hline
+        ธุรกิจ                                 & \multicolumn{1}{c}{1,500}                          \\ %\hline
+        บันเทิง                                & \multicolumn{1}{c}{1,500}                          \\ %\hline
+        เทคโนโลยี                              & \multicolumn{1}{c}{1,500}                          \\ \hline
+        \textbf{รวม}                           & \multicolumn{1}{c}{\textbf{9,000}}                        \\ \hhline{==}
       \end{longtable}
       \newpage
 
@@ -1943,11 +1945,13 @@
           \textbf{\begin{tabular}[c]{@{}c@{}}จำนวนชุดข้อมูล\\ สำหรับประเมินโมเดล\end{tabular}} \\ \hline
         \endhead
         %
-        อาชญากรรม    & 2397 & 600 \\ %\hline
-        การเงิน       & 799  & 200  \\ %\hline
-        กีฬา         & 798 & 200 \\ %\hline
-        การเมือง     & 575  & 143 \\ \hline
-        \textbf{รวม} & \textbf{4569} & \textbf{1143} \\ \hhline{===}
+        อาชญากรรม    & 1,200 & 300 \\ %\hline
+        กีฬา         & 1,200 & 300 \\ %\hline
+        การเมือง     & 1,200  & 300 \\ %\hline
+        ธุรกิจ       & 1,200  & 300  \\ %\hline
+        บันเทิง      & 1,200  & 300  \\ %\hline
+        เทคโนโลยี    & 1,200  & 300  \\ \hline
+        \textbf{รวม} & \textbf{7,200} & \textbf{1,800} \\ \hhline{===}
       \end{longtable} 
 
       \begin{longtable}[!ht]{lcc}
@@ -1959,13 +1963,13 @@
           \textbf{\begin{tabular}[c]{@{}c@{}}จำนวนชุดข้อมูล\\ สำหรับประเมินโมเดล\end{tabular}} \\ \hline
         \endhead
         %
-        อาชญากรรม    & 1392 & 348 \\ %\hline
-        กีฬา         & 1017 & 255 \\ %\hline
-        การเมือง     & 784  & 196 \\ %\hline
-        ธุรกิจ       & 269  & 67  \\ %\hline
-        บันเทิง      & 218  & 55  \\ %\hline
-        เทคโนโลยี    & 209  & 52  \\ \hline
-        \textbf{รวม} & \textbf{3889} & \textbf{973} \\ \hhline{===}
+        อาชญากรรม    & 1,200 & 300 \\ %\hline
+        กีฬา         & 1,200 & 300 \\ %\hline
+        การเมือง     & 1,200  & 300 \\ %\hline
+        ธุรกิจ       & 1,200  & 300  \\ %\hline
+        บันเทิง      & 1,200  & 300  \\ %\hline
+        เทคโนโลยี    & 1,200  & 300  \\ \hline
+        \textbf{รวม} & \textbf{7,200} & \textbf{1,800} \\ \hhline{===}
       \end{longtable} 
 
       \hspace{1cm}การเตรียมข้อมูลสำหรับการพัฒนาโมเดล จะมีการทำความความสะอาดข้อมูลก่อนอย่างการลบอักขระที่ไม่จำเป็น ลบตัวเลข หรือช่องว่าง
@@ -1990,66 +1994,76 @@
           \caption{การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย}\label{fig:thai_hist}
         \end{figure}
         \begin{longtable}[!ht]{ccccccc}
-          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาไทยทั้งหมด}
+          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาไทยทั้งหมดหลังทำความสะอาดข้อมูล}
           \label{tbl:thai_stat_all}\\
           % \hline
           \hhline{=======}
           \textbf{Mean} & \textbf{STD} & \textbf{Min} & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} & \textbf{Max}\\ \hline
           \endhead
           %
-          266.86 & 189.46 & 24.00 & 152.00 & 227.00 & 328.00 & 3641.00  \\ \hhline{=======}%\hline
+          239.14 & 175.10 & 6.00 & 139.00 & 195.00 & 286.00 & 3356.00  \\ \hhline{=======}%\hline
         \end{longtable}
         \hspace{1cm}จะเห็นได้ว่าการกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย มีการกระจายตัวแบบเบ้ขวาและมี Outlier (รูปที่:\ref{fig:thai_hist}) 
         ดังนั้นค่าเฉลี่ยของจำนวนคำในชุดข้อมูลจึงมากกว่าค่ากลางของจำนวนคำในชุดข้อมูล และเมื่อดูการกระจายตัวประกอบกับค่าทางสถิติของจำนวนคำในเนื้อหาทั้งหมด
-        (ตารางที่:\ref{tbl:thai_stat_all}) พบว่า จำนวนคำในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยส่วนใหญ่จะมีค่าอยู่ที่ 150-350 คำ โดยจำนวนคำที่น้อยที่สุดในชุดข้อมูล คือ 24 คำ
-        และจำนวนคำที่มากที่สุดในชุดข้อมูล คือ 3641 คำ
+        (ตารางที่:\ref{tbl:thai_stat_all}) พบว่า จำนวนคำในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยส่วนใหญ่จะมีค่าอยู่ที่ 140-290 คำ โดยจำนวนคำที่น้อยที่สุดในชุดข้อมูล คือ 6 คำ
+        และจำนวนคำที่มากที่สุดในชุดข้อมูล คือ 3,356 คำ
         
         \begin{longtable}[!ht]{lccccccc}
-          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่}
+          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่หลังทำความสะอาดข้อมูล}
           \label{tbl:thai_stat}\\
           \hhline{========}
           \multicolumn{1}{c}{\textbf{หมวดหมู่}} & \textbf{Mean} & \textbf{STD} & \textbf{Min} & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} & \textbf{Max}\\ \hline
           \endhead
           %
-          อาชญากรรม    & 304.82 & 165.36 & 70.00 & 203.00 & 273.00 & 359.00 & 2007.00  \\ %\hline
-          การเงิน        & 186.30 & 147.83 & 24.00 & 84.00 & 138.00 & 235.50 & 781.00  \\ %\hline
-          กีฬา          & 272.36 & 365.67 & 56.00 & 142.00 & 183.00 & 297.75 & 3641.00  \\ %\hline
-          การเมือง       & 212.81 & 185.24 & 46.00 & 125.00 & 175.00 & 255.75 & 2174.00  \\ \hhline{========}
+          อาชญากรรม    & 294.51 & 182.57 & 71.00 & 193.00 & 257.00 & 343.00 & 2006.00  \\ %\hline
+          กีฬา          & 239.04 & 222.40 & 21.00 & 129.00 & 173.50 & 271.00 & 3356.00  \\ %\hline
+          การเมือง       & 227.62 & 147.87 & 12.00 & 140.75 & 196.00 & 276.00 & 2174.00  \\ %\hline
+          ธุรกิจ         & 190.63 & 127.83  & 21.00 & 110.00 & 160.00 & 235.25 & 762.00  \\ %\hline
+          บันเทิง        & 233.04 & 167.31 & 6.00 & 129.00 & 173.00 & 279.25 & 1327.00  \\ %\hline
+          เทคโนโลยี     & 249.99 & 171.35 & 12.00 & 163.00 & 206.00 & 291.00 & 3209.00  \\ \hhline{========}
         \end{longtable}
         \begin{figure}[!ht]\centering
           \includegraphics[width=\textwidth]{./img/thai_stat/boxplot_all.png}
-          \caption{ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่}\label{fig:thai_boxplot}
+          \caption{ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล}\label{fig:thai_boxplot}
         \end{figure}
-        \hspace{1cm}เนื่องจากในแต่หมวดหมู่ของชุดข้อมูลมีขนาดของข้อมูลแตกต่างกัน ซึ่งในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยจะมีทั้งหมด 4 หมวดหมู่ด้วยกัน
+        \hspace{1cm}เนื่องจากในแต่หมวดหมู่ของชุดข้อมูลมีขนาดของข้อมูลแตกต่างกัน ซึ่งในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยจะมีทั้งหมด 6 หมวดหมู่ด้วยกัน
         ดังนั้นจึงต้องมีการสำรวจการกระจายตัวของขนาดของข้อมูลในแต่ละหมวดหมู่ ซึ่งจากตารางที่ \ref{tbl:thai_stat} และรูปภาพที่ \ref{fig:thai_boxplot}
-        พบว่า จำนวนคำของเนื้อหาในหมวดหมู่อาชญากรรมส่วนใหญ่จะมีค่ามากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่การเงินส่วนใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น
-        นอกจากนี้ยังพบว่า จำนวนคำของชุดข้อมูลในหมวดหมู่กีฬามีการกระจายตัวของกลุ่มข้อมูลสูงสุดและจำนวนคำของชุดข้อมูลในหมวดหมู่การเงินมีการกระจายตัวของกลุ่มข้อมูลต่ำสุด
+        พบว่า จำนวนคำของเนื้อหาในหมวดหมู่อาชญากรรมส่วนใหญ่จะมีค่ามากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่ธุรกิจส่วนใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น
+        นอกจากนี้ยังพบว่า จำนวนคำของชุดข้อมูลในหมวดหมู่กีฬามีการกระจายตัวของกลุ่มข้อมูลสูงสุดและจำนวนคำของชุดข้อมูลในหมวดหมู่ธุรกิจมีการกระจายตัวของกลุ่มข้อมูลต่ำสุด
         ซึ่งสังเกตได้จากค่า STD ในตารางที่ \ref{tbl:thai_stat}
         \newpage
         \begin{figure}[!ht]\centering
           \includegraphics[width=0.7\textwidth]{./img/thai_stat/crime_bar.png}
-          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่อาชญากร}\label{fig:crime_bar_th}
+          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่อาชญากรรม}\label{fig:crime_bar_th}
         \end{figure}
         \begin{figure}[!ht]\centering
           \includegraphics[width=0.7\textwidth]{./img/thai_stat/sport_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่กีฬา}\label{fig:sport_bar_th}
         \end{figure}
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.7\textwidth]{./img/thai_stat/money_bar.png}
-          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเงิน}\label{fig:money_bar_th}
-        \end{figure}
-        \newpage
-        \begin{figure}[!ht]\centering
           \includegraphics[width=0.7\textwidth]{./img/thai_stat/polit_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเมือง}\label{fig:polit_bar_th}
         \end{figure}
+        \newpage
+        \begin{figure}[!ht]\centering
+          \includegraphics[width=0.7\textwidth]{./img/thai_stat/money_bar.png}
+          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่ธุรกิจ}\label{fig:money_bar_th}
+        \end{figure}
+        \begin{figure}[!ht]\centering
+          \includegraphics[width=0.7\textwidth]{./img/thai_stat/ent_bar.png}
+          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่บันเทิง}\label{fig:ent_bar_th}
+        \end{figure}\begin{figure}[!ht]\centering
+          \includegraphics[width=0.7\textwidth]{./img/thai_stat/tech_bar.png}
+          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่เทคโนโลยี}\label{fig:tech_bar_th}
+        \end{figure}
+        
         \hspace{1cm}จากรูปภาพที่ \ref{fig:crime_bar_th} ถึงรูปภาพที่ \ref{fig:polit_bar_th} เป็นการแสดงผลคำที่พบมากที่สุด 10 อันดับแรกในชุดข้อมูลของแต่ละหมวดหมู่
         เพื่อใช้สำหรับดูแนวโน้มของคำที่พบบ่อยในแต่ละหมวดหมู่ ซึ่งจากข้อมูลข้างต้นพบว่า แต่ละหมวดหมู่ค่อนข้างที่จะมีคำที่พบบ่อยแตกต่างกัน แต่จะมีบางคำที่พบบ่อยในทุกหมวดหมู่
-        เช่น ปี ซึ่งถือว่าเป็นคำทั่วไป ไม่ได้มีความสำคัญมากสำหรับข้อมูล 
+        เช่น ปี คน ซึ่งถือว่าเป็นคำทั่วไป ไม่ได้มีความสำคัญมากสำหรับข้อมูล 
         \begin{figure}[!ht]\centering
           \begin{subfigure}{0.49\textwidth}
             \includegraphics[width=\linewidth]{./img/thai_stat/crime_wc.png} 
-            \caption{หมวดหมู่อาชญากร}
+            \caption{หมวดหมู่อาชญากรรม}
             \label{fig:subim_th1}
           \end{subfigure}
           \begin{subfigure}{0.49\textwidth}
@@ -2058,14 +2072,24 @@
             \label{fig:subim_th2}
           \end{subfigure}
           \begin{subfigure}{0.49\textwidth}
-            \includegraphics[width=\linewidth]{./img/thai_stat/money_wc.png} 
-            \caption{หมวดหมู่การเงิน}
-            \label{fig:subim_th3}
-          \end{subfigure}
-          \begin{subfigure}{0.49\textwidth}
             \includegraphics[width=\linewidth]{./img/thai_stat/polit_wc.png}
             \caption{หมวดหมู่การเมือง}
             \label{fig:subim_th4}
+          \end{subfigure}
+          \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{./img/thai_stat/money_wc.png} 
+            \caption{หมวดหมู่ธุรกิจ}
+            \label{fig:subim_th3}
+          \end{subfigure}
+          \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{./img/thai_stat/ent_wc.png} 
+            \caption{หมวดหมู่บันเทิง}
+            \label{fig:subim_th5}
+          \end{subfigure}
+          \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\linewidth]{./img/thai_stat/tech_wc.png}
+            \caption{หมวดหมู่เทคโนโลยี}
+            \label{fig:subim_th6}
           \end{subfigure}
           \caption{100 อันดับคำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของแต่ละหมวดหมู่}
           \label{fig:tag_wc_thai}
@@ -2075,76 +2099,77 @@
         \newpage
 
       \subsubsection{ชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ}
-        \hspace{1cm}จากการสำรวจชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษทั้งหมด 4862 ชุด พบว่า แต่ละชุดข้อมูลมีการกระจายตัวของขนาดของข้อมูล \newline ดังนี้
+        \hspace{1cm}จากการสำรวจชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษทั้งหมด 9,000 ชุด พบว่า แต่ละชุดข้อมูลมีการกระจายตัวของขนาดของข้อมูล \newline ดังนี้
         \begin{figure}[!ht]\centering
           \includegraphics[width=\textwidth]{./img/eng_stat/hist_all_word.png}
           \caption{การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ}\label{fig:eng_hist}
         \end{figure}
         \begin{longtable}[!ht]{ccccccc}
-          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษทั้งหมด}
+          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษทั้งหมดหลังทําความสะอาดข้อมูล}
           \label{tbl:eng_stat_all}\\
           \hhline{=======}
           \textbf{Mean} & \textbf{STD} & \textbf{Min} & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} & \textbf{Max}\\ \hline
           \endhead
           %
-          218.08 & 116.61 & 34.00 & 135.00 & 193.00 & 274.00 & 1927.00  \\ \hhline{=======}
+          195.38 & 125.35 & 12.00 & 112.00 & 163.00 & 248.00 & 1927.00  \\ \hhline{=======}
         \end{longtable}
         \hspace{1cm}จะเห็นได้ว่าการกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ มีการกระจายตัวแบบเบ้ขวาและมี Outlier (รูปที่:\ref{fig:eng_hist}) 
         ดังนั้นค่าเฉลี่ยของจำนวนคำในชุดข้อมูลจึงมากกว่าค่ากลางของจำนวนคำในชุดข้อมูล และเมื่อดูการกระจายตัวประกอบกับค่าทางสถิติของจำนวนคำในเนื้อหาทั้งหมด
-        (ตารางที่:\ref{tbl:eng_stat_all}) พบว่า จำนวนคำในชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษส่วนใหญ่จะมีค่าอยู่ที่ 100-300 คำ โดยจำนวนคำที่น้อยที่สุดในชุดข้อมูล คือ 34 คำ
+        (ตารางที่:\ref{tbl:eng_stat_all}) พบว่า จำนวนคำในชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษส่วนใหญ่จะมีค่าอยู่ที่ 110-250 คำ โดยจำนวนคำที่น้อยที่สุดในชุดข้อมูล คือ 12 คำ
         และจำนวนคำที่มากที่สุดในชุดข้อมูล คือ 1927 คำ
 
         \begin{longtable}[!ht]{lccccccc}
-          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่}
+          \caption{ตารางแสดงค่าทางสถิติของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล}
           \label{tbl:eng_stat}\\
           \hhline{========}
           \multicolumn{1}{c}{\textbf{หมวดหมู่}} & \textbf{Mean} & \textbf{STD} & \textbf{Min} & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} & \textbf{Max}\\ \hline
           \endhead
           %
-          อาชญากรรม    & 256.15 & 108.33 & 64.00 & 178.00 & 239.00 & 313.00 & 907.00  \\ %\hline
-          กีฬา          & 172.29 & 92.42  & 34.00 & 111.00 & 144.50 & 209.00 & 911.00  \\ %\hline
-          การเมือง       & 211.84 & 142.97 & 39.00 & 126.00 & 182.00 & 260.00 & 1927.00  \\ %\hline
-          ธุรกิจ         & 190.46 & 74.28  & 75.00 & 141.75 & 178.50 & 222.00 & 505.00  \\ %\hline
-          บันเทิง        & 187.74 & 105.61 & 88.00 & 131.00 & 157.00 & 210.00 & 1230.00  \\ %\hline
-          เทคโนโลยี     & 278.21 & 112.12 & 102.00 & 195.00 & 259.00 & 352.00 & 829.00  \\ \hhline{========}
+          อาชญากรรม    & 254.96 & 104.65 & 64.00 & 179.00 & 239.00 & 312.00 & 766.00  \\ %\hline
+          กีฬา          & 167.08 & 91.22  & 18.00 & 106.00 & 141.00 & 206.00 & 911.00  \\ %\hline
+          การเมือง       & 218.88 & 140.71 & 14.00 & 135.00 & 193.00 & 268.00 & 1927.00  \\ %\hline
+          ธุรกิจ         & 201.04 & 123.04  & 35.00 & 122.75 & 173.00 & 252.00 & 1736.00  \\ %\hline
+          บันเทิง        & 175.07 & 151.97 & 12.00 & 88.00 & 127.00 & 205.00 & 1592.00  \\ %\hline
+          เทคโนโลยี     & 155.22 & 100.30 & 28.00 & 97.00 & 125.00 & 172.00 & 1191.00  \\ \hhline{========}
         \end{longtable}
         \begin{figure}[!ht]\centering
           \includegraphics[width=\textwidth]{./img/eng_stat/boxplot_tag.png}
-          \caption{ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่}\label{fig:eng_boxplot}
+          \caption{ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล}\label{fig:eng_boxplot}
         \end{figure}
         \newpage
         \hspace{1cm}เนื่องจากในแต่หมวดหมู่ของชุดข้อมูลมีขนาดของข้อมูลแตกต่างกัน ซึ่งในชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษจะมีทั้งหมด 6 หมวดหมู่ด้วยกัน
         ดังนั้นจึงต้องมีการสำรวจการกระจายตัวของขนาดของข้อมูลในแต่ละหมวดหมู่ ซึ่งจากตารางที่ \ref{tbl:eng_stat} และรูปภาพที่ \ref{fig:eng_boxplot}
-        พบว่า จำนวนคำของเนื้อหาในหมวดหมู่เทคโนโลยีส่วนใหญ่จะมีค่ามากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่กีฬาส่วนใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น
-        นอกจากนี้ยังพบว่า จำนวนคำของชุดข้อมูลในหมวดหมู่การเมืองมีการกระจายตัวของกลุ่มข้อมูลสูงสุดและจำนวนคำของชุดข้อมูลในหมวดหมู่ธุรกิจมีการกระจายตัวของกลุ่มข้อมูลต่ำสุด
+        พบว่า จำนวนคำของเนื้อหาในหมวดหมู่อาชญากรรมส่วนใหญ่จะมีค่ามากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่เทคโนโลยีส่วนใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น
+        นอกจากนี้ยังพบว่า จำนวนคำของชุดข้อมูลในหมวดหมู่บันเทิงมีการกระจายตัวของกลุ่มข้อมูลสูงสุดและจำนวนคำของชุดข้อมูลในหมวดหมู่กีฬามีการกระจายตัวของกลุ่มข้อมูลต่ำสุด
         ซึ่งสังเกตได้จากค่า STD ในตารางที่ \ref{tbl:eng_stat}
 
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.8\textwidth]{./img/eng_stat/crime_bar.png}
-          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่อาชญากร}\label{fig:crime_bar_eng}
+          \includegraphics[width=0.7\textwidth]{./img/eng_stat/crime_bar.png}
+          \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่อาชญากรรม}\label{fig:crime_bar_eng}
         \end{figure}
         \newpage
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.8\textwidth]{./img/eng_stat/sport_bar.png}
+          \includegraphics[width=0.7\textwidth]{./img/eng_stat/sport_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่กีฬา}\label{fig:sport_bar_eng}
         \end{figure}
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.8\textwidth]{./img/eng_stat/polit_bar.png}
+          \includegraphics[width=0.7\textwidth]{./img/eng_stat/polit_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่การเมือง}\label{fig:polit_bar_eng}
         \end{figure}
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.8\textwidth]{./img/eng_stat/bus_bar.png}
+          \includegraphics[width=0.7\textwidth]{./img/eng_stat/bus_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่ธุรกิจ}\label{fig:bus_bar_eng}
         \end{figure}
+        \newpage
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.8\textwidth]{./img/eng_stat/ent_bar.png}
+          \includegraphics[width=0.7\textwidth]{./img/eng_stat/ent_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่บันเทิง}\label{fig:ent_bar_eng}
         \end{figure}
         \begin{figure}[!ht]\centering
-          \includegraphics[width=0.8\textwidth]{./img/eng_stat/tech_bar.png}
+          \includegraphics[width=0.7\textwidth]{./img/eng_stat/tech_bar.png}
           \caption{10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่เทคโนโลยี}\label{fig:tech_bar_eng}
         \end{figure}
-        
+    
         \hspace{1cm}จากรูปภาพที่ \ref{fig:crime_bar_eng} ถึงรูปภาพที่ \ref{fig:tech_bar_eng} เป็นการแสดงผลคำที่พบมากที่สุด 10 อันดับแรกในชุดข้อมูลของแต่ละหมวดหมู่
         เพื่อใช้สำหรับดูแนวโน้มของคำที่พบบ่อยในแต่ละหมวดหมู่ ซึ่งจากข้อมูลข้างต้นพบว่า แต่ละหมวดหมู่ค่อนข้างที่จะมีคำที่พบบ่อยแตกต่างกัน แต่จะมีบางคำที่พบบ่อยในทุกหมวดหมู่
         เช่น say year ซึ่งถือว่าเป็นคำทั่วไป ไม่ได้มีความสำคัญมากสำหรับข้อมูล 
@@ -2152,7 +2177,7 @@
         \begin{figure}[!ht]\centering
           \begin{subfigure}{0.49\textwidth}
             \includegraphics[width=\linewidth]{./img/eng_stat/crime_wc.png} 
-            \caption{หมวดหมู่อาชญากร}
+            \caption{หมวดหมู่อาชญากรรม}
             \label{fig:subim_eng1}
           \end{subfigure}
           \begin{subfigure}{0.49\textwidth}
@@ -2200,7 +2225,7 @@
         ngram\_range  & (1,1)             & (1,2)        \\ 
         min\_df       & 5                 & 5            \\ 
         max\_df       & 0.95              & 0.95         \\ 
-        max\_features & 30,000            & 30,000       \\ 
+        max\_features & 50\% ของจำนวนคำที่ไม่ซ้ำกันทั้งหมด             & 50\% ของจำนวนคำที่ไม่ซ้ำกันทั้งหมด       \\ 
         norm          & l2                & l2           \\ 
         encoding      & utf-8             & utf-8        \\ \hhline{===}
       \end{longtable} 
@@ -2220,14 +2245,18 @@
           \multicolumn{1}{c}{\textbf{Unigrams}} \\ \hline
         \endhead
         %
-        อาชญากร &
-          \begin{tabular}[c]{@{}l@{}}- ทีม\\ - ตำรวจ\\ - ราคา\end{tabular} &
-          การเงิน &
+        อาชญากรรม &
+          \begin{tabular}[c]{@{}l@{}}- สภ.\\ - ผู้ต้องหา\\ - ตำรวจ\end{tabular} &
+          ธุรกิจ &
           \begin{tabular}[c]{@{}l@{}}- ลงทะเบียน\\ - บาท\\ - ราคา\end{tabular} \\ \hline
         กีฬา &
           \begin{tabular}[c]{@{}l@{}}- ลีก\\ - เกม\\ - ทีม\end{tabular} &
-          การเมือง &
-          \begin{tabular}[c]{@{}l@{}}- ประยุทธ์\\ - ส.ส.\\ - พรรค\end{tabular} \\ \hhline{====}
+          บันเทิง &
+          \begin{tabular}[c]{@{}l@{}}- โพสต์\\ - ไหม\\ - พี่\end{tabular} \\ \hline
+        การเมือง &
+          \begin{tabular}[c]{@{}l@{}}- เลือกตั้ง\\ - ส.ส.\\ - พรรค\end{tabular} &
+          เทคโนโลยี &
+          \begin{tabular}[c]{@{}l@{}}- หุ่นยนต์\\ - ดวงจันทร์\\ - อวกาศ\end{tabular} \\ \hhline{====}
       \end{longtable}
       \newpage
       \begin{longtable}{llllll}
@@ -2242,27 +2271,27 @@
           \multicolumn{1}{c}{\textbf{Bigram}} \\ \hline
         \endhead
         %
-        อาชญากร &
-          \begin{tabular}[c]{@{}l@{}}- arrest\\ - officer\\ - police\end{tabular} &
-          \begin{tabular}[c]{@{}l@{}}- maj gen\\ - police officer\\ - police station\end{tabular} &
+        อาชญากรรม &
+          \begin{tabular}[c]{@{}l@{}}- station\\ - incident\\ - police\end{tabular} &
+          \begin{tabular}[c]{@{}l@{}}- year old\\ - police officer\\ - police station\end{tabular} &
           ธุรกิจ &
-          \begin{tabular}[c]{@{}l@{}}- firm\\ - growth\\ - bn\end{tabular} &
-          \begin{tabular}[c]{@{}l@{}}- economic growth\\ - analyst say\\ - bn bn\end{tabular} \\ \hline
+          \begin{tabular}[c]{@{}l@{}}- index\\ - stock\\ - baht\end{tabular} &
+          \begin{tabular}[c]{@{}l@{}}- million baht\\ - company limit\\ - public company\end{tabular} \\ \hline
         กีฬา &
-          \begin{tabular}[c]{@{}l@{}}- league\\ - game\\ - team\end{tabular} &
+          \begin{tabular}[c]{@{}l@{}}- game\\ - league\\ - team\end{tabular} &
           \begin{tabular}[c]{@{}l@{}}- premier league\\ - manchester unite\\ - national team\end{tabular} &
           บันเทิง &
-          \begin{tabular}[c]{@{}l@{}}- album\\ - award\\ - film\end{tabular} &
-          \begin{tabular}[c]{@{}l@{}}- film festival\\ - best film\\ - box office\end{tabular} \\ \hline
+          \begin{tabular}[c]{@{}l@{}}- film\\ - im\\ - love\end{tabular} &
+          \begin{tabular}[c]{@{}l@{}}- feel like\\ - post picture\\ - entertainment industry\end{tabular} \\ \hline
         การเมือง &
           \begin{tabular}[c]{@{}l@{}}- prime\\ - minister\\ - party\end{tabular} &
-          \begin{tabular}[c]{@{}l@{}}- house representative\\ - gen prayuth\\ - prime minister\end{tabular} &
+          \begin{tabular}[c]{@{}l@{}}- gen prayuth\\ - thai party\\ - prime minister\end{tabular} &
           เทคโนโลยี &
-          \begin{tabular}[c]{@{}l@{}}- broadband\\ - microsoft\\ - software\end{tabular} &
-          \begin{tabular}[c]{@{}l@{}}- music player\\ - consumer electronic\\ - search engine\end{tabular} \\ \hhline{======}
+          \begin{tabular}[c]{@{}l@{}}- iphone\\ - twitter\\ - apple\end{tabular} &
+          \begin{tabular}[c]{@{}l@{}}- artificial intelligence\\ - iphone pro\\ - elon musk\end{tabular} \\ \hhline{======}
       \end{longtable}
-      \hspace{1cm}เนื่องจากในภาษาอังกฤษมักมีคำประสมอยู่ เช่น Police officer Premier League ดังนั้นจึงมีการทำ Bigram เพื่อหาคำประสมในชุดข้อมูลที่เป็นภาษาอังกฤษ
-      แต่สำหรับภาษาไทย คำประสมส่วนใหญ่มักเป็นคำที่ติดกันและไม่มีการเว้นวรรค เช่น สถานีตำรวจ แม่น้ำ ซึ่งเมื่อนำมาแบ่งแยกเป็นคำ ก็อาจนับเป็นคำเดียว จึงทำเพียง Unigram 
+      \hspace{1cm}เนื่องจากในภาษาอังกฤษมักมีคำประสมอยู่ เช่น Police officer, Premier League ดังนั้นจึงมีการทำ Bigram เพื่อหาคำประสมในชุดข้อมูลที่เป็นภาษาอังกฤษ
+      แต่สำหรับภาษาไทย คำประสมส่วนใหญ่มักเป็นคำที่ติดกันและไม่มีการเว้นวรรค เช่น สถานีตำรวจ แม่น้ำ ซึ่งเมื่อนำมาแบ่งแยกเป็นคำก็อาจนับเป็นคำเดียว จึงทำเพียง Unigram 
       ในชุดข้อมูลที่เป็นภาษาไทยเท่านั้น 
       
       \hspace{1cm}การสังเกตเพียงคำสำคัญที่มากที่สุดนั้นยังไม่สามารถเห็นการแบ่งกลุ่มของคำแต่ละคำในเนื้อหาได้อย่างชัดเจน ดังนั้นจึงมีการทำ 
@@ -2284,13 +2313,13 @@
       \end{figure}
       \hspace{1cm}จากรูปภาพที่ \ref{fig:tsne} จะเห็นได้ว่าคำในชุดข้อมูลของแต่ละหมวดหมู่ค่อนข้างมีความสัมพันธ์กันอย่างชัดเจน 
       การกระจายตัวของข้อมูลในแต่ละหมวดหมู่จะอยู่ในบริเวณที่ใกล้เคียงกัน แต่จะมีหมวดหมู่การเมืองที่ความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัว
-      และมีบางคำที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากร นอกจากนี้หมวดหมู่การเงินในชุดข้อมูลที่เป็นภาษาไทยก็มีความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัวเช่นกัน
+      และมีบางคำที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากรรมและธุรกิจ นอกจากนี้หมวดหมู่เทคโนโลยีในชุดข้อมูลที่เป็นภาษาไทยก็มีความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัวเช่นกัน
       แต่ก็ยังมีการกระจายตัวที่อยู่ในบริเวณใกล้เคียงกับคำในหมวดหมู่ตนเอง
       \newpage
     
     \subsection{การเลือก Model ระหว่าง Random Forest KNN และ NN}
       \hspace{1cm}คณะผู้จัดทำได้ทำการศึกษาและพัฒนาโมเดลทั้งหมด 3 โมเดล ได้แก่ Random Forest, K-Neighbor Nearest และ LSTM
-      โดยใช้การทำ Text Representation ด้วย TF-IDF เป็นขhอมูลนำเข้าสำหรับการพัฒนาโมเดล ซึ่งได้ประสิทธิภาพดังนี้
+      โดยใช้การทำ Text Representation ด้วย TF-IDF เป็นข้อมูลนำเข้าสำหรับการพัฒนาโมเดล ซึ่งได้ประสิทธิภาพดังนี้
       \begin{longtable}{clc}
         \caption{ค่า Accuracy ของแต่ละโมเดลเมื่อใช้ TF-IDF กับชุดข้อมูลที่เป็นภาษาไทย}
         \label{tbl:thaiacc_before}\\
@@ -2298,9 +2327,9 @@
         \textbf{ชื่อโมเดล} & \multicolumn{1}{c}{\textbf{โครงสร้างของโมเดล}} & \textbf{ค่า Accuracy} \\ \hline
         \endhead
         %
-        Random Forest      & \begin{tabular}[c]{@{}l@{}}n\_estimators: 350, \\ max\_depth: 81, \\ min\_samples\_split: 5, \\ min\_samples\_leaf: 2\end{tabular}              & 0.969 \\ \hline
-        K-Neighbor Nearest & \begin{tabular}[c]{@{}l@{}}n\_neighbors: 6, \\ weights: 'distance',\\ metric: 'euclidean',\\ n\_jobs = -1\end{tabular}                      & 0.955 \\ \hline
-        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 251, \\ dropout: 0.192,\\ activation: softmax,\\ optimizers: Adam,\\ learning\_rate=0.00082\end{tabular} & 0.399 \\ \hhline{===}
+        Random Forest      & \begin{tabular}[c]{@{}l@{}}n\_estimators: 180, \\ max\_depth: 110, \\ min\_samples\_split: 9, \\ min\_samples\_leaf: 1\end{tabular}              & 0.9372 \\ \hline
+        K-Neighbor Nearest & \begin{tabular}[c]{@{}l@{}}n\_neighbors: 10, \\ weights: 'distance',\\ metric: 'euclidean',\\ n\_jobs = -1\end{tabular}                      & 0.9261 \\ \hline
+        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 104, \\ dropout: 0.102,\\ activation: softmax,\\ optimizers: Adam,\\loss: categorical\_crossentropy,\\ learning\_rate=0.00018\end{tabular} & 0.1994 \\ \hhline{===}
       \end{longtable}
       \begin{longtable}{clc}
         \caption{ค่า Accuracy ของแต่ละโมเดลเมื่อใช้ TF-IDF กับชุดข้อมูลที่เป็นภาษาอังกฤษ}
@@ -2309,13 +2338,13 @@
         \textbf{ชื่อโมเดล} & \multicolumn{1}{c}{\textbf{โครงสร้างของโมเดล}} & \textbf{ค่า Accuracy} \\ \hline
         \endhead
         %
-        Random Forest      & \begin{tabular}[c]{@{}l@{}}n\_estimators: 300, \\ max\_depth: 148, \\ min\_samples\_split: 7, \\ min\_samples\_leaf: 1\end{tabular}              & 0.952 \\ \hline
-        K-Neighbor Nearest & \begin{tabular}[c]{@{}l@{}}n\_neighbors: 10, \\ weights: 'distance',\\ metric: 'euclidean',\\ n\_jobs = -1\end{tabular}                      & 0.952 \\ \hline
-        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 65, \\ dropout: 0.168,\\ activation: softmax,\\ optimizers: Adam,\\ learning\_rate=0.00030\end{tabular} & 0.367 \\ \hhline{===}
+        Random Forest      & \begin{tabular}[c]{@{}l@{}}n\_estimators: 450, \\ max\_depth: 114, \\ min\_samples\_split: 2, \\ min\_samples\_leaf: 1\end{tabular}              & 0.9456 \\ \hline
+        K-Neighbor Nearest & \begin{tabular}[c]{@{}l@{}}n\_neighbors: 15, \\ weights: 'distance',\\ metric: 'euclidean',\\ n\_jobs = -1\end{tabular}                      & 0.9311 \\ \hline
+        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 108, \\ dropout: 0.174,\\ activation: softmax,\\ optimizers: Adam,\\loss: categorical\_crossentropy,\\ learning\_rate=0.00040\end{tabular} & 0.2094 \\ \hhline{===}
       \end{longtable}
       \hspace{1cm}จากตารางที่ \ref{tbl:thaiacc_before} และตารางที่ \ref{tbl:engacc_before} พบว่า การทำ Text Representation ด้วย TF-IDF 
       เมื่อนำมาใช้งานกับโมเดล Random Forest และ K-Neighbor Nearest ค่า Accuracy ที่ได้ค่อนข้างสูง ในขณะที่ ค่า Accuracy ที่ได้จากโมเดล LSTM ค่อนข้างต่ำ
-      โดยมีค่า Accuracy อยู่ที่ 0.35-0.40 ทั้งนี้อาจเป็นเพราะว่า Text Representation ที่ได้จากการทำ TF-IDF อาจมีขนาดใหญ่เกินไปหรือไม่เหมาะสมกับโมเดล LSTM
+      โดยมีค่า Accuracy ประมาณ 0.20 ทั้งนี้อาจเป็นเพราะว่า Text Representation ที่ได้จากการทำ TF-IDF อาจมีขนาดใหญ่เกินไปหรือไม่เหมาะสมกับโมเดล LSTM
       ดังนั้นคณะผู้จัดทำจึงเลือกที่จะเปลี่ยนวิธีการทำ Text Representation สำหรับโมเดล LSTM ด้วยการทำ Pad Sequence แทน ทำให้ได้ประสิทธิภาพของโมเดลดังนี้
       
       \begin{figure}[!ht]\centering
@@ -2353,11 +2382,11 @@
         \multicolumn{1}{c}{\textbf{ชื่อโมเดล}}    & \textbf{Accuracy} & \multicolumn{1}{l}{\textbf{Precision}} & \multicolumn{1}{l}{\textbf{Recall}} & \multicolumn{1}{l}{\textbf{F1-score}} \\ \hline
         \endhead
         %
-        LSTM สำหรับภาษาไทย    & 0.948             & 0.938                                  & 0.918                               & 0.925                                 \\
-        LSTM สำหรับภาษาอังกฤษ & 0.943             & 0.930                                  & 0.918                               & 0.923                                 \\ \hhline{=====}
+        LSTM สำหรับภาษาไทย    & 0.9233             & 0.9237                                  & 0.9227                               & 0.9226                                 \\
+        LSTM สำหรับภาษาอังกฤษ & 0.9378             & 0.9372                                  & 0.9370                               & 0.9371                                 \\ \hhline{=====}
       \end{longtable}
       \hspace{1cm}จากตารางที่ \ref{tbl:lstm} เมื่อเปลี่ยนวิธีการทำ Text Representation สำหรับโมเดล LSTM ด้วยการทำ Pad Sequence แทน
-      พบว่าโมเดล LSTM มีประสิทธิภาพสูงขึ้น โดยมีค่า Accuracy สูงถึง 0.948 สำหรับชุดข้อมูลที่เป็นภาษาไทยและมีค่า Accuracy สูงถึง 0.943 สำหรับชุดข้อมูลที่เป็นภาษาอังกฤษ
+      พบว่าโมเดล LSTM มีประสิทธิภาพสูงขึ้น โดยมีค่า Accuracy สูงถึง 0.9233 สำหรับชุดข้อมูลที่เป็นภาษาไทยและมีค่า Accuracy สูงถึง 0.9378 สำหรับชุดข้อมูลที่เป็นภาษาอังกฤษ
       เมื่อนำโมเดล LSTM ที่ทำการพัฒนาแล้วมาเปรียบเทียบกับประสิทธิภาพของโมเดล Random Forest และ K-Neighbor Nearest ที่ทำไว้ จะได้ผลลัพธ์ดังนี้
 
       \begin{longtable}[!ht]{lccccccccc}
@@ -2382,13 +2411,15 @@
         %
         \endlastfoot
         %
-        อาชญากร                            & 0.96         & 0.99         & 0.98         & 0.95           & 0.99           & 0.97          & 0.95       & 0.98       & 0.96      \\
-        กีฬา                               & 0.98         & 0.99         & 0.99         & 0.98           & 0.98           & 0.98          & 0.96       & 1.00       & 0.98      \\
-        การเงิน                            & 0.97         & 0.96         & 0.97         & 0.95           & 0.96           & 0.95          & 0.99       & 0.92       & 0.95      \\
-        การเมือง                           & 0.96         & 0.83         & 0.89         & 0.95           & 0.78           & 0.85          & 0.85       & 0.77       & 0.81      \\ \hline
-        \textbf{Accuracy}                  & \multicolumn{3}{c}{\textbf{0.969}}         & \multicolumn{3}{c}{\textbf{0.955}}              & \multicolumn{3}{c}{\textbf{0.948}} \\ \hhline{==========}
+        อาชญากรรม                  & 0.94        & 0.95         & 0.95         & 0.91         & 0.94         & 0.92          & 0.93       & 0.95      & 0.94      \\
+        กีฬา                        & 0.95        & 0.97         & 0.96         & 0.96         & 0.98         & 0.97          & 0.96       & 0.97      & 0.97      \\
+        การเมือง                    & 0.94         & 0.88         & 0.91         & 0.95         & 0.84         & 0.89          & 0.83       & 0.90      & 0.86      \\
+        ธุรกิจ                       & 0.94         & 0.93         & 0.93         & 0.88         & 0.92         & 0.90          & 0.90       & 0.90      & 0.90      \\
+        บันเทิง                      & 0.91         & 0.96         & 0.94         & 0.91         & 0.93         & 0.92          & 0.96       & 0.91      & 0.93      \\
+        เทคโนโลยี                   & 0.94         & 0.93         & 0.94         & 0.96         & 0.94         & 0.95          & 0.97       & 0.91      & 0.94      \\ \hline
+        \textbf{Accuracy}          & \multicolumn{3}{c}{\textbf{0.9372}}        & \multicolumn{3}{c}{\textbf{0.9261}}         & \multicolumn{3}{c}{\textbf{0.9233}} \\ \hhline{==========}
       \end{longtable}
-      \begin{longtable}{lccccccccc}
+      \begin{longtable}[!ht]{lccccccccc}
         \caption{แสดงค่า Evaluation Metrics ของโมเดลแต่ละโมเดลสำหรับชุดข้อมูลที่เป็นภาษาอังกฤษ}
         \label{tbl:class_report_eng}\\
         \hhline{==========}
@@ -2410,28 +2441,31 @@
           %
           \endlastfoot
           %
-          อาชญากร                            & 0.95         & 0.99         & 0.97         & 0.95           & 0.99           & 0.97          & 0.95       & 0.98      & 0.96      \\
-          กีฬา                               & 0.96         & 0.98         & 0.97         & 0.97           & 0.98           & 0.97          & 0.98       & 0.98      & 0.98      \\
-          การเมือง                           & 0.92         & 0.92         & 0.92         & 0.95           & 0.90           & 0.92          & 0.92       & 0.88      & 0.90      \\
-          ธุรกิจ                             & 0.98         & 0.85         & 0.91         & 0.93           & 0.84           & 0.88          & 0.88       & 0.88      & 0.88      \\
-          บันเทิง                            & 1.00         & 0.84         & 0.91         & 0.96           & 0.91           & 0.93          & 0.93       & 0.87      & 0.90      \\
-          เทคโนโลยี                          & 0.98         & 0.90         & 0.94         & 0.94           & 0.94           & 0.94          & 0.92       & 0.92      & 0.92      \\ \hline
-          \textbf{Accuracy}                  & \multicolumn{3}{c}{\textbf{0.952}}         & \multicolumn{3}{c}{\textbf{0.952}}              & \multicolumn{3}{c}{\textbf{0.943}} \\ \hhline{==========}
+          อาชญากรรม                       &  0.93        &  0.97        &  0.95        & 0.89        & 0.96        & 0.92       & 0.96       & 0.96      & 0.96      \\
+          กีฬา                             &  0.97        &  0.97        &  0.97        & 0.95        & 0.99        & 0.97       & 0.96       & 0.96      & 0.96      \\
+          การเมือง                          &  0.96        &  0.89        &  0.93        & 0.95        & 0.89        & 0.92       & 0.91       & 0.92      & 0.91      \\
+          ธุรกิจ                            &  0.92        &  0.94        &  0.93        &  0.90        & 0.89        & 0.89       & 0.93       & 0.91      & 0.92      \\
+          บันเทิง                           &  0.95        &  0.97        &  0.96        & 0.96         & 0.93        & 0.95       & 0.95       & 0.95      & 0.95      \\
+          เทคโนโลยี                        &  0.95        &  0.93        &  0.94        & 0.94         & 0.93        & 0.93       & 0.92       & 0.92      & 0.92      \\ \hline
+          \textbf{Accuracy}               & \multicolumn{3}{c}{\textbf{0.9456}}        & \multicolumn{3}{c}{\textbf{0.9311}}     & \multicolumn{3}{c}{\textbf{0.9378}} \\ \hhline{==========}
       \end{longtable}
       \hspace{1cm}จากตารางที่ \ref{tbl:class_report_thai} พบว่า โมเดล Random Forest เป็นโมเดลที่มีค่า Accuracy สูงสุด ดังนั้นโมเดล Random Forest
-      จึงเป็นโมเดลที่มีประสิทธิภาพและความแม่นยำสูงสุดสำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย และจากการสังเกตเพิ่มเติม พบว่า ในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย
+      จึงเป็นโมเดลที่มีประสิทธิภาพและความแม่นยำสูงสุดสำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยและจากการสังเกตเพิ่มเติม พบว่า ในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย
       หมวดหมู่กีฬาเป็นหมวดหมู่ที่มีการทำนายได้แม่นยำมากที่สุดและหมวดหมู่การเมืองเป็นหมวดหมู่ที่มีการทำนายได้แม่นยำน้อยที่สุด โดยสังเกตจากค่า F1-score
       ทั้งนี้อาจเป็นเพราะว่าชุดข้อมูลของหมวดหมู่การเมืองมีการกระจายตัวของความสัมพันธ์ของข้อมูลค่อนข้างมาก (รูปที่:\ref{fig:tsne}) 
-      จึงทำให้ความสามารถในการทำนายลดลง ในขณะที่การกระจายตัวของชุดข้อมูลของหมวดหมู่กีฬาค่อนข้างมีความสัมพันธ์กันอย่างชัดเจน 
+      จึงทำให้ความสามารถในการทำนายลดลง ในขณะที่การกระจายตัวของชุดข้อมูลของหมวดหมู่กีฬาค่อนข้างมีความสัมพันธ์กันอย่างชัดเจนสำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย 
 
-      \hspace{1cm}สำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ จากตารางที่ \ref{tbl:class_report_eng} พบว่า โมเดล Random Forest และโมเดล K-Neighbor Nearest
-      เป็นโมเดลที่มีค่า Accuracy สูงใกล้เคียงกัน โดยมีค่า Accuracy อยู่ที่ 0.952 และจากการสังเกตเพิ่มเติม พบว่า ในชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ
+      \hspace{1cm}สำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ จากตารางที่ \ref{tbl:class_report_eng} พบว่า โมเดล Random Forest 
+      เป็นโมเดลที่มีค่า Accuracy สูงที่สุด โดยมีค่า Accuracy อยู่ที่ 0.9456 และจากการสังเกตเพิ่มเติม พบว่า ในชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ
       หมวดหมู่กีฬาเป็นหมวดหมู่ที่มีการทำนายได้แม่นยำมากที่สุดและหมวดหมู่ธุรกิจเป็นหมวดหมู่ที่มีการทำนายได้แม่นยำน้อยที่สุด โดยสังเกตจากค่า F1-score
       
       \hspace{1cm}เมื่อมองโดยภาพรวมจากตารางที่ \ref{tbl:class_report_thai} และตารางที่ \ref{tbl:class_report_eng} 
-      จะเห็นได้ว่าการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยจะทำให้ได้โมเดลที่มีประสิทธิภาพมากกว่าการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ 
-      ทั้งนี้อาจเกิดจากการแปลภาษาที่ผิดพลาดในบางคำ จึงส่งผลต่อประสิทธิภาพของการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ
-      ซึ่งโมเดลที่มีค่า Accuracy สูงสุด คือ โมเดล Random Forest ที่ใช้ชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย โดยมีค่า Accuracy สูงถึง 0.969
+      จะเห็นได้ว่าโมเดล Random Forest เป็นโมเดลที่มีประสิทธิภาพมากที่สุด รองลงมาก็คือ LSTM และ K-Neighbor Nearest ตามลำดับ
+      นอกจากนี้จะเห็นได้ว่าการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษจะทำให้ได้โมเดลที่มีประสิทธิภาพมากกว่าการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย 
+      ทั้งนี้อาจเกิดจากการแปลภาษาไทยให้กลายเป็นภาษาอังกฤษส่งผลให้ความซับซ้อนของคำในประโยคลดลง 
+      หรืออาจเป็นเพราะการใช้ Library ตัดคำของภาษาไทยไม่ได้มีประสิทธิภาพในการตัดคำที่เป็นคำทับศัพท์ เช่น ชื่อของคนที่ทับศัพท์มาจากภาษาอังกฤษ 
+      จึงส่งผลต่อประสิทธิภาพของการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ
+      ซึ่งโมเดลที่มีค่า Accuracy สูงสุด คือ โมเดล Random Forest ที่ใช้ชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ โดยมีค่า Accuracy สูงถึง 0.9456
     
     \subsection{การทดสอบโมเดล}
       \hspace{1cm}นำโมเดลที่ได้ค่า Accuracy สูงที่สุด มาทำการทดสอบด้วยชุดข้อมูลจากภายนอก โดยจะใช้ชุดข้อมูลที่มีหมวดหมู่กำกับ 100 ชุด

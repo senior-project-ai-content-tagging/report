@@ -113,41 +113,41 @@
 \contentsline {figure}{\numberline {3.46}{\ignorespaces Class Diagram ของระบบ\relax }}{54}{figure.caption.57}%
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ตัวอย่างการเก็บ URL จากหน้าเว็ปไซต์\relax }}{56}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ตัวอย่างการดึงเนื้อหาบทความจากไฟล์ HTML ด้วยการใช้ Python BeautifulSoup\relax }}{56}{figure.caption.58}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces ตัวอย่างการดึงข้อมูลเป็นไฟล์ HTML จาก URL ที่เก็บมาจากหน้าเว็บไซต์\relax }}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ตัวอย่างการแปลเนื้อหาจากภาษาไทยเป็นภาษาอังกฤษ\relax }}{56}{figure.caption.59}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces ตัวอย่างการดึงเนื้อหาบทความจากไฟล์ HTML ด้วยการใช้ Python BeautifulSoup\relax }}{57}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาไทย\relax }}{57}{figure.caption.60}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ตัวอย่างการแปลเนื้อหาจากภาษาไทยเป็นภาษาอังกฤษ\relax }}{57}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาอังกฤษ\relax }}{58}{figure.caption.61}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาไทย\relax }}{58}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{59}{figure.caption.62}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาอังกฤษ\relax }}{59}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{59}{figure.caption.63}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{60}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย\relax }}{59}{figure.caption.64}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{60}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล\relax }}{60}{figure.caption.65}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย\relax }}{60}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่อาชญากรรม\relax }}{61}{figure.caption.66}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่\relax }}{61}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่กีฬา\relax }}{61}{figure.caption.67}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่อาชญากร\relax }}{62}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเมือง\relax }}{61}{figure.caption.68}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่กีฬา\relax }}{62}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่ธุรกิจ\relax }}{62}{figure.caption.69}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเงิน\relax }}{62}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่บันเทิง\relax }}{62}{figure.caption.70}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเมือง\relax }}{63}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่เทคโนโลยี\relax }}{62}{figure.caption.71}%
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces 100 อันดับคำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของแต่ละหมวดหมู่\relax }}{63}{figure.caption.72}%
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ\relax }}{64}{figure.caption.73}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่\relax }}{65}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล\relax }}{65}{figure.caption.74}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่อาชญากร\relax }}{65}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่อาชญากรรม\relax }}{65}{figure.caption.75}%
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {4.19}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่กีฬา\relax }}{66}{figure.caption.76}%
 \setforeignlanguage {thai}

@@ -101,6 +101,16 @@ Marcuscode,  2020,
 \newblock [ออนไลน์; วันที่สืบค้น 6
   กันยายน 2022].
 
+\bibitem{java}
+Java,  2022,
+\newblock ``{\textthai{Java คืออะไร จาวา
+  คือภาษาคอมพิวเตอร์
+  สำหรับเขียนโปรแกรมเชิงวัตถุ}},''
+  จากเว็บไซต์
+  \href{https://www.mindphp.com/คู่มือ/73-คืออะไร/2185-java-คืออะไร.html}{\textthai{https://www.mindphp.com/คู่มือ/73-คืออะไร/2185-java-คืออะไร.html}},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
+
 \bibitem{go}
 Skooldio,  2021,
 \newblock ``{\textthai{TECHNOLOGY Golang คืออะไร?
@@ -177,22 +187,6 @@ MdsiGlobal,  2019,
 \newblock [ออนไลน์; วันที่สืบค้น 13
   พฤศจิกายน 2022].
 
-\bibitem{gin}
-Piirapol Pajharawat,  2019,
-\newblock ``{\textthai{GIN 101: สร้าง Web Service บน Golang}},''
-  จากเว็บไซต์
-  \url{https://medium.com/insightera/gin-101-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-web-service-%E0%B8%9A%E0%B8%99-golang-32f46aadeaa6},
-\newblock [ออนไลน์; วันที่สืบค้น 11
-  พฤศจิกายน 2022].
-
-\bibitem{gorm}
-Lungmaker19,  2022,
-\newblock ``{\textthai{การใช้ GORM กับ MySQL}},''
-  จากเว็บไซต์
-  \url{https://www.lungmaker.com/go-programming/gorm/},
-\newblock [ออนไลน์; วันที่สืบค้น 11
-  พฤศจิกายน 2022].
-
 \bibitem{vue1}
 \textthai{พรหมหัฒน์ ไชยเดช},  2019,
 \newblock ``{\textthai{Vue.JS สร้าง Web Application สุด Wow
@@ -248,6 +242,14 @@ Punna Rirkvaleekul,  2020,
   \href{https://twinsynergy.co.th/สิ่งจำเป็นที่สาย-machine-learning-ต้อง/}{\textthai{https://twinsynergy.co.th/สิ่งจำเป็นที่สาย-machine-learning-ต้อง/}},
 \newblock [ออนไลน์; วันที่สืบค้น 11
   พฤศจิกายน 2022].
+
+\bibitem{beautifulsoup}
+Sonny,  2020,
+\newblock ``{\textthai{Web Scraping (Python) ด้วย beautifulsoup
+  และ requests}},'' จากเว็บไซต์
+  \url{https://stackpython.co/tutorial/web-scraping-python-beautifulsoup-requests},
+\newblock [ออนไลน์; วันที่สืบค้น 6
+  กันยายน 2022].
 
 \bibitem{gcp}
 BERYL8,  2019,
