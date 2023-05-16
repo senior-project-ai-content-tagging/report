@@ -38,58 +38,63 @@
 \contentsline {section}{\numberline {3.1}ข้อกำหนดและความต้องการของระบบ}{18}{section.3.1}%
 \contentsline {section}{\numberline {3.2}สถาปัตยกรรมระบบ}{18}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}System Overview}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Navigation Map}{21}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Data Science Processing}{22}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Use Case Analysis}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Use Case Diagram}{23}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Use Case Narrative}{23}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}ผู้ใช้งานสมัครสมาชิก}{23}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}ผู้ใช้งานเข้าสู่ระบบ}{25}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.3}ตรวจสอบข้อมูลโปรไฟล์ของตนเอง}{27}{subsubsection.3.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.3.2.4}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link}{28}{subsubsection.3.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.3.2.5}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ}{30}{subsubsection.3.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.3.2.6}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link ผ่าน Api-Key}{31}{subsubsection.3.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.3.2.7}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความผ่าน Api-Key}{33}{subsubsection.3.3.2.7}%
-\contentsline {subsubsection}{\numberline {3.3.2.8}ดูคำร้องขอการวิเคราะห์หมู่ของบทความของตนเอง}{34}{subsubsection.3.3.2.8}%
-\contentsline {subsubsection}{\numberline {3.3.2.9}ค้นหาบทความโดยใช้ตัวกรองต่าง ๆ}{37}{subsubsection.3.3.2.9}%
-\contentsline {subsubsection}{\numberline {3.3.2.10}ค้นหาบทความโดยใช้เลขอ้างอิงเนื้อหา}{39}{subsubsection.3.3.2.10}%
-\contentsline {section}{\numberline {3.4}โครงสร้างฐานข้อมูล}{40}{section.3.4}%
-\contentsline {section}{\numberline {3.5}User Interface Design}{42}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}User Interface Design Rule}{42}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Screen Images and Description}{43}{subsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.2.1}หน้า Landing}{43}{subsubsection.3.5.2.1}%
-\contentsline {subsubsection}{\numberline {3.5.2.2}หน้า Login}{45}{subsubsection.3.5.2.2}%
-\contentsline {subsubsection}{\numberline {3.5.2.3}หน้า Register}{46}{subsubsection.3.5.2.3}%
-\contentsline {subsubsection}{\numberline {3.5.2.4}หน้า Home}{49}{subsubsection.3.5.2.4}%
-\contentsline {subsubsection}{\numberline {3.5.2.5}หน้า Analytic}{51}{subsubsection.3.5.2.5}%
-\contentsline {subsubsection}{\numberline {3.5.2.6}หน้า My Ticket}{53}{subsubsection.3.5.2.6}%
-\contentsline {subsubsection}{\numberline {3.5.2.7}หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ}{54}{subsubsection.3.5.2.7}%
-\contentsline {section}{\numberline {3.6}Class Diagram}{54}{section.3.6}%
-\contentsline {section}{\numberline {3.7}การออกแบบการทดลอง}{55}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Production Deployment}{55}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}User Evaluation}{55}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Application Evaluation}{55}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Artificial Intelligence Evaluation}{55}{subsection.3.7.4}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{56}{chapter.4}%
-\contentsline {section}{\numberline {4.1}การเก็บข้อมูล}{56}{section.4.1}%
-\contentsline {section}{\numberline {4.2}การออกแบบโมเดลสำหรับวิเคราะห์หมวดหมู่ของเนื้อหาในบทความต่าง ๆ}{57}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}การเตรียมข้อมูลสำหรับการพัฒนาโมเดล}{57}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Exploratory Data Analysis}{59}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}ชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย}{59}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}ชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ}{64}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}การทำ Text Representation ด้วย TF-IDF}{69}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}การเลือก Model ระหว่าง Random Forest KNN และ NN}{71}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}การทดสอบโมเดล}{74}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Application}{75}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}User Interface Design}{75}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}หน้าแรก}{75}{subsubsection.4.3.1.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}หน้าเข้าสู่ระบบ}{76}{subsubsection.4.3.1.2}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}หน้าหลัก}{77}{subsubsection.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.4}หน้าสร้างคำร้องขอวิเคราะห์หมวดหมู่ของบทความด้วย Web Link}{77}{subsubsection.4.3.1.4}%
-\contentsline {subsubsection}{\numberline {4.3.1.5}หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ}{78}{subsubsection.4.3.1.5}%
-\contentsline {subsection}{\numberline {4.3.2}Content-Tagging}{79}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Content-Preparing}{79}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}General-Backend}{79}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}การทดสอบระบบ}{80}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}การประเมินผลและความเห็นจากผู้ใช้งาน}{81}{section.4.4}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{84}{table.4.19}%
+\contentsline {subsection}{\numberline {3.2.2}Navigation Map}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Data Science Processing}{23}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Use Case Analysis}{24}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Use Case Diagram}{24}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Use Case Narrative}{24}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}ผู้ใช้งานสมัครสมาชิก}{24}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}ผู้ใช้งานเข้าสู่ระบบ}{26}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}ตรวจสอบข้อมูลโปรไฟล์ของตนเอง}{28}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link}{30}{subsubsection.3.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.3.2.5}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ}{32}{subsubsection.3.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.3.2.6}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link ผ่าน Api-Key}{34}{subsubsection.3.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.3.2.7}สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความผ่าน Api-Key}{36}{subsubsection.3.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.3.2.8}ดูคำร้องขอการวิเคราะห์หมู่ของบทความของตนเอง}{38}{subsubsection.3.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.3.2.9}ค้นหาบทความโดยใช้ตัวกรองต่าง ๆ}{40}{subsubsection.3.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.3.2.10}ค้นหาบทความโดยใช้เลขอ้างอิงเนื้อหา}{42}{subsubsection.3.3.2.10}%
+\contentsline {section}{\numberline {3.4}โครงสร้างฐานข้อมูล}{43}{section.3.4}%
+\contentsline {section}{\numberline {3.5}User Interface Design}{45}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}User Interface Design Rule}{45}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Screen Images and Description}{46}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}หน้า Landing}{46}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}หน้า Login}{48}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}หน้า Register}{49}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}หน้า Home}{52}{subsubsection.3.5.2.4}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}หน้า Analytic}{54}{subsubsection.3.5.2.5}%
+\contentsline {subsubsection}{\numberline {3.5.2.6}หน้า My Ticket}{56}{subsubsection.3.5.2.6}%
+\contentsline {subsubsection}{\numberline {3.5.2.7}หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ}{57}{subsubsection.3.5.2.7}%
+\contentsline {section}{\numberline {3.6}Class Diagram}{57}{section.3.6}%
+\contentsline {section}{\numberline {3.7}การออกแบบการทดลอง}{58}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Production Deployment}{58}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}User Evaluation}{58}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Application Evaluation}{58}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Artificial Intelligence Evaluation}{58}{subsection.3.7.4}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{59}{chapter.4}%
+\contentsline {section}{\numberline {4.1}การเก็บข้อมูล}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}การออกแบบโมเดลสำหรับวิเคราะห์หมวดหมู่ของเนื้อหาในบทความต่าง ๆ}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}การเตรียมข้อมูลสำหรับการพัฒนาโมเดล}{60}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Exploratory Data Analysis}{62}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}ชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย}{62}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}ชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ}{67}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}การทำ Text Representation ด้วย TF-IDF}{72}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}การเลือก Model ระหว่าง Random Forest KNN และ NN}{74}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}การทดสอบโมเดล}{77}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Application}{78}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}User Interface Design}{78}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}หน้าแรก}{78}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}หน้าเข้าสู่ระบบ}{79}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}หน้าหลัก}{80}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}หน้าสร้างคำร้องขอวิเคราะห์หมวดหมู่ของบทความด้วย Web Link}{80}{subsubsection.4.3.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.1.5}หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ}{81}{subsubsection.4.3.1.5}%
+\contentsline {subsection}{\numberline {4.3.2}Content-Tagging}{82}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Content-Preparing}{82}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}General-Backend}{82}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}การทดสอบระบบ}{83}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}การประเมินผลและความเห็นจากผู้ใช้งาน}{84}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}ผลสำรวจจากการตอบแบบสอบถามของผู้ใช้งาน}{87}{subsection.4.4.1}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุปและอภิปราย}}}{88}{chapter.5}%
+\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{88}{section.5.1}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{88}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{88}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{89}{section.5.3}%

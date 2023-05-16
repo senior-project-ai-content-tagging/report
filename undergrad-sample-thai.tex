@@ -1053,7 +1053,7 @@
     \includegraphics[width=\textwidth]{./img/architechture_simple.png}
     \caption{โครงสร้างทางสถาปัตยกรรมของระบบ}\label{fig:architecture_simple} 
   \end{figure}
-  \hspace*{1cm}ระบบจะถูกแบ่งเป็น 2 ส่วนหลัก ๆ ได้แก่ ส่วนที่ 1 จะเป็นส่วนที่ผู้ใช้งานสามารถเข้าถึงได้ 
+  \hspace{1cm}ระบบจะถูกแบ่งเป็น 2 ส่วนหลัก ๆ ได้แก่ ส่วนที่ 1 จะเป็นส่วนที่ผู้ใช้งานสามารถเข้าถึงได้ 
   Ffpจะแบ่งเป็น Frontend ของเว็บไซต์และ Backend ของเว็บไซต์ที่จะประมวลผลเบื้องต้น เช่น การเข้าสู่ระบบหรือการสมัครสมาชิก 
   ซึ่งผู้ใช้งานจะสามารถติดต่อกับระบบได้ 2 วิธีด้วยกัน วิธีที่ 1 คือ การทำงานผ่านทางหน้าเว็บไซต์ โดยใช้ Email และ Password ในการเข้าสู่ระบบก่อนสร้างคำร้องขอต่าง ๆ 
   และวิธีที่ 2 คือ การใช้งานผ่าน Api-Key หรือเรียกว่า Third-Party ซึ่งจะติดต่อกับ Backend โดยตรง 
@@ -1062,34 +1062,40 @@
   เนื่องจากการประมวลผลในแต่ละขั้นตอนอาจจะใช้เวลานาน การสื่อสารแบบ Asynchronous จะช่วยให้จัดการการทำงาน ไม่จำเป็นต้องรอให้ส่วนวิเคราะห์เสร็จสิ้นตามลำดับ 
   ทำให้สามารถประมวลผลส่วนอื่นได้ เมื่อประมวลผลเสร็จแล้ว ระบบก็จะส่งข้อมูลผ่าน Messaging System กลับมา
   \begin{figure}[!ht]\centering
-    \includegraphics[width=11cm]{./img/architechture.png}
+    \includegraphics[width=\textwidth]{./img/architechture.png}
     \caption{เครื่องมือในโครงสร้างทางสถาปัตยกรรมของระบบ}\label{fig:architecture} 
   \end{figure}
   \newline\hspace*{1cm}จากภาพการออกแบบโครงสร้างทางสถาปัตยกรรมของระบบข้างต้น (รูปที่:\ref{fig:architecture}) ทำให้สามารถเลือกใช้เทคโนโลยีได้ดังภาพ ในส่วนของ Frontend จะใช้ Firebase Hosting 
   ในการนำเว็บไซต์ที่พัฒนาแล้ว ไปติดตั้งให้ผู้ใช้งานสามารถเข้าถึงได้ ในส่วนของ Server ประมวลผลต่าง ๆ จะมีการนำ Cloud Run มาใช้ในการประมวลผล 
   และในส่วนของ Messaging System จะใช้ Cloud Pub/Sub ซึ่งบริการทั้งหมดจะอยู่บน Google Cloud Platform 
+  \newpage
   \begin{figure}[!ht]\centering
-    \includegraphics[width=11cm]{./img/request_process_flow.png}
+    \includegraphics[width=\textwidth]{./img/request_process_flow.png}
     \caption{Sequence Diagram จำลองการส่งประมวลผลการวิเคราะห์หมวดหมู่ของบทความ}\label{fig:req_proc} 
   \end{figure}
-  \newline\hspace*{1cm}ภาพข้างต้น (รูปที่:\ref{fig:req_proc}) คือ Time Sequence จำลองการส่งประมวลผลวิเคราะห์หมวดหมู่ของบทความ โดยจะเริ่มจาก Frontend ส่งคำร้องขอมายัง Backend 
+  
+  \hspace{1cm}ภาพข้างต้น (รูปที่:\ref{fig:req_proc}) คือ Time Sequence จำลองการส่งประมวลผลวิเคราะห์หมวดหมู่ของบทความ โดยจะเริ่มจาก Frontend ส่งคำร้องขอมายัง Backend 
   จากนั้น Backend จะ Publish ข้อมูลไปยัง Cloud Pub/Sub และเข้าสู่กระบวนการวิเคราะห์ข้อมูล โดยเริ่มจากการที่ระบบ Content-Preparing จะทำการไปเก็บข้อมูลจากเว็บไซต์ปลายทาง 
   ได้แก่ หัวข้อและเนื้อหา แล้วจึงส่งกลับมายัง Cloud Pub/Sub ซึ่งระบบ Content-Tagging จะทำการนำเนื้อหาที่ได้ไปวิเคราะห์ต่อไป และเมื่อกระบวนการทั้งหมดเสร็จสิ้น ก็จะทำการส่งกลับมายัง Backend 
   แล้วจึงส่งต่อให้ Frontend ต่อไป
+  \newpage
   \begin{figure}[!ht]\centering
-    \includegraphics[width=11cm]{./img/devops.png}
+    \includegraphics[width=0.8\textwidth]{./img/devops.png}
     \caption{Sequence Diagram ของ DevOps Life Cycle}\label{fig:devops} 
   \end{figure}
-  \newline ในส่วนของกระบวนการพัฒนาและติดตั้งระบบสำหรับใช้งาน (รูปที่:\ref{fig:devops}) จะใช้เทคโนโลยีหลัก ๆ ได้แก่ 
+  
+  ในส่วนของกระบวนการพัฒนาและติดตั้งระบบสำหรับใช้งาน (รูปที่:\ref{fig:devops}) จะใช้เทคโนโลยีหลัก ๆ ได้แก่ 
   \newline\hspace*{0.5cm} 1. Github สำหรับเก็บ Source Code และเมื่อมีการ Push Code ใหม่ขึ้นมา จะส่งผลให้เกิดการ Trigger ไปยัง Cloud Build
   \newline\hspace*{0.5cm} 2. Cloud Build จะทำการดึง Source Code จาก Github และทำการ Build เป็น Container Image สำหรับสร้าง Application ในรูปแบบของ Container และจะส่งไปเก็บไว้ใน Container Registry
   \newline\hspace*{0.5cm} 3. Container Registry จะเป็นส่วนที่เก็บ Image ของ Application ที่ต้องการในไปทำงาน ซึ่งจะถูก Cloud Run นำไปสร้างเป็น Container สำหรับประมวลผลต่อไป
   \newline\hspace*{0.5cm} 4. Cloud Run จะเป็น Serverless สำหรับประมวลผลคำร้องขอต่าง ๆ 
+  
   \begin{figure}[!ht]\centering
-    \includegraphics[width=11cm]{./img/ai_update.png}
+    \includegraphics[width=0.9\textwidth]{./img/ai_update.png}
     \caption{Sequence Diagram ของ Update New AI-Model Process}\label{fig:ai_update} 
   \end{figure}
-  \newline\hspace*{1cm} จากภาพข้างต้น (รูปที่:\ref{fig:ai_update}) ในส่วนของการแก้ไข Model ของ AI จะทำในลักษณะที่ใช้กระบวนการ DevOps โดยที่จะทำการอัพโหลด Model ใหม่ผ่าน Admin UI 
+  
+  \hspace{1cm} จากภาพข้างต้น (รูปที่:\ref{fig:ai_update}) ในส่วนของการแก้ไข Model ของ AI จะทำในลักษณะที่ใช้กระบวนการ DevOps โดยที่จะทำการอัพโหลด Model ใหม่ผ่าน Admin UI 
   จากนั้น Backend จะทำการ Clone โครงการของ Content-Tagging และนำไฟล์ที่อัพโหลดผ่าน Admin UI เพิ่มเข้าไป แล้วจึงทำการ Push Code กลับมายัง Github 
   จากนั้น Pipeline ของการ Deploy ก็จะทำการ Trigger แล้วจึงทำงานต่อไปจน Deploy ขึ้นไปยัง Cloud Run 
 
@@ -1098,7 +1104,8 @@
     \includegraphics[width=13cm]{./img/nav.png}
     \caption{Navigation Map ของเว็บไซต์สำหรับผู้ใช้งาน}\label{fig:navmap} 
   \end{figure}
-  \hspace*{1cm}เมื่อผู้ใช้งานเข้าใช้งานเว็บไซต์ AI Platform Thai Content Tagging เว็บไซต์จะเริ่มต้นที่หน้า Landing ซึ่งหน้า Landing จะประกอบไปด้วยรายละเอียดต่าง ๆ เกี่ยวกับเว็บไซต์ AI Platform Thai Content Tagging 
+
+  \hspace{1cm}เมื่อผู้ใช้งานเข้าใช้งานเว็บไซต์ AI Platform Thai Content Tagging เว็บไซต์จะเริ่มต้นที่หน้า Landing ซึ่งหน้า Landing จะประกอบไปด้วยรายละเอียดต่าง ๆ เกี่ยวกับเว็บไซต์ AI Platform Thai Content Tagging 
   ได้แก่ ข้อมูลภาพรวมของเว็บไซต์ กระบวนการในการประมวลผลหมวดหมู่โดย AI และวิธีการใช้งานการวิเคราะห์หมวดหมู่ของบทความ โดยในหน้า Landing ระบบจะแบ่งออกเป็น 3 ทางเลือก ได้แก่ 
   หน้า Register สำหรับผู้ใช้งานที่ยังไม่มีบัญชีในระบบ หน้า Login สำหรับผู้ใช้งานที่มีบัญชีในระบบแล้ว และหน้า Search By Tagging สำหรับผู้ใช้งานที่ต้องการค้นหาบทความ
   ผู้ใช้งานที่ต้องการใช้งานจำเป็นที่จะต้องมีบัญชีในการใช้งานจึงจะสามารถเข้าสู่ระบบเพื่อรับบริการได้ เมื่อเข้าสู่ระบบแล้ว ผู้ใช้งานจะสามารถส่งคำร้องขอเพื่อขอการวิเคราะห์หมวดหมู่ของบทความที่ต้องการได้ 2 วิธี คือ Web Link และ Raw Content 
@@ -1115,6 +1122,7 @@
     \includegraphics[width=\textwidth]{./img/data_proc.png}
     \caption{Data Processing}\label{fig:data_proc} 
   \end{figure}
+
   \hspace{1cm}ในกระบวนการทำ Model ก็จะมีขั้นตอนหลัก ๆ ดังนี้
   \begin{enumerate}
     \item การเตรียมข้อมูลสำหรับทำ Model
@@ -1122,21 +1130,30 @@
           ดังนั้นจึงมีการเตรียมข้อมูลด้วยการนำบทความภาษาไทยมาแปลงเป็นภาษาอังกฤษด้วยบริการของ Google Translator แล้วจึงนำข้อมูลไปใช้ในกระบวนการถัดไป
     \item การทำ Text Preprocessing
           \begin{itemize}
-            \item ลดข้อมูลในบทความ คือ การที่เลือกมาเฉพาะส่วนสำคัญของบทความ อย่างเช่น เลือกบทนำ เนื้อหาบางส่วน และเลือกบทสรุป
-                  ซึ่งการทำในลักษณะนี้จะเป็นการลดจำนวนข้อมูลที่ต้องนำไปใช้ต่อสำหรับกรณีที่บทความมีความยาวมากเกินไป
-            \item Pronoun Resolution คือ การแทนที่สรรพนามด้วยคำนาม เนื่องจากคำสรรพนามเป็นคำที่ไม่ค่อยมีความสำคัญสำหรับการนำไปใช้ต่อ 
-                  ไม่สามารถระบุได้ว่าประโยคนั้นเกี่ยวข้องกับอะไร ดังนั้นจึงใช้ Library SpaCy และ Neuralcoref ซึ่งเป็น Library สำเร็จสำหรับภาษา Python
-                  มาจัดการเกี่ยวกับสรรพนามในบทความ
-            \item Normalization คือ การลดความซับซ้อนของคำในประโยค เพื่อลดความซับซ้อนของการนำไปประมวลผล Model ดังนั้นจึงทำให้คำทุกคำเป็นตัวพิมพ์เล็กทั้งหมด
-                  และลดความ Variant ของคำด้วยการใช้ Lemmatization เพื่อให้คำที่มีความหมายเหมือนกันอยู่ในรูปเดียวกัน เช่น is am are เป็น be
-            \item Tokenization คือ การแยกคำแต่ละคำออกจากกัน โดยที่ยังมีความหมายถูกต้องสมบูรณ์ตามฐานข้อมูลพจนานุกรม ดังนั้นจึงใช้ Library NLTK ในการช่วยแบ่งคำ
-            \item การลบ Stop Word คือ การตัดคำที่ไม่มีความหมายออก เช่น I and at เป็นต้น จากนั้นจึงนำคำที่เหลือไปใช้ในการวิเคราะห์ต่อ
+            \item ทำความสะอาดข้อมูล คือ ทำการเปลี่ยนตัวอักษรให้เป็นตัวพิมพ์เล็กทั้งหมด ตัดอักขระพิเศษที่ไม่ใช่ตัวอักษรภาษาอังกฤษออก เช่น อิโมจิ ตัวเลข หรือ Punctuation 
+            และลบเว้นวรรคที่ติดกันมากกว่า 1 เว้นวรรคเพื่อให้เหลือเว้นวรรคเดียว ซึ่งการทําในลักษณะนี้จะเป็นการลดสัญญาณรบกวนในข้อมูลมากขึ้น
+            \item Tokenization คือ การแยกคำแต่ละคำในประโยคออกจากกัน โดยที่ยังมีความหมายถูกต้องสมบูรณ์ตามฐานข้อมูลพจนานุกรม 
+            ดังนั้นจึงใช้ word\_tokenize ใน Library NLTK ในการช่วยตัดคำในประโยค
+            \item การลบ Stop Word คือ การลบคำทั่วไปที่พบได้บ่อยในประโยคออก ซึ่งเป็นคำที่ไม่ค่อยสื่อความหมายในประโยค เช่น a, also, unless 
+            เพื่อให้เหลือเพียงคำที่ค่อนข้างสื่อความหมาย โดยใช้ Library NLTK Corpus ในการเรียกใช้ Stop words
+            \item Normalization คือ การลดความซับซ้อนของคำให้อยู่ในรูปของคำพื้นฐาน เพื่อกำจัด Inflection ของคำ 
+            เพื่อลดความซับซ้อนของการนำไปประมวลผล Model ด้วยการใช้ Lemmatization จาก Library pattern 
+            เพื่อให้คำที่มีความหมายเหมือนกันอยู่ในรูปเดียวกัน เช่น is am are เป็น be
           \end{itemize}
-    \item การทำ Text Representation คือ การแปลงคำให้เป็น Vector เพื่อคำนวณหาค่าคำสำคัญของคำแต่ละคำในบทความ โดยใช้ TF-IDF เป็นตัวแปลงเป็น Vector
+    \item การทำ Text Representation คือ การแปลงคำให้เป็น Vector และนำมาใช้กับโมเดล ด้วยการคำนวณหาค่าคำสำคัญของคำแต่ละคำในบทความ 
+          โดยใช้โมเดล TF-IDF เป็นตัวแปลงเป็น Vector และปรับ tune พารามิเตอร์เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด
     \item การ Train Model
-          \newline\hspace*{1cm}เป็นการสร้าง Model ซึ่งจะทำทั้งหมด 3 Model ได้แก่ Random Forest K-Nearest Neighbor และ Neural Network
-    \item การทดสอบและประเมินผล Model 
-          \newline\hspace*{1cm}เป็นการทดสอบและวัดผลประสิทธิภาพของ Model โดยในที่นี้จะวัดผลด้วยการใช้ค่า Accuracy Loss Precision Recall และ F1 Score
+          \newline\hspace*{1cm}เป็นการสร้างโมเดล ซึ่งจะทำทั้งหมด 3 โมเดลด้วยกัน ได้แก่ Random Forest, K-Nearest Neighbor และ LSTM
+          โดยมีขั้นตอนในการพัฒนาโมเดลดังนี้
+          \begin{itemize}
+            \item แบ่งชุดข้อมูลออกเป็น 2 ส่วน ส่วนแรกสำหรับการพัฒนาโมเดลและส่วนที่สองสำหรับการประเมินโมเดล 
+            ซึ่งจะแบ่งชุดข้อมูลแต่ละรูปแบบออกเป็นอัตราส่วน 8:2 (ชุดข้อมูลสำหรับการพัฒนาโมเดล : ชุดข้อมูลสำหรับการประเมินโมเดล) 
+            \item นำชุดข้อมูลสำหรับการพัฒนาโมเดลมาแปลงเป็น Vector ด้วยโมเดล TF-IDF ที่สร้างไว้ เพื่อใช้ในการพัฒนาโมเดล
+            \item สร้างโมเดลสำหรับทำ Text Classification และปรับ tune พารามิเตอร์เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด
+            \item นำชุดข้อมูลที่แปลงเป็น Vector มาทำการ fit กับโมเดลที่สร้างไว้
+          \end{itemize}
+    \item การทดสอบและประเมินผลโมเดล 
+          \newline\hspace*{1cm}เป็นการทดสอบและวัดผลประสิทธิภาพของโมเดล โดยในที่นี้จะวัดผลด้วยการใช้ค่า Accuracy, Precision, Recall และ F1 Score
   \end{enumerate}
 
 \section{Use Case Analysis}
@@ -1165,11 +1182,12 @@
 \textbf{Extension (b): }  \\
   \hspace*{0.5cm}3a. ระบบตรวจสอบข้อมูลพบว่ามี Email อยู่แล้วในระบบ \\
   \hspace*{0.5cm}4a. ผู้ใช้งานได้รับแจ้งเตือนว่า Email ซ้ำ \\
-  \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 \newpage
+  \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 
 \begin{figure}[!ht]\centering
-  \includegraphics[height=13cm]{./img/seq_regis.png}
+  \includegraphics[width=\textwidth]{./img/seq_regis.png}
   \caption{Sequence diagram ของการสมัครสมาชิก}\label{fig:seq_regis} 
 \end{figure}
+\newpage
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
   \caption{API Document ของ User ในการสร้างบัญชีสำหรับใช้งานภายในระบบ}\label{tbl:api_user_regis} 
   \endfirsthead
@@ -1179,7 +1197,7 @@
   \textbf{Description}      & สร้างบัญชีสำหรับใช้งานภายในระบบ                                                                                          \\ \hline
   \textbf{METHOD}           & POST                                                                                                                \\ \hline
   \textbf{HEADER}           & -                                                                                                                   \\ \hline
-  \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}email:\quad string\\ password:\quad string\\ firstName:\quad string\\ lastname:\quad string \\ image:\quad file\end{tabular}  \\ \hline \newpage \hline
+  \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}email:\quad string\\ password:\quad string\\ firstName:\quad string\\ lastname:\quad string \\ image:\quad file\end{tabular}  \\ \hline  \hline
   \textbf{Response Status}  & \multicolumn{1}{c}{\textbf{Response Data}}                                                                          \\ \hline
   \multicolumn{1}{c|}{201}  & \begin{tabular}[c]{@{}l@{}}\{\\ \quad message: "register successfull"\\ \}\end{tabular}                                 \\ \hline
   \multicolumn{1}{c|}{409}  &
@@ -1199,17 +1217,17 @@
   \hspace*{0.5cm}1. ผู้ใช้งานกรอก Email และ Password \\
   \hspace*{0.5cm}2. ผู้ใช้งานส่งคำร้องขอเข้าสู่ระบบ \\
   \hspace*{0.5cm}3. ระบบตรวจสอบ Email และ Password ตรงกับในฐานข้อมูล \\
-  \hspace*{0.5cm}4. ผู้ใช้งานสามารถเข้าสู่ระบบได้ \\
-\textbf{Extension (a): } \\
+  \hspace*{0.5cm}4. ผู้ใช้งานสามารถเข้าสู่ระบบได้ \\ \newpage
+\textbf{Extension (a): } \\ 
   \hspace*{0.5cm}3a. ระบบตรวจสอบข้อมูลพบว่าผู้ใช้งานกรอกข้อมูลไม่ครบ \\
   \hspace*{0.5cm}4a. ผู้ใช้งานได้รับแจ้งเตือนว่ากรอกข้อมูลไม่ครบ \\
   \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 \\
 \textbf{Extension (b): }  \\
   \hspace*{0.5cm}3a. ระบบตรวจสอบข้อมูลพบว่าไม่มี Email และ Password ตรงกับในฐานข้อมูล \\
   \hspace*{0.5cm}4a. ผู้ใช้งานได้รับแจ้งเตือนว่า Email และ Password ไม่ถูกต้อง \\
-  \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 \newpage
+  \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 
 \begin{figure}[!ht]\centering
-  \includegraphics[height=12cm]{./img/seq_login.png}
+  \includegraphics[width=\textwidth]{./img/seq_login.png}
   \caption{Sequence diagram ของการเข้าสู่ระบบ}\label{fig:seq_login} 
 \end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
@@ -1228,7 +1246,6 @@
   \begin{tabular}[c]{@{}l@{}}\{\\ \quad errors: {[}\\ \quad\quad\{\\ \quad\quad\quad "message": "Email or password is invalid"\\ \quad\quad \}\\ \quad{]}\\\}\end{tabular}                                                                      \\ \hline
   \hline
 \end{longtable}
-\newpage
 
 \subsubsection{ตรวจสอบข้อมูลโปรไฟล์ของตนเอง}
 \textbf{Name: }สมาชิกตรวจสอบข้อมูลโปรไฟล์ของตนเอง \\
@@ -1237,9 +1254,9 @@
 \textbf{Precondition: }สมาชิกต้องทำการเข้าสู่ระบบแล้ว \\
 \textbf{Main success scenario: } \\
   \hspace*{0.5cm}1. สมาชิกร้องขอดูข้อมูลโปรไฟล์ของตนเอง  \\
-  \hspace*{0.5cm}2. ระบบดึงข้อมูลโปรไฟล์แสดงผลให้สมาชิก \\ 
+  \hspace*{0.5cm}2. ระบบดึงข้อมูลโปรไฟล์แสดงผลให้สมาชิก \\ \newpage 
 \begin{figure}[!ht]\centering
-  \includegraphics[height=10cm]{./img/seq_profile.png}
+  \includegraphics[width=\textwidth]{./img/seq_profile.png}
   \caption{Sequence diagram ของการตรวจสอบข้อมูลโปรไฟล์}\label{fig:seq_profile} 
 \end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
@@ -1275,7 +1292,7 @@
   \hspace*{0.5cm}4a. สมาชิกได้รับแจ้งเตือนว่ากรอกข้อมูลไม่ครบ \\
   \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 \newpage
 \begin{figure}[!ht]\centering
-  \includegraphics[height=9cm]{./img/seq_weblink.png}
+  \includegraphics[width=\textwidth]{./img/seq_weblink.png}
   \caption{Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link}\label{fig:seq_weblink} 
 \end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
@@ -1287,7 +1304,7 @@
     \textbf{Description}      & สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link                                                                                        \\ \hline
     \textbf{METHOD}           & POST                                                                                                                 \\ \hline
     \textbf{HEADER}           & Authorization: Bearer \{token\}                                                                                         \\ \hline
-    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}url: string\end{tabular}  \\ \hline \hline
+    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}url: string\end{tabular}  \\ \hline \newpage \hline
     \textbf{Response Status}  & \multicolumn{1}{c}{\textbf{Response Data}}                                                                          \\ \hline
     \multicolumn{1}{c|}{201}  & \begin{tabular}[c]{@{}l@{}}\{\\ \quad ticketId: 123,\\ \quad status: "Open"\\ \}\end{tabular}                                 \\ \hline
     \multicolumn{1}{c|}{400}  &
@@ -1296,7 +1313,6 @@
     \begin{tabular}[c]{@{}l@{}}\{\\ \quad errors: {[}\\ \quad\quad\{\\ \quad\quad\quad"message": "Unauthorization"\\ \quad\quad\}\\\quad {]}\\ \}\end{tabular}                                                                         \\ \hline
     \hhline{==}
 \end{longtable}
-\newpage
 
 \subsubsection{สร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ}
 \textbf{Name: }สมาชิกสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ \\
@@ -1311,11 +1327,11 @@
 \textbf{Extension (a): } \\
   \hspace*{0.5cm}3a. ระบบตรวจสอบข้อมูลพบว่าสมาชิกกรอกข้อมูลไม่ครบ \\
   \hspace*{0.5cm}4a. สมาชิกได้รับแจ้งเตือนว่ากรอกข้อมูลไม่ครบ \\
-  \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 
+  \hspace*{0.5cm}5a. กลับไปที่ข้อที่ 1 \newpage
 \begin{figure}[!ht]\centering
-  \includegraphics[height=11cm]{./img/seq_content.png}
+  \includegraphics[width=\textwidth]{./img/seq_content.png}
   \caption{Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ}\label{fig:seq_content} 
-\end{figure} \newpage
+\end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
   \caption{API Document ของ Ticket ในการสร้างคำร้องขอวิเคราะห์ด้วยเนื้อหาที่เตรียมไว้ }\label{tbl:api_ticket_content} 
     \endfirsthead
@@ -1325,7 +1341,7 @@
     \textbf{Description}      & สร้างคำร้องขอวิเคราะห์ด้วยเนื้อหาที่เตรียมไว้                                                                                      \\ \hline
     \textbf{METHOD}           & POST                                                                                                                 \\ \hline
     \textbf{HEADER}           & Authorization: Bearer \{token\}                                                                                         \\ \hline
-    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}title:\quad\quad string \\ content:\quad string\end{tabular}  \\ \hline \hline
+    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}title:\quad\quad string \\ content:\quad string\end{tabular}  \\ \hline \newpage \hline
     \textbf{Response Status}  & \multicolumn{1}{c}{\textbf{Response Data}}                                                                          \\ \hline
     \multicolumn{1}{c|}{201}  & \begin{tabular}[c]{@{}l@{}}\{\\ \quad ticketId: 123,\\ \quad status: "Open"\\ \}\end{tabular}                                 \\ \hline
     \multicolumn{1}{c|}{400}  &
@@ -1348,11 +1364,11 @@
 \textbf{Extension (a): } \\
   \hspace*{0.5cm}2a. ระบบตรวจสอบข้อมูลพบว่าสมาชิกส่งข้อมูลไม่ครบ \\
   \hspace*{0.5cm}3a. สมาชิกได้รับแจ้งเตือนว่าส่งข้อมูลไม่ครบ \\
-  \hspace*{0.5cm}4a. กลับไปที่ข้อที่ 1 
+  \hspace*{0.5cm}4a. กลับไปที่ข้อที่ 1 \newpage
 \begin{figure}[!ht]\centering
-  \includegraphics[height=9.3cm]{./img/seq_linkapi.png}
+  \includegraphics[width=\textwidth]{./img/seq_linkapi.png}
   \caption{Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link ผ่าน Api-Key}\label{fig:seq_weblink_api} 
-\end{figure} \newpage
+\end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
   \caption{API Document ของ Ticket ในการสร้างคำร้องขอวิเคราะห์ด้วย Web Link (Api-key)}\label{tbl:api_ticket_key} 
     \endfirsthead
@@ -1362,7 +1378,7 @@
     \textbf{Description}      & สร้างคำร้องขอวิเคราะห์ด้วย Web Link (Api-key)                                                                                     \\ \hline
     \textbf{METHOD}           & POST                                                                                                                 \\ \hline
     \textbf{HEADER}           & Authorization: \{api-key\}                                                                                         \\ \hline
-    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}url: string\end{tabular}  \\ \hline \hline
+    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}url: string\end{tabular}  \\ \hline \newpage \hline
     \textbf{Response Status}  & \multicolumn{1}{c}{\textbf{Response Data}}                                                                          \\ \hline
     \multicolumn{1}{c|}{201}  & \begin{tabular}[c]{@{}l@{}}\{\\ \quad ticketId: 123,\\ \quad status: "Open"\\ \}\end{tabular}                                 \\ \hline
     \multicolumn{1}{c|}{400}  &
@@ -1384,12 +1400,11 @@
 \textbf{Extension (a): } \\
   \hspace*{0.5cm}2a. ระบบตรวจสอบข้อมูลพบว่าสมาชิกส่งข้อมูลไม่ครบ \\
   \hspace*{0.5cm}3a. สมาชิกได้รับแจ้งเตือนว่าส่งข้อมูลไม่ครบ \\
-  \hspace*{0.5cm}4a. กลับไปที่ข้อที่ 1
+  \hspace*{0.5cm}4a. กลับไปที่ข้อที่ 1 \newpage
 \begin{figure}[!ht]\centering
-  \includegraphics[height=12cm]{./img/seq_contapi.png}
+  \includegraphics[width=\textwidth]{./img/seq_contapi.png}
   \caption{Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความผ่าน Api-Key}\label{fig:seq_content_api} 
 \end{figure}
-\newpage
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
   \caption{API Document ของ Ticket ในการสร้างคำร้องขอวิเคราะห์ด้วยเนื้อหาที่เตรียมไว้ (Api-Key) }\label{tbl:api_ticket_content_key} 
     \endfirsthead
@@ -1399,7 +1414,7 @@
     \textbf{Description}      & สร้างคำร้องขอวิเคราะห์ด้วยเนื้อหาที่เตรียมไว้ (Api-Key)                                                                                     \\ \hline
     \textbf{METHOD}           & POST                                                                                                                 \\ \hline
     \textbf{HEADER}           & Authorization: \{Api-Key\}                                                                                         \\ \hline
-    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}title:\quad\quad string \\ content:\quad string\end{tabular}  \\ \hline \hline
+    \textbf{PAYLOAD}          & \begin{tabular}[c]{@{}l@{}}title:\quad\quad string \\ content:\quad string\end{tabular}  \\ \hline \newpage \hline
     \textbf{Response Status}  & \multicolumn{1}{c}{\textbf{Response Data}}                                                                          \\ \hline
     \multicolumn{1}{c|}{201}  & \begin{tabular}[c]{@{}l@{}}\{\\ \quad ticketId: 123,\\ \quad status: "Open"\\ \}\end{tabular}                                 \\ \hline
     \multicolumn{1}{c|}{400}  &
@@ -1419,7 +1434,7 @@
   \hspace*{0.5cm}1. สมาชิกร้องขอดูข้อมูลคำร้องของตนเอง  \\
   \hspace*{0.5cm}2. ระบบดึงข้อมูลคำร้องของสมาชิกและแสดงผลให้สมาชิก \\ \newpage
 \begin{figure}[!ht]\centering
-  \includegraphics[height=7.4cm]{./img/seq_request.png}
+  \includegraphics[width=\textwidth]{./img/seq_request.png}
   \caption{Sequence diagram ของการดูคำร้องขอการวิเคราะห์หมู่ของบทความ}\label{fig:seq_request} 
 \end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
@@ -1431,7 +1446,7 @@
     \textbf{Description}      & ดูรายการคำร้องขอของตนเอง                                                                                     \\ \hline
     \textbf{METHOD}           & GET                                                                                                                 \\ \hline
     \textbf{HEADER}           & Authorization: Bearer \{token\}                                                                                         \\ \hline
-    \textbf{PAYLOAD}          &   \\ \hline \hline
+    \textbf{PAYLOAD}          &   \\ \hline \newpage \hline
     \textbf{Response Status}  & \multicolumn{1}{c}{\textbf{Response Data}}                                                                          \\ \hline
     \multicolumn{1}{c|}{200}  &
     \begin{tabular}[c]{@{}l@{}}{[}\\ \quad\{\\ \quad\quad id: 1,\\ \quad\quad title: "การประชุม...",\\\quad\quad status: "processing",\\ 
@@ -1442,7 +1457,6 @@
     \begin{tabular}[c]{@{}l@{}}\{\\ \quad errors: {[}\\ \quad\quad\{\\ \quad\quad\quad"message": "Unauthorization"\\ \quad\quad\}\\\quad {]}\\ \}\end{tabular}                                                                         \\ \hline
     \hhline{==}
 \end{longtable}
-\newpage
 
 \subsubsection{ค้นหาบทความโดยใช้ตัวกรองต่าง ๆ}
 \textbf{Name: }การค้นหาเนื้อหาโดยใช้ตัวกรองต่าง ๆ \\
@@ -1451,9 +1465,9 @@
 \textbf{Precondition: }- \\
 \textbf{Main success scenario: } \\
   \hspace*{0.5cm}1. ผู้ใช้งานเลือกคำคัดกรองต่าง ๆ เช่น เว็บปลายทางของข้อมูล หมวดหมู่ของเนื้อหา \\
-  \hspace*{0.5cm}2. ระบบดึงข้อมูลและแสดงผลบทความตามคำคัดกรองกลับไปยังผู้ใช้งาน  \\
+  \hspace*{0.5cm}2. ระบบดึงข้อมูลและแสดงผลบทความตามคำคัดกรองกลับไปยังผู้ใช้งาน  \\ \newpage
 \begin{figure}[!ht]\centering
-  \includegraphics[width=8.8cm]{./img/seq_filter.png}
+  \includegraphics[width=\textwidth]{./img/seq_filter.png}
   \caption{Sequence diagram ของการค้นหาบทความโดยใช้ตัวกรองต่าง ๆ}\label{fig:seq_content_search} 
 \end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
@@ -1489,7 +1503,7 @@
   \hspace*{0.5cm}2a. ระบบไม่พบบทความตามเลขอ้างอิง \\
   \hspace*{0.5cm}3a. ระบบแจ้งผู้ใช้งานว่าไม่พบเนื้อหาตามเลขอ้างอิง \\ 
 \begin{figure}[!ht]\centering
-  \includegraphics[height=10cm]{./img/seq_searchid.png}
+  \includegraphics[width=0.95\textwidth]{./img/seq_searchid.png}
   \caption{Sequence diagram ของการค้นหาบทความโดยใช้เลขอ้างอิงเนื้อหา}\label{fig:seq_content_id} 
 \end{figure} 
 \begin{longtable}[!ht]{p{3cm}|p{8cm}}
@@ -2496,7 +2510,7 @@
         ธุรกิจ    & 1  & 0  & 1  & 93 & 0  & 5  & 93             & 95              \\
         บันเทิง   & 3  & 0  & 0  & 0  & 97 & 0  & 97             & 92              \\
         เทคโนโลยี & 0  & 1  & 0  & 2  & 1  & 96 & 96             & 92              \\ \hline
-        \multicolumn{7}{c}{\textbf{เฉลี่ย}}     & \textbf{94.33} & \textbf{94.52} \\ \hhline{=========}
+        \multicolumn{7}{l}{\textbf{เฉลี่ย}}     & \textbf{94.33} & \textbf{94.52} \\ \hhline{=========}
         \end{longtable}
   
   \newpage
@@ -2799,6 +2813,7 @@
     \Qlines{4}
     \newpage
     
+    \subsection{ผลสำรวจจากการตอบแบบสอบถามของผู้ใช้งาน}
 
 
 
@@ -2810,18 +2825,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%% Conclusions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \chapter{บทสรุป}
+\chapter{บทสรุปและอภิปราย}
 
 % This chapter is optional for proposal and progress reports but 
 % is required for the final report.
 
-% \section{สรุปผลโครงงาน}
+\section{สรุปผลโครงงาน}
 % สรุปว่าโครงงานบรรลุตามวัตถุประสงค์ที่ตั้งไว้หรือไม่ อย่างไร 
 
-% \section{ปัญหาที่พบและการแก้ไข}
+\section{ปัญหาที่พบและการแก้ไข}
 % State your problems and how you fixed them.
 
-% \section{ข้อจำกัดและข้อเสนอแนะ}
+\section{ข้อจำกัดและข้อเสนอแนะ}
 % ข้อจำกัดของโครงงาน What could be done in the future to make your projects better.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

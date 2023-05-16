@@ -24,165 +24,166 @@
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces เครื่องมือในโครงสร้างทางสถาปัตยกรรมของระบบ\relax }}{19}{figure.caption.12}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequence Diagram จำลองการส่งประมวลผลการวิเคราะห์หมวดหมู่ของบทความ\relax }}{19}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequence Diagram จำลองการส่งประมวลผลการวิเคราะห์หมวดหมู่ของบทความ\relax }}{20}{figure.caption.13}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Diagram ของ DevOps Life Cycle\relax }}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Diagram ของ DevOps Life Cycle\relax }}{21}{figure.caption.14}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram ของ Update New AI-Model Process\relax }}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram ของ Update New AI-Model Process\relax }}{21}{figure.caption.15}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Navigation Map ของเว็บไซต์สำหรับผู้ใช้งาน\relax }}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Navigation Map ของเว็บไซต์สำหรับผู้ใช้งาน\relax }}{22}{figure.caption.16}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Navigation Map ของเว็บไซต์สำหรับผู้จัดการระบบ\relax }}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Navigation Map ของเว็บไซต์สำหรับผู้จัดการระบบ\relax }}{22}{figure.caption.17}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Processing\relax }}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Processing\relax }}{23}{figure.caption.18}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Use Case Diagram\relax }}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Use Case Diagram\relax }}{24}{figure.caption.19}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence diagram ของการสมัครสมาชิก\relax }}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence diagram ของการสมัครสมาชิก\relax }}{25}{figure.caption.20}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence diagram ของการเข้าสู่ระบบ\relax }}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence diagram ของการเข้าสู่ระบบ\relax }}{27}{figure.caption.21}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence diagram ของการตรวจสอบข้อมูลโปรไฟล์\relax }}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence diagram ของการตรวจสอบข้อมูลโปรไฟล์\relax }}{29}{figure.caption.22}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link\relax }}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link\relax }}{31}{figure.caption.23}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ\relax }}{30}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความ\relax }}{33}{figure.caption.24}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link ผ่าน Api-Key\relax }}{32}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วย Web Link ผ่าน Api-Key\relax }}{35}{figure.caption.25}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความผ่าน Api-Key\relax }}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Sequence diagram ของการสร้างคำร้องขอวิเคราะห์หมวดหมู่ของเนื้อหาด้วยบทความผ่าน Api-Key\relax }}{37}{figure.caption.26}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Sequence diagram ของการดูคำร้องขอการวิเคราะห์หมู่ของบทความ\relax }}{35}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Sequence diagram ของการดูคำร้องขอการวิเคราะห์หมู่ของบทความ\relax }}{39}{figure.caption.27}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Sequence diagram ของการค้นหาบทความโดยใช้ตัวกรองต่าง ๆ\relax }}{37}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sequence diagram ของการค้นหาบทความโดยใช้ตัวกรองต่าง ๆ\relax }}{41}{figure.caption.28}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Sequence diagram ของการค้นหาบทความโดยใช้เลขอ้างอิงเนื้อหา\relax }}{39}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sequence diagram ของการค้นหาบทความโดยใช้เลขอ้างอิงเนื้อหา\relax }}{42}{figure.caption.29}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces โครงสร้างฐานข้อมูล\relax }}{40}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces โครงสร้างฐานข้อมูล\relax }}{43}{figure.caption.30}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces หน้า Landing\relax }}{43}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces หน้า Landing\relax }}{46}{figure.caption.32}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Landing page ที่แสดงแต่ละองค์ประกอบ\relax }}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Landing page ที่แสดงแต่ละองค์ประกอบ\relax }}{46}{figure.caption.33}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces หน้า Landing ในส่วนของ Overall\relax }}{44}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces หน้า Landing ในส่วนของ Overall\relax }}{47}{figure.caption.34}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces หน้า Landing ในส่วนของ Method\relax }}{44}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces หน้า Landing ในส่วนของ Method\relax }}{47}{figure.caption.35}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces หน้า Landing ในส่วนของ Feature\relax }}{45}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces หน้า Landing ในส่วนของ Feature\relax }}{48}{figure.caption.36}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces หน้า Login\relax }}{45}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces หน้า Login\relax }}{48}{figure.caption.37}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces กรอก Username หรือ Password ผิดพลาด\relax }}{46}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces กรอก Username หรือ Password ผิดพลาด\relax }}{49}{figure.caption.38}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces หน้า Register ขั้นตอนกรอก Email\relax }}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces หน้า Register ขั้นตอนกรอก Email\relax }}{49}{figure.caption.39}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces กรอก Email ผิดพลาด\relax }}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces กรอก Email ผิดพลาด\relax }}{49}{figure.caption.40}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces หน้า Register ขั้นตอนกรอก Password\relax }}{47}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces หน้า Register ขั้นตอนกรอก Password\relax }}{50}{figure.caption.41}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces กรอก Password ไม่ตรงกัน\relax }}{47}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces กรอก Password ไม่ตรงกัน\relax }}{50}{figure.caption.42}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces หน้า Register ขั้นตอนกรอกชื่อและนามสกุล\relax }}{47}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces หน้า Register ขั้นตอนกรอกชื่อและนามสกุล\relax }}{50}{figure.caption.43}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces กรอกชื่อและนามสกุลเป็นภาษาอื่น\relax }}{48}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces กรอกชื่อและนามสกุลเป็นภาษาอื่น\relax }}{51}{figure.caption.44}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces หน้า Register ขั้นตอนกรอกข้อมูลของผู้ใช้งาน\relax }}{48}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces หน้า Register ขั้นตอนกรอกข้อมูลของผู้ใช้งาน\relax }}{51}{figure.caption.45}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces กรอก Password ไม่ตรงกัน\relax }}{48}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces กรอก Password ไม่ตรงกัน\relax }}{51}{figure.caption.46}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces หน้า Register เมื่อสมัครสมาชิกสำเร็จ\relax }}{49}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces หน้า Register เมื่อสมัครสมาชิกสำเร็จ\relax }}{52}{figure.caption.47}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.37}{\ignorespaces หน้า Home\relax }}{49}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces หน้า Home\relax }}{52}{figure.caption.48}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.38}{\ignorespaces หน้า Home ส่วนที่เกี่ยวข้องกับการวิเคราะห์หมวดหมู่ของสมาชิก\relax }}{50}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces หน้า Home ส่วนที่เกี่ยวข้องกับการวิเคราะห์หมวดหมู่ของสมาชิก\relax }}{53}{figure.caption.49}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.39}{\ignorespaces หน้า Home ส่วนแสดงข่าวอื่น ๆ เพิ่มเติม\relax }}{50}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces หน้า Home ส่วนแสดงข่าวอื่น ๆ เพิ่มเติม\relax }}{53}{figure.caption.50}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.40}{\ignorespaces หน้ากรณีที่สมาชิกต้องการวิเคราะห์หมวดหมู่ของบทความด้วย Web Link\relax }}{51}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces หน้ากรณีที่สมาชิกต้องการวิเคราะห์หมวดหมู่ของบทความด้วย Web Link\relax }}{54}{figure.caption.51}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.41}{\ignorespaces กรณีที่กรอก Web Link ไม่ถูกต้อง\relax }}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces กรณีที่กรอก Web Link ไม่ถูกต้อง\relax }}{54}{figure.caption.52}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.42}{\ignorespaces หน้ากรณีที่สมาชิกต้องการวิเคราะห์หมวดหมู่ของบทความด้วยเนื้อหาในบทความ\relax }}{52}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces หน้ากรณีที่สมาชิกต้องการวิเคราะห์หมวดหมู่ของบทความด้วยเนื้อหาในบทความ\relax }}{55}{figure.caption.53}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.43}{\ignorespaces กรณีที่กรอกข้อมูลไม่ครบถ้วน\relax }}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces กรณีที่กรอกข้อมูลไม่ครบถ้วน\relax }}{55}{figure.caption.54}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.44}{\ignorespaces หน้า My Ticket\relax }}{53}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces หน้า My Ticket\relax }}{56}{figure.caption.55}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.45}{\ignorespaces หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ\relax }}{54}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ\relax }}{57}{figure.caption.56}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Class Diagram ของระบบ\relax }}{54}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Class Diagram ของระบบ\relax }}{57}{figure.caption.57}%
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ตัวอย่างการดึงเนื้อหาบทความจากไฟล์ HTML ด้วยการใช้ Python BeautifulSoup\relax }}{56}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ตัวอย่างการดึงเนื้อหาบทความจากไฟล์ HTML ด้วยการใช้ Python BeautifulSoup\relax }}{59}{figure.caption.58}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces ตัวอย่างการแปลเนื้อหาจากภาษาไทยเป็นภาษาอังกฤษ\relax }}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ตัวอย่างการแปลเนื้อหาจากภาษาไทยเป็นภาษาอังกฤษ\relax }}{59}{figure.caption.59}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาไทย\relax }}{57}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาไทย\relax }}{60}{figure.caption.60}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาอังกฤษ\relax }}{58}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ตัวอย่างชุดข้อมูลข่าวที่มีเนื้อหาเป็นภาษาอังกฤษ\relax }}{61}{figure.caption.61}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{59}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{62}{figure.caption.62}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{59}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ตัวอย่างชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษที่ผ่านการเตรียมข้อมูลแล้ว\relax }}{62}{figure.caption.63}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย\relax }}{59}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย\relax }}{62}{figure.caption.64}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล\relax }}{60}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาไทยของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล\relax }}{63}{figure.caption.65}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่อาชญากรรม\relax }}{61}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่อาชญากรรม\relax }}{64}{figure.caption.66}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่กีฬา\relax }}{61}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่กีฬา\relax }}{64}{figure.caption.67}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเมือง\relax }}{61}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่การเมือง\relax }}{64}{figure.caption.68}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่ธุรกิจ\relax }}{62}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่ธุรกิจ\relax }}{65}{figure.caption.69}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่บันเทิง\relax }}{62}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่บันเทิง\relax }}{65}{figure.caption.70}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่เทคโนโลยี\relax }}{62}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของหมวดหมู่เทคโนโลยี\relax }}{65}{figure.caption.71}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces 100 อันดับคำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของแต่ละหมวดหมู่\relax }}{63}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 100 อันดับคำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาไทยของแต่ละหมวดหมู่\relax }}{66}{figure.caption.72}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ\relax }}{64}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces การกระจายตัวของจำนวนคำในแต่ละชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ\relax }}{67}{figure.caption.73}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล\relax }}{65}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces ลักษณะของจำนวนคำในเนื้อหาที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่หลังทําความสะอาดข้อมูล\relax }}{68}{figure.caption.74}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่อาชญากรรม\relax }}{65}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่อาชญากรรม\relax }}{68}{figure.caption.75}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่กีฬา\relax }}{66}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่กีฬา\relax }}{69}{figure.caption.76}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่การเมือง\relax }}{66}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่การเมือง\relax }}{69}{figure.caption.77}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่ธุรกิจ\relax }}{66}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่ธุรกิจ\relax }}{69}{figure.caption.78}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่บันเทิง\relax }}{67}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่บันเทิง\relax }}{70}{figure.caption.79}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่เทคโนโลยี\relax }}{67}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces 10 คำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของหมวดหมู่เทคโนโลยี\relax }}{70}{figure.caption.80}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces 100 อันดับคำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่\relax }}{68}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces 100 อันดับคำที่พบได้มากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่\relax }}{71}{figure.caption.81}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces ตัวอย่าง Text Representation ของชุดข้อมูลที่ได้จากการทำ TF-IDF\relax }}{69}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces ตัวอย่าง Text Representation ของชุดข้อมูลที่ได้จากการทำ TF-IDF\relax }}{72}{figure.caption.82}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces ผลลัพธ์จากการทำ t-SNE ด้วยข้อมูลที่ได้จากการทำ TF-IDF\relax }}{70}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces ผลลัพธ์จากการทำ t-SNE ด้วยข้อมูลที่ได้จากการทำ TF-IDF\relax }}{73}{figure.caption.83}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาไทย\relax }}{72}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาไทย\relax }}{75}{figure.caption.84}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาอังกฤษ\relax }}{72}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาอังกฤษ\relax }}{75}{figure.caption.85}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces หน้าแรก\relax }}{75}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces หน้าแรก\relax }}{78}{figure.caption.86}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces หน้าเข้าสู่ระบบ\relax }}{76}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces หน้าเข้าสู่ระบบ\relax }}{79}{figure.caption.87}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces หน้าเข้าสู่ระบบ กรณีเข้าสู่ระบบผิดพลาด\relax }}{76}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces หน้าเข้าสู่ระบบ กรณีเข้าสู่ระบบผิดพลาด\relax }}{79}{figure.caption.88}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces หน้าหลัก\relax }}{77}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces หน้าหลัก\relax }}{80}{figure.caption.89}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.33}{\ignorespaces หน้าสร้างคำร้องขอวิเคราะห์หมวดหมู่ของบทความด้วย Web Link\relax }}{77}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces หน้าสร้างคำร้องขอวิเคราะห์หมวดหมู่ของบทความด้วย Web Link\relax }}{80}{figure.caption.90}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.34}{\ignorespaces กรณีส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความด้วย Web Link สำเร็จ\relax }}{78}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces กรณีส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความด้วย Web Link สำเร็จ\relax }}{81}{figure.caption.91}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.35}{\ignorespaces หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ\relax }}{78}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces หน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ\relax }}{81}{figure.caption.92}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.36}{\ignorespaces รายการ Topic ที่ใช้ในการสื่อสารในระบบ\relax }}{79}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces รายการ Topic ที่ใช้ในการสื่อสารในระบบ\relax }}{82}{figure.caption.93}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.37}{\ignorespaces การ Monitor การใช้งานทรัพยากรต่าง ๆ บน Cloud Run\relax }}{80}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces การ Monitor การใช้งานทรัพยากรต่าง ๆ บน Cloud Run\relax }}{83}{figure.caption.94}%
+\addvspace {0em}
