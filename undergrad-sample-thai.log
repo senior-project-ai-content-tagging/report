@@ -1,11 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.11.14)  16 MAY 2023 00:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.11.14)  16 MAY 2023 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/CPE/Desktop/4_1/CPE401/Report Format Latex/undergrad-sample-thai.te
-x"
-(c:/Users/CPE/Desktop/4_1/CPE401/Report Format Latex/undergrad-sample-thai.tex
+**c:/Users/CPE/Desktop/4_2/CPE402/report/undergrad-sample-thai.tex
+(c:/Users/CPE/Desktop/4_2/CPE402/report/undergrad-sample-thai.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (cpe-thai-project.cls
 Document Class: cpe-thai-project 2016/05/30 CPE,KMUTT latex class
@@ -2215,20 +2214,20 @@ Underfull \hbox (badness 4752) in paragraph at lines 2462--2469
 คลดลง หรืออาจเป็นเพราะการใช้ Library ตัดคำของภาษาไทยไม่ได้มี
  []
 
-[73]
+[73] [74]
 File: ./img/project_ui/4_1.png Graphic file (type bmp)
 <./img/project_ui/4_1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 2486--2488
+Underfull \hbox (badness 10000) in paragraph at lines 2514--2516
 [] \TU/THSarabunNew(0)/m/n/10 เป็นหน้าแรกที่ผู้ใช้งานจะได้เห็นเมื่อมาเยี่ยมชมเว
 ็บแอปพลิเคชัน ซึ่งจะให้ข้อมูลเกี่ยวกับเว็บแอปพลิเคชันาว่ามีกระบวนการใน
  []
 
-[74]
+[75]
 File: ./img/project_ui/4_2.png Graphic file (type bmp)
 <./img/project_ui/4_2.png>
 
-Underfull \hbox (badness 2894) in paragraph at lines 2502--2504
+Underfull \hbox (badness 2894) in paragraph at lines 2530--2532
 [] \TU/THSarabunNew(0)/m/n/10 เป็นหน้าที่ผู้ใช้งานต้องกรอก Email และรหัสผ่านให้
 ถูกต้องเพื่อเข้าสู่ระบบ ถ้าผู้ใช้งานต้องการเข้าสู่ระบบแต่ไม่มีบัญชีผู้ใช้ ก็
  []
@@ -2236,60 +2235,60 @@ Underfull \hbox (badness 2894) in paragraph at lines 2502--2504
 File: ./img/project_ui/4_3.png Graphic file (type bmp)
 <./img/project_ui/4_3.png>
 
-Underfull \hbox (badness 6775) in paragraph at lines 2513--2515
+Underfull \hbox (badness 6775) in paragraph at lines 2541--2543
  \TU/THSarabunNew(0)/m/n/10 กรณีที่ผู้ใช้งานเข้าสู่ระบบผิดพลาด เว็บแอปพลิเคชันจ
 ะแจ้งเตือนให้ผู้ใช้งานกรอก Email และรหัสผ่านให้ถูกต้องตามวงกลม
  []
 
 File: ./img/project_ui/4_4.png Graphic file (type bmp)
 <./img/project_ui/4_4.png>
-[75]
+[76]
 File: ./img/project_ui/4_5.png Graphic file (type bmp)
 <./img/project_ui/4_5.png>
- [76]
+ [77]
 File: ./img/project_ui/4_6.png Graphic file (type bmp)
 <./img/project_ui/4_6.png>
 File: ./img/project_ui/4_7.png Graphic file (type bmp)
 <./img/project_ui/4_7.png>
- [77]
-Underfull \hbox (badness 10000) in paragraph at lines 2561--2563
+ [78]
+Underfull \hbox (badness 10000) in paragraph at lines 2589--2591
  \TU/THSarabunNew(0)/m/n/10 ถ้าหากต้องการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความอ
 ีกครั้งหรือออกจากระบบ สมาชิกสามารถดำเนินการได้ตามวงกลม
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 2572--2575
+Underfull \hbox (badness 1127) in paragraph at lines 2600--2603
 \TU/THSarabunNew(0)/m/n/10 Cloud Pub/Sub จากนั้นจะทำการดักจับหน้าเว็บไซต์และดึง
 ข้อมูลเฉพาะส่วนที่ต้องการ แล้วจึงทำการแปลภาษาเป็นภาษาอังกฤษเพื่อ
  []
 
 File: ./img/topic.png Graphic file (type bmp)
 <./img/topic.png>
-[78]
+[79]
 File: ./img/monitor.png Graphic file (type bmp)
 <./img/monitor.png>
- [79]
-Underfull \hbox (badness 10000) in paragraph at lines 2625--2627
+ [80]
+Underfull \hbox (badness 10000) in paragraph at lines 2653--2655
 [] \TU/THSarabunNew(0)/m/n/10 คณะผู้จัดทำจะให้ผู้ทำแบบสอบถามใช้งานเว็บแอปพลิเคช
 ันสำหรับการจัดหมวดหมู่เนื้อหาออนไลน์ จากนั้นจึงทำแบบสอบถาม
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 2629--2631
+Underfull \hbox (badness 1874) in paragraph at lines 2657--2659
 []\TU/THSarabunNew(0)/m/n/10 แบบประเมินแบบให้คะแนน เป็นแบบประเมินความพึงพอใจในก
 ารใช้งานเว็บแอปพลิเคชัน ทั้งส่วนการออกแบบ ประสิทธิภาพ
  []
 
-[80]
+[81]
 \c@ql=\count377
 \qt=\skip77
 
-Underfull \hbox (badness 4036) in paragraph at lines 2761--2762
+Underfull \hbox (badness 4036) in paragraph at lines 2789--2790
 []\TU/THSarabunNew(0)/m/n/10 1. หลังการทดลองใช้งาน ท่านคิดว่าเว็บแอปพลิเคชันนี้
 จะทำให้ท่านจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้สะดวกกว่าจัดหมวดหมู่ด้วย
  []
 
-[81] [82] (undergrad-sample-thai.bbl
+[82] [83] (undergrad-sample-thai.bbl
 \thai@year=\count378
 LaTeX Info: Redefining \rmfamily on input line 7.
 LaTeX Info: Redefining \sffamily on input line 7.
@@ -2396,7 +2395,7 @@ LaTeX Info: Redefining \ttfamily on input line 177.
 LaTeX Info: Redefining \rmfamily on input line 184.
 LaTeX Info: Redefining \sffamily on input line 184.
 LaTeX Info: Redefining \ttfamily on input line 184.
-[83
+[84
 
 ]
 \thai@year=\count403
@@ -2579,22 +2578,22 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
- [84] (undergrad-sample-thai.aux
+ [85] (undergrad-sample-thai.aux
 \thai@year=\count424
 )
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: 062C666C5BA8129617F7BAAADCFEA130;21368.
+(rerunfilecheck)             Checksum: 3B6FDF2BDC393A6B67C52D2301FC1106;21368.
  ) 
 Here is how much of TeX's memory you used:
- 33370 strings out of 410654
- 679743 string characters out of 2816704
- 1128677 words of memory out of 3000000
- 53830 multiletter control sequences out of 15000+600000
+ 33372 strings out of 410654
+ 679727 string characters out of 2816704
+ 1128927 words of memory out of 3000000
+ 53832 multiletter control sequences out of 15000+600000
  471958 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,13n,117p,958b,803s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 101i,13n,117p,943b,803s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on undergrad-sample-thai.pdf (93 pages).
+Output written on undergrad-sample-thai.pdf (94 pages).

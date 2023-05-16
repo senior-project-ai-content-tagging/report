@@ -121,6 +121,7 @@
 \contentsline {table}{\numberline {4.14}{\ignorespaces แสดงค่า Evaluation Metrics ของโมเดล LSTM\relax }}{72}{table.4.14}%
 \contentsline {table}{\numberline {4.15}{\ignorespaces แสดงค่า Evaluation Metrics ของโมเดลแต่ละโมเดลสำหรับชุดข้อมูลที่เป็นภาษาไทย\relax }}{73}{table.4.15}%
 \contentsline {table}{\numberline {4.16}{\ignorespaces แสดงค่า Evaluation Metrics ของโมเดลแต่ละโมเดลสำหรับชุดข้อมูลที่เป็นภาษาอังกฤษ\relax }}{73}{table.4.16}%
+\contentsline {table}{\numberline {4.17}{\ignorespaces ผลการทดสอบโมเดลด้วยชุดข้อมูลที่อยู่ภายใน Domain ที่ระบบรองรับ\relax }}{74}{table.4.17}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -130,4 +131,4 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {4.17}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชัน\relax }}{79}{table.4.17}%
+\contentsline {table}{\numberline {4.18}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชัน\relax }}{80}{table.4.18}%
