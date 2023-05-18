@@ -27,6 +27,8 @@
     labelfont=bf}
 \usepackage{hhline}
 \usepackage{forloop}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 % \usepackage{floatrow}
 % \floatsetup[longtable]{LTcapwidth=table}
@@ -63,13 +65,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Your project and independent study committee..
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def\dissadvisor{Asst.Prof.Dr. Santitham Prom-on , Ph.D.}  % Advisor
+\def\dissadvisor{Asst.Prof. Santitham Prom-on, Ph.D.}  % Advisor
 %%% Leave it empty if you have no Co-advisor
 \def\disscoadvisor{}  % Co-advisor
 % \def\disscommitteeone{Asst.Prof. Committee1, Ph.D.}  % 3rd committee member (optional)
-\def\disscommitteetwo{Dr. Jaturon Harnsomburana, Ph.D.}  % 3rd committee member (optional)
-\def\disscommitteethree{Asst.Prof. Rajchawit Sarochawikasit, Ph.D.}   % 4th committee member (optional) 
-\def\disscommitteefour{Assoc.Prof.Dr. Thumrongrat Amornraksa, Ph.D.}    % 5th committee member (optional) 
+\def\disscommitteetwo{Asst.Prof. Dr.-Ing Priyakorn Pusawiro}  % 3rd committee member (optional)
+\def\disscommitteethree{Assoc.Prof. Peerapon Siripongwutikorn, Ph.D.}   % 4th committee member (optional) 
+\def\disscommitteefour{Assoc.Prof. Thumrongrat Amornraksa, Ph.D.}    % 5th committee member (optional) 
 
 \def\worktype{Project} %%  Project or Independent study
 \def\disscredit{3}   %% 3 credits or 6 credits
@@ -86,7 +88,7 @@
 \def\appendixnames{Appendix} %%% Appendices or Appendix
 
 \def\thaiworktype{ปริญญานิพนธ์} %  Project or research project % 
-\def\thaidisstitleone{เว็บแอปพลิเคชันสำหรับการจัดหมวดหมู่ Online Content ภาษาไทย}
+\def\thaidisstitleone{เว็บแอปพลิเคชันสำหรับการจัดหมวดหมู่ Online Content ที่เป็นภาษาไทย}
 \def\thaidisstitletwo{ในรูปแบบ AI-Based Platform}
 \def\thaidissauthor{นางสาวฐิติวรดา  อ่ำสงวน}
 \def\thaidissauthortwo{นางสาวนวกานต์  ลี้รัตนโชติ} %Optional
@@ -153,55 +155,79 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% English abstract %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \abstract
+\abstract
 
-% In a multihop ad hoc network, the interference among nodes is
-%   reduced to maximize the throughput by using a smallest transmission
-%   range that still preserve the network connectivity. However, most
-%   existing works on transmission range control focus on the
-%   connectivity but lack of results on the throughput performance. This
-%   paper analyzes the per-node saturated throughput of an IEEE 802.11b
-%   multihop ad hoc network with a uniform transmission range. Compared
-%   to simulation, our model can accurately predict the per-node
-%   throughput.  The results show that the maximum achievable per-node
-%   throughput can be as low as 11\% of the channel capacity in a normal
-%   set of $\alpha$ operating parameters independent of node density. However, if
-%   the network connectivity is considered, the obtainable throughput
-%   will reduce by as many as 43\% of the maximum throughput. 
+\hspace{1cm}Categorization is the process of grouping related articles under the same category based on commonly understood standards. 
+It facilitates easy information retrieval and exploration of relevant content. With the increasing amount of online content, 
+there is a growing interest among developers in automating categorization to achieve rapid and efficient results, 
+as manual categorization requires additional human resources.
+One method that developers have shown interest in is automatic categorization using artificial intelligence (AI). 
+AI can analyze a large amount of online content to categorize it quickly and efficiently. 
+Furthermore, it can consistently categorize online content, even from diverse sources.
 
-% \begin{flushleft}
-% \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
-% \textbf{Keywords}: & Multihop ad hoc networks / Topology control / Single-Hop Throughput
-% \end{tabular*}
-% \end{flushleft}
-% \endabstract
+\hspace{1cm}We have developed three models: Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF, and LSTM. 
+These models use a dataset obtained by translating online content from Thai to English. 
+The models achieved accuracy scores of 94.56\%, 93.11\%, 93.78\%, respectively. 
+We implemented models in a web application for categorizing Thai online content using AI. 
+The web application was developed to provide a platform for users to search for online content based on their desired categories. 
+Additionally, we developed a web application for system administrators to add and manage categories through the frontend. 
+Based on user evaluations, the web application received a high level of satisfaction regarding usability and accuracy. 
+
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+\textbf{Keywords}: & Automatic categorization / Online Content / Artificial Intelligence / Web Application
+\end{tabular*}
+\end{flushleft}
+\endabstract
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%% Thai abstract here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % {\newfontfamily\thaifont{TH Sarabun New:script=thai}[Scale=1.3]
-% \XeTeXlinebreaklocale "th_TH"	
-% \thaifont
-% \thaiabstract
+\XeTeXlinebreaklocale "th_TH"	
+\thaifont
+\thaiabstract
 
-% เซ็นเซอร์ เอ็กซ์เพรสรองรับคอนเซปต์สหัสวรรษเมจิก อิ่มแปร้ เฟรชชี่ ชาร์ปเช็งเม้งคลาสสิก แพตเทิร์น แอลมอนด์ เพลซว้อยก๊วน ซาร์ดีนซี้เนิร์สเซอรีอีสต์ สเตเดียมเพียบแปร้โอ้ยแคมปัส จัมโบ้ช็อตแมคเคอเรลอึ๋ม สตริง แมกกาซีนสตริงผ้าห่ม ฮัลโหล ยิม รอยัลตี้
+\hspace{1cm}การจัดหมวดหมู่ คือ การจัดกลุ่มบทความที่มีเนื้อหาสัมพันธ์กันอยู่ภายใต้กลุ่มเดียวกันตามมาตรฐานที่เข้าใจร่วมกัน 
+เพื่อง่ายต่อการค้นหาข้อมูลและสำรวจเนื้อหาในเรื่องที่เกี่ยวข้อง ซึ่งในปัจจุบันเริ่มมีนักพัฒนาให้ความสนใจกับการจัดหมวดหมู่แบบอัตโนมัติ 
+เนื่องจากจำนวนเนื้อหาออนไลน์ที่มีจำนวนมากขึ้น ส่งผลให้การจัดหมวดหมู่อย่างรวดเร็วและมีประสิทธิภาพต้องใช้ทรัพยากรมนุษย์เพิ่มขึ้นเมื่อใช้วิธีการจัดหมวดหมู่ด้วยมนุษย์
+หนึ่งในวิธีการที่นักพัฒนาให้ความสนใจ คือ การจัดหมวดหมู่แบบอัตโนมัติโดยใช้เทคโนโลยีปัญญาประดิษฐ์ 
+เนื่องจากเทคโนโลยีปัญญาประดิษฐ์สามารถวิเคราะห์เนื้อหาออนไลน์ที่มีจำนวนมากเพื่อจัดหมวดหมู่ได้อย่างรวดเร็วและมีประสิทธิภาพ 
+นอกจากนี้ยังสามารถจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้อย่างสม่ำเสมอ แม้จะมีแหล่งที่มาจากหลากหลายแหล่งก็ตาม
 
-% \begin{flushleft}
-% \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
-%  & \\
+\hspace{1cm}คณะผู้จัดทำได้พัฒนาโมเดลทั้งหมด 3 โมเดลด้วยกัน ได้แก่ 
+Random Forest with TF-IDF, K-Neighbor Nearest with TF-IDF และ LSTM
+โดยใช้ชุดข้อมูลที่เกิดจากการแปลงเนื้อหาออนไลน์ที่เป็นภาษาไทยให้กลายเป็นภาษาอังกฤษ
+ซึ่งได้ผลทดสอบความแม่นยำอยู่ที่ 94.56\%, 93.11\%, 93.78\% ตามลำดับ
+และนำโมเดลที่ได้ไปพัฒนาเว็บแอปพลิเคชันสำหรับการจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทย 
+โดยใช้เทคโนโลยีปัญญาประดิษฐ์ในการจัดหมวดหมู่และพัฒนาเว็บแอปพลิเคชันให้เป็นแพลตฟอร์มสำหรับการค้นหาเนื้อหาออนไลน์ตามหมวดหมู่ที่ผู้ใช้งานต้องการ
+นอกจากนี้คณะผู้จัดทำได้มีการพัฒนาเว็บแอปพลิเคชันสำหรับผู้จัดการระบบให้สามารถเพิ่มและจัดการหมวดหมู่ได้ด้วยตนเองผ่านทางระบบหน้าบ้าน
+โดยจากผลการประเมินเว็บแอปพลิเคชันจากผู้ใช้งานมีระดับความพึงพอใจค่อนข้างมากในด้านการใช้งานรวมถึงความแม่นยำ
 
-% \textbf{คำสำคัญ}: & การชุบเคลือบด้วยไฟฟ้า / การชุบเคลือบผิวเหล็ก /  เคลือบผิวรังสี
-% \end{tabular*}
-% \end{flushleft}
-% \endabstract
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+ & \\
 
-%}
+\textbf{คำสำคัญ}: & การจัดหมวดหมู่แบบอัตโนมัติ / เนื้อหาออนไลน์ / เทคโนโลยีปัญญาประดิษฐ์ /  เว็บแอปพลิเคชัน
+\end{tabular*}
+\end{flushleft}
+\endabstract
+
+% }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%% Acknowledgments %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \preface
-% ขอบคุณอาจารย์ที่ปรึกษา กรรมการ พ่อแม่พี่น้อง และเพื่อนๆ คนที่ช่วยให้งานสำเร็จ ตามต้องการ
+\preface
+\hspace{1cm}การทําโครงงานในครั้งนี้สำเร็จลุล่วงไปได้ด้วยดี ด้วยความช่วยเหลือจาก ผศ.ดร.สันติธรรม พรหมอ่อน อาจารย์ที่ปรึกษาโครงงาน 
+ซึ่งท่านได้ให้คําแนะนําและข้อคิดเห็นต่าง ๆ อันเป็นประโยชน์อย่างยิ่งในการทําโครงงาน ช่วยแก้ปัญหาต่าง ๆ ที่เกิดขึ้นระหว่างการทําโครงงาน 
+อีกทั้งยังดูแลพวกเราเป็นอย่างดี ผู้จัดทําโครงงานจึงขอกราบขอบพระคุณเป็นอย่างสูงมา ณ ที่นี้
+
+\hspace{1cm}ขอขอบพระคุณ ผศ.ราชวิชช์ สโรชวิกสิต, ดร. จาตุรนต์ หาญสมบูรณ์, รศ.ดร.ธำรงรัตน์ อมรรักษา, ผศ.ดร.ปริยกร ปุสวิโร และรศ.ดร.พีรพล ศิริพงศ์วุฒิกร 
+ที่ได้สละเวลาร่วมเป็นคณะกรรมการตรวจสอบ รวมถึงการให้คําแนะนําและข้อคิดเห็นต่าง ๆ อันเป็นประโยชน์ต่อการทําโครงงานครั้งนี้
+
+\hspace{1cm}ขอบคุณเพื่อน ๆ พี่ ๆ น้อง ๆ ภาควิชาวิศวกรรมคอมพิวเตอร์ที่ให้คําปรึกษาและให้ข้อมูลที่จําเป็นต่อการทําโครงงานให้สำเร็จลุล่วง 
+รวมถึงคอยให้กําลังใจและคอยอยู่เคียงข้างกันตลอดระยะเวลาการทําโครงงาน
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%% ToC, List of figures/tables %%%%%%%%%%%%%%%%
@@ -264,24 +290,24 @@
 สำหรับการค้นหาเนื้อหาออนไลน์ตามหมวดหมู่ที่ผู้ใช้งานต้องการ เพื่อที่จะสามารถนำไปต่อ ยอดหรือใช้ประโยชน์ได้ง่ายและสะดวกมากยิ่งขึ้น 
 
 \section{วัตถุประสงค์}
-\begin{itemize}
-  \item  เพื่อพัฒนาแพลตฟอร์มสำหรับการวิเคราะห์เนื้อหาเพื่อจัดหมวดหมู่ โดยใช้เนื้อหาภายในของ Web Link หรือเนื้อหาของบทความที่อยู่ในรูปแบบของภาษาไทย
-  \item  เพื่อพัฒนาแพลตฟอร์มสำหรับค้นหา Web Link หรือเนื้อหาตามหมวดหมู่ที่ต้องการได้ ทำให้ผู้ใช้งานสามารถนำไปประยุกต์ใช้ได้อย่างสะดวกมากยิ่งขึ้น
-\end{itemize}
+  \begin{itemize}
+    \item  เพื่อพัฒนาแพลตฟอร์มสำหรับการวิเคราะห์เนื้อหาเพื่อจัดหมวดหมู่ โดยใช้เนื้อหาภายในของ Web Link หรือเนื้อหาของบทความที่อยู่ในรูปแบบของภาษาไทย
+    \item  เพื่อพัฒนาแพลตฟอร์มสำหรับค้นหา Web Link หรือเนื้อหาตามหมวดหมู่ที่ต้องการได้ ทำให้ผู้ใช้งานสามารถนำไปประยุกต์ใช้ได้อย่างสะดวกมากยิ่งขึ้น
+  \end{itemize}
 
 \section{ขอบเขตของโครงงาน}
 
-\hspace{1cm}พัฒนาระบบจัดหมวดหมู่ของเนื้อหาในบทความต่าง ๆ โดยใช้เทคโนโลยีปัญญาประดิษฐ์ (Artificial Intelligence) ในการวิเคราะห์เนื้อหาของ Web Link 
-หรือเนื้อหาของบทความที่อยู่ในรูปแบบภาษาไทย เพื่อให้ผู้ใช้งานสามารถค้นหาข้อมูลได้อย่างเป็นระบบจากการจัดหมวดหมู่ในเนื้อหาของบทความโดยเว็บแอปพลิเคชัน จากนั้นจึงให้บริการเป็น
-แพลตฟอร์มสำหรับการจัดหมวดหมู่โดยใช้เทคโนโลยีปัญญาประดิษฐ์ (AI Platform Thai Content Tagging) ซึ่งจะมีการออกแบบ Architecture ที่ใช้ระบบ Pub/Sub ในการสื่อสารระหว่างระบบเพื่อให้สามารถรองรับการใช้งานในปริมาณ
-มากได้ โดยที่เว็บแอปพลิเคชันของเราจะมี Feature ต่าง ๆ ดังนี้
-\begin{itemize}
-\item  ผู้ใช้งานสามารถค้นหาเนื้อหาที่สนใจได้โดยการใช้คำค้นหาแบบหมวดหมู่ที่จัดเตรียมไว้ โดยมีหมวดหมู่ไม่น้อยกว่า 5 หมวดหมู่
-\item  ผู้ใช้งานสามารถค้นหาเนื้อหาที่สนใจได้โดยการใช้เลขอ้างอิงเนื้อหาสำหรับการค้นหา
-\item  ผู้ใช้งานที่ลงทะเบียนแล้วสามารถส่ง Web Link หรือบทความขึ้นมาบนเว็บแอปพลิเคชัน เพื่อทำการจัดหมวดหมู่ของเนื้อหานั้น
-\item  ผู้ใช้งานสามารถสร้างคำร้องขอเพื่อจัดหมวดหมู่ของเนื้อหาผ่านทาง Api-Key ได้ 
-\item  Web Link ที่ส่งเข้ามาประมวลผลจะต้องอยู่ภายใน Domain ที่ระบบรองรับโดยไม่น้อยกว่า 5 Domain
-\item  ผู้จัดการระบบสามารถเพิ่มและจัดการหมวดหมู่ได้ด้วยตนเองผ่านทาง Frontend
+  \hspace{1cm}พัฒนาระบบจัดหมวดหมู่ของเนื้อหาในบทความต่าง ๆ โดยใช้เทคโนโลยีปัญญาประดิษฐ์ (Artificial Intelligence) ในการวิเคราะห์เนื้อหาของ Web Link 
+  หรือเนื้อหาของบทความที่อยู่ในรูปแบบภาษาไทย เพื่อให้ผู้ใช้งานสามารถค้นหาข้อมูลได้อย่างเป็นระบบจากการจัดหมวดหมู่ในเนื้อหาของบทความโดยเว็บแอปพลิเคชัน จากนั้นจึงให้บริการเป็น
+  แพลตฟอร์มสำหรับการจัดหมวดหมู่โดยใช้เทคโนโลยีปัญญาประดิษฐ์ (AI Platform Thai Content Tagging) ซึ่งจะมีการออกแบบ Architecture ที่ใช้ระบบ Pub/Sub ในการสื่อสารระหว่างระบบเพื่อให้สามารถรองรับการใช้งานในปริมาณ
+  มากได้ โดยที่เว็บแอปพลิเคชันของเราจะมี Feature ต่าง ๆ ดังนี้
+  \begin{itemize}
+  \item  ผู้ใช้งานสามารถค้นหาเนื้อหาที่สนใจได้โดยการใช้คำค้นหาแบบหมวดหมู่ที่จัดเตรียมไว้ โดยมีหมวดหมู่ไม่น้อยกว่า 5 หมวดหมู่
+  \item  ผู้ใช้งานสามารถค้นหาเนื้อหาที่สนใจได้โดยการใช้เลขอ้างอิงเนื้อหาสำหรับการค้นหา
+  \item  ผู้ใช้งานที่ลงทะเบียนแล้วสามารถส่ง Web Link หรือบทความขึ้นมาบนเว็บแอปพลิเคชัน เพื่อทำการจัดหมวดหมู่ของเนื้อหานั้น
+  \item  ผู้ใช้งานสามารถสร้างคำร้องขอเพื่อจัดหมวดหมู่ของเนื้อหาผ่านทาง Api-Key ได้ 
+  \item  Web Link ที่ส่งเข้ามาประมวลผลจะต้องอยู่ภายใน Domain ที่ระบบรองรับโดยไม่น้อยกว่า 5 Domain
+  \item  ผู้จัดการระบบสามารถเพิ่มและจัดการหมวดหมู่ได้ด้วยตนเองผ่านทาง Frontend
 \end{itemize}
 
 \section{ประโยชน์ที่คาดว่าจะได้รับ}
@@ -1068,7 +1094,36 @@
   \newline\hspace*{1cm}จากภาพการออกแบบโครงสร้างทางสถาปัตยกรรมของระบบข้างต้น (รูปที่:\ref{fig:architecture}) ทำให้สามารถเลือกใช้เทคโนโลยีได้ดังภาพ ในส่วนของ Frontend จะใช้ Firebase Hosting 
   ในการนำเว็บไซต์ที่พัฒนาแล้ว ไปติดตั้งให้ผู้ใช้งานสามารถเข้าถึงได้ ในส่วนของ Server ประมวลผลต่าง ๆ จะมีการนำ Cloud Run มาใช้ในการประมวลผล 
   และในส่วนของ Messaging System จะใช้ Cloud Pub/Sub ซึ่งบริการทั้งหมดจะอยู่บน Google Cloud Platform 
-  \newpage
+
+\subsection{Content-Tagging}
+  \hspace{1cm}ในส่วนของการนำโมเดลไป Deploy ใช้งานเป็นเว็บแอปพลิเคชันนั้น ต้องทำการแปลงโมเดลให้อยู่ในรูปแบบที่พร้อมนำไปใช้งาน 
+  เช่น .joblib, .sav และ .h5 เมื่อนำเข้าโมเดลมายังเว็บแอปพลิเคชัน ขั้นตอนถัดไปคือการประมวลผลเกี่ยวกับการ Preprocessing 
+  ซึ่งในขั้นตอนนี้ต้องทำเช่นเดิมเหมือนในช่วงการเตรียมข้อมูลสำหรับการพัฒนาโมเดล จากนั้นส่งข้อมูลที่ผ่านการ Preprocessing ให้โมเดลทำการทำนายผลลัพธ์ 
+  โดยป้อน Input เป็นเนื้อหาต่าง ๆ และส่งผ่าน Cloud Pub/Sub เมื่อระบบประมวลผลเสร็จก็จะทำการส่งผลลัพธ์กลับไปยัง Cloud Pub/Sub 
+  เพื่อให้ Service อื่น ๆ รับทราบและนำไปประมวลผลต่อไป
+
+\subsection{Content-Preparing}
+  \hspace{1cm}ในส่วนของการจัดเตรียมเนื้อหา (Content-Preparing) จะรับการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความเข้ามาในระบบผ่าน Cloud Pub/Sub 
+  จากนั้นจะทำการดักจับหน้าเว็บไซต์และดึงข้อมูลเฉพาะส่วนที่ต้องการ แล้วจึงทำการแปลภาษาเป็นภาษาอังกฤษเพื่อเก็บข้อมูลไปยังฐานข้อมูลและทำการกระจายข้อมูลไปยัง 
+  Cloud Pub/Sub เพื่อให้ Service อื่น ๆ ได้ประมวลผลต่อ
+
+\subsection{General-Backend}
+  \hspace{1cm}ในส่วนของการติดต่อกับ Frontend จะเป็นหน้าที่ของ General-Backend ซึ่งมีหน้าที่ต่าง ๆ เช่น การสมัครสมาชิก เข้าสู่ระบบ 
+  และสำหรับการใช้งาน Cloud Pub/Sub ขั้นแรกจะต้องทำการสร้าง Topic สำหรับใช้เป็นหัวข้อในการกระจายข้อมูลไปยัง Subscriber ต่าง ๆ ที่ทำการ Subscribe กับ Topic นั้น ๆ
+  ซึ่งหนึ่ง Topic สามารถมี Subscriber ได้หลายตัวโดยจะเป็นในลักษณะของ 1-to-Many ดังนั้นเมื่อมีข้อมูลที่ส่งมายัง Topic Cloud Pub/Sub จะทำการกระจายข้อมูลที่ได้รับไปยัง 
+  Subscriber ทุก Subscriber ทำให้เมื่อมี Service อยากได้ข้อมูล ก็สามารถทำการ Subsriber ไปยัง Topic ที่ต้องการได้ทันที 
+  ทำให้ระบบสามารถ Scale ฟังก์ชันการทำงานได้อย่างง่าย ไม่จำเป็นต้องเพิ่ม Code สำหรับการกระจายข้อมูลไปยังที่ใหม่
+  \begin{figure}[!ht]\centering
+    \includegraphics[width=\textwidth]{./img/topic.png}
+    \caption{รายการ Topic ที่ใช้ในการสื่อสารในระบบ}\label{fig:topic_list}
+  \end{figure}
+
+  \hspace{1cm}เนื่องจาก Service ทำงานโดยใช้บริการ Cloud Run ทำให้สามารถ Monitor การใช้งานต่าง ๆ เช่น Memory, CPU ได้ 
+  \begin{figure}[!ht]\centering
+    \includegraphics[width=\textwidth]{./img/monitor.png}
+    \caption{การ Monitor การใช้งานทรัพยากรต่าง ๆ บน Cloud Run}\label{fig:monitor}
+  \end{figure}
+  \newpage    
   \begin{figure}[!ht]\centering
     \includegraphics[width=\textwidth]{./img/request_process_flow.png}
     \caption{Sequence Diagram จำลองการส่งประมวลผลการวิเคราะห์หมวดหมู่ของบทความ}\label{fig:req_proc} 
@@ -2514,6 +2569,7 @@
         \end{longtable}
   
   \newpage
+  
   \section{Application}
       \subsection{User Interface Design}
         \hspace{1cm}ในส่วนของ User Interface ได้มีการออกแบบเพื่อรองรับการใช้งานของผู้ใช้งานที่ต้องการใช้บริการของ Thai Tag 
@@ -2603,38 +2659,21 @@
           \hspace{1cm}ถ้าหากต้องการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความอีกครั้งหรือออกจากระบบ สมาชิกสามารถดำเนินการได้ตามวงกลมหมายเลข 2 
           ในภาพที่ \ref{fig:exp_result} 
 
-      \subsection{Content-Tagging}
-        \hspace{1cm}ในส่วนของการนำโมเดลไป Deploy ใช้งานเป็นเว็บแอปพลิเคชันนั้น ต้องทำการแปลงโมเดลให้อยู่ในรูปแบบที่พร้อมนำไปใช้งาน 
-        เช่น .joblib, .sav และ .h5 เมื่อนำเข้าโมเดลมายังเว็บแอปพลิเคชัน ขั้นตอนถัดไปคือการประมวลผลเกี่ยวกับการ Preprocessing 
-        ซึ่งในขั้นตอนนี้ต้องทำเช่นเดิมเหมือนในช่วงการเตรียมข้อมูลสำหรับการพัฒนาโมเดล จากนั้นส่งข้อมูลที่ผ่านการ Preprocessing ให้โมเดลทำการทำนายผลลัพธ์ 
-        โดยป้อน Input เป็นเนื้อหาต่าง ๆ และส่งผ่าน Cloud Pub/Sub เมื่อระบบประมวลผลเสร็จก็จะทำการส่งผลลัพธ์กลับไปยัง Cloud Pub/Sub 
-        เพื่อให้ Service อื่น ๆ รับทราบและนำไปประมวลผลต่อไป
-
-      \subsection{Content-Preparing}
-        \hspace{1cm}ในส่วนของการจัดเตรียมเนื้อหา (Content-Preparing) จะรับการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความเข้ามาในระบบผ่าน Cloud Pub/Sub 
-        จากนั้นจะทำการดักจับหน้าเว็บไซต์และดึงข้อมูลเฉพาะส่วนที่ต้องการ แล้วจึงทำการแปลภาษาเป็นภาษาอังกฤษเพื่อเก็บข้อมูลไปยังฐานข้อมูลและทำการกระจายข้อมูลไปยัง 
-        Cloud Pub/Sub เพื่อให้ Service อื่น ๆ ได้ประมวลผลต่อ
-
-      \subsection{General-Backend}
-        \hspace{1cm}ในส่วนของการติดต่อกับ Frontend จะเป็นหน้าที่ของ General-Backend ซึ่งมีหน้าที่ต่าง ๆ เช่น การสมัครสมาชิก เข้าสู่ระบบ 
-        และสำหรับการใช้งาน Cloud Pub/Sub ขั้นแรกจะต้องทำการสร้าง Topic สำหรับใช้เป็นหัวข้อในการกระจายข้อมูลไปยัง Subscriber ต่าง ๆ ที่ทำการ Subscribe กับ Topic นั้น ๆ
-        ซึ่งหนึ่ง Topic สามารถมี Subscriber ได้หลายตัวโดยจะเป็นในลักษณะของ 1-to-Many ดังนั้นเมื่อมีข้อมูลที่ส่งมายัง Topic Cloud Pub/Sub จะทำการกระจายข้อมูลที่ได้รับไปยัง 
-        Subscriber ทุก Subscriber ทำให้เมื่อมี Service อยากได้ข้อมูล ก็สามารถทำการ Subsriber ไปยัง Topic ที่ต้องการได้ทันที 
-        ทำให้ระบบสามารถ Scale ฟังก์ชันการทำงานได้อย่างง่าย ไม่จำเป็นต้องเพิ่ม Code สำหรับการกระจายข้อมูลไปยังที่ใหม่
+      \subsection{รายการ Unit tests ภายใน General Backend} 
         \begin{figure}[!ht]\centering
-          \includegraphics[width=\textwidth]{./img/topic.png}
-          \caption{รายการ Topic ที่ใช้ในการสื่อสารในระบบ}\label{fig:topic_list}
+          \includegraphics[width=\textwidth]{./img/unit_test.png}
+          \caption{รายการ Unit tests ภายใน General Backend}\label{fig:unit_test}
         \end{figure}
-        \newpage
-        \hspace{1cm}เนื่องจาก Service ทำงานโดยใช้บริการ Cloud Run ทำให้สามารถ Monitor การใช้งานต่าง ๆ เช่น Memory, CPU ได้ 
-        \begin{figure}[!ht]\centering
-          \includegraphics[width=\textwidth]{./img/monitor.png}
-          \caption{การ Monitor การใช้งานทรัพยากรต่าง ๆ บน Cloud Run}\label{fig:monitor}
-        \end{figure}
+        \hspace{1cm}เป็นการทดสอบที่ครอบคลุมทั้ง 19 กรณีตามหลักในการใช้งานเว็บแอปพลิเคชันทั้วไป 
+        ซึ่งเป็นส่วนที่ช่วยให้การพัฒนาซอฟต์แวร์ให้มีคุณภาพมากยิ่งขึ้นและสามารถพัฒนาฟีเจอร์ใหม่ ๆ ได้อย่างมีความมั่นใจ
+        เนื่องจากสามารถตรวจสอบได้จากกรณีทดสอบเดิมที่ทำการเขียนไว้ 
+        อีกทั้งยังเป็นส่วนช่วยให้นักพัฒนามีความรอบคอบมากขึ้นในการพัฒนาเว็บแอปพลิเคชัน
+        ซึ่งจากการทดสอบ พบว่า ไม่มีกรณีไหนที่ล้มเหลว
+      
       \subsection{การทดสอบระบบ}
         \hspace{1cm}ผลของการทดสอบระบบมีรายละเอียดดังนี้
-        \begin{longtable}[!ht]{clll}
-          \caption{แสดงผลการทดสอบเว็บแอปพลิเคชัน}
+        \begin{longtable}[!ht]{cllc}
+          \caption{แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ใช้งาน}
           \label{tbl:app_test}\\
           \hhline{====}
           \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}รายการ\\ ทดสอบที่\end{tabular}}} &
@@ -2648,20 +2687,41 @@
           %
           \endlastfoot
           %
-          1          & \begin{tabular}[c]{@{}l@{}}สมัครสมาชิกข้อมูลครบถ้วนสมบูรณ์, \\ Email ไม่ซ้ำในระบบ\end{tabular} & สมัครสมาชิกสำเร็จ             &  \\ \hline
-          2          & \begin{tabular}[c]{@{}l@{}}สมัครสมาชิกข้อมูลครบถ้วนสมบูรณ์, \\ Email ซ้ำในระบบ\end{tabular}             & สมัครสมาชิกไม่สำเร็จ                   &  \\ \hline
-          3          & สมัครสมาชิกข้อมูลไม่ครบถ้วนสมบูรณ์                                                                      & สมัครสมาชิกไม่สำเร็จ                   &  \\ \hline
-          4          & เข้าสู่ระบบ Email และ Password ถูกต้อง                                                                  & เข้าสู่ระบบสำเร็จ                      &  \\ \hline
-          5          & เข้าสู่ระบบ Email ถูกต้อง แต่ Password ผิด                                                              & เข้าสู่ระบบไม่สำเร็จ                   &  \\ \hline
-          6          & เข้าสู่ระบบ แล้วไม่มี Email อยู่ในระบบ                                                                  & เข้าสู่ระบบไม่สำเร็จ                   &  \\ \hline
-          7          & ส่ง Weblink ที่ระบบรองรับ                                                                               & ประมวลผล วิเคราะห์จัดหมวดหมู่สำเร็จ    &  \\ \hline
-          8          & ส่ง Weblink ที่ระบบไม่รองรับ                                                                   & ระบบปฎิเสธรับคำร้องขอ         &  \\ \hline
-          9          & \begin{tabular}[c]{@{}l@{}}ส่ง Weblink ที่ระบบรองรับ \\ แต่หน้าเว็บไม่มีอยู่จริง\end{tabular}           &  \begin{tabular}[c]{@{}l@{}}ระบบประมวลผลผิดพลาด \\ สถานะคำร้องขอ Fail\end{tabular}&  \\ \hline
-          10         & ส่งเนื้อหา เพื่อวิเคราะห์หมวดหมู่                                                                       & ประมวลผล วิเคราะห์จัดหมวดหมู่สำเร็จ    &  \\ \hline
-          11         & ดูคำร้องขอ                                                                                              & สามารถดูคำร้องขอของตนเองได้            &  \\ \hline
-          12         & ออกจากระบบ                                                                                              & สามารถออกจากระบบได้                    &  \\ \hhline{====}
+          1          & \begin{tabular}[c]{@{}l@{}}สมัครสมาชิกข้อมูลครบถ้วนสมบูรณ์, \\ Email ไม่ซ้ำในระบบ\end{tabular} & สมัครสมาชิกสำเร็จ             & \checkmark \\ \hline
+          2          & \begin{tabular}[c]{@{}l@{}}สมัครสมาชิกข้อมูลครบถ้วนสมบูรณ์, \\ Email ซ้ำในระบบ\end{tabular}             & สมัครสมาชิกไม่สำเร็จ                   & \checkmark \\ \hline
+          3          & สมัครสมาชิกข้อมูลไม่ครบถ้วนสมบูรณ์                                                                      & สมัครสมาชิกไม่สำเร็จ                   & \checkmark \\ \hline
+          4          & เข้าสู่ระบบ Email และ Password ถูกต้อง                                                                  & เข้าสู่ระบบสำเร็จ                      & \checkmark \\ \hline
+          5          & เข้าสู่ระบบ Email ถูกต้อง แต่ Password ผิด                                                              & เข้าสู่ระบบไม่สำเร็จ                   & \checkmark \\ \hline
+          6          & เข้าสู่ระบบ แล้วไม่มี Email อยู่ในระบบ                                                                  & เข้าสู่ระบบไม่สำเร็จ                   & \checkmark \\ \hline
+          7          & ส่ง Weblink ที่ระบบรองรับ                                                                               & ประมวลผล วิเคราะห์จัดหมวดหมู่สำเร็จ    & \checkmark \\ \hline
+          8          & ส่ง Weblink ที่ระบบไม่รองรับ                                                                   & ระบบปฎิเสธรับคำร้องขอ         & \checkmark \\ \hline
+          9          & \begin{tabular}[c]{@{}l@{}}ส่ง Weblink ที่ระบบรองรับ \\ แต่หน้าเว็บไม่มีอยู่จริง\end{tabular}           &  \begin{tabular}[c]{@{}l@{}}ระบบประมวลผลผิดพลาด \\ สถานะคำร้องขอ Fail\end{tabular}& \checkmark \\ \hline
+          10         & ส่งเนื้อหา เพื่อวิเคราะห์หมวดหมู่                                                                       & ประมวลผล วิเคราะห์จัดหมวดหมู่สำเร็จ    & \checkmark \\ \hline
+          11         & ดูคำร้องขอ                                                                                              & สามารถดูคำร้องขอของตนเองได้            & \checkmark \\ \hline
+          12         & ออกจากระบบ                                                                                              & สามารถออกจากระบบได้                    & \checkmark \\ \hhline{====}
         \end{longtable}
-        \newpage
+
+        \begin{longtable}[!ht]{cllc}
+          \caption{แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ดูแลระบบ}
+          \label{tbl:admin_test}\\
+          \hhline{====}
+          \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}รายการ\\ ทดสอบที่\end{tabular}}} &
+          \multicolumn{1}{c}{\textbf{รายละเอียด}} &
+          \multicolumn{1}{c}{\textbf{ผลที่คาดหวัง}} &
+          \multicolumn{1}{c}{\textbf{ผ่านการทดสอบ}} \\ \hline
+          \endhead
+          %
+          \hline
+          \endfoot
+          %
+          \endlastfoot
+          %
+          1          & จัดการและลบบัญชีผู้ใช้งานได้                         & สามารถลบผู้ใช้งานได้             & \checkmark \\ \hline
+          2          & จัดการคำร้องขอเพื่อจัดหมวดหมู่ของเนื้อหา               & สามารถ เพิ่ม/ลบ/แก้ไข คำร้องขอได้                   & \checkmark \\ \hline
+          3          & จัดการเนื้อหาของบทความออนไลน์บนเว็บแอปพลิเคชัน      & สามารถ เพิ่ม/ลบ/แก้ไข เนื้อหาได้                   & \checkmark \\ \hline
+          4          & จัดการหมวดหมู่ที่จัดเตรียมไบนเว็บแอปพลิเคชัน           & สามารถ เพิ่ม/ลบ/แก้ไข หมวดหมู่ได้                      & \checkmark \\ \hline
+          5          & แก้ไขและพัฒนาเทคโนโลยีปัญญาประดิษฐ์               & สามารถแก้ไขเทคโนโลยีปัญญาประดิษฐ์ได้                   & \checkmark \\ \hhline{====}
+        \end{longtable}
 
   \section{การประเมินผลและความเห็นจากผู้ใช้งาน}
     \hspace{1cm}คณะผู้จัดทำจะให้ผู้ทำแบบสอบถามใช้งานเว็บแอปพลิเคชันสำหรับการจัดหมวดหมู่เนื้อหาออนไลน์ จากนั้นจึงทำแบบสอบถาม
@@ -2814,17 +2874,101 @@
     \newpage
     
     \subsection{ผลสำรวจจากการตอบแบบสอบถามของผู้ใช้งาน}
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/gender.png}
+        \caption{สัดส่วนเพศของผู้ตอบแบบสอบถาม}\label{fig:user_test_gender}
+      \end{figure}
+      
+      \hspace{1cm}จากการเก็บผลสำรวจ คณะผู้จัดทำได้เก็บข้อมูลจากเพศชาย 45\% เพศหญิง 40\% และไม่ต้องการระบุเพศ 15\%
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/age.png}
+        \caption{สัดส่วนอายุของผู้ตอบแบบสอบถาม}\label{fig:user_test_age}
+      \end{figure}
+      
+      \hspace{1cm}จากการเก็บผลสำรวจ ส่วนใหญ่จะเป็นกลุ่ม Early Adopter ซึ่งมีอายุ 21 - 25 ปี
+      เนื่องจากการทำแบบทดสอบนี้เป็นการทำแบบทดสอบผ่านทางออนไลน์ จึงเข้าถึงกลุ่มอายุ 21 - 25 ปีมากกว่ากลุ่มอายุอื่น
+      \newpage
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/job.png}
+        \caption{สัดส่วนอาชีพของผู้ตอบแบบสอบถาม}\label{fig:user_test_job}
+      \end{figure}
+      
+      \hspace{1cm}จากการเก็บผลสำรวจ ส่วนใหญ่จะเป็นกลุ่มนักเรียน/นักศึกษา โดยคิดเป็น 70\% และเป็นกลุ่มพนักงาน/ลูกจ้างเอกชน 30 \%
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/search.png}
+        \caption{สัดส่วนผู้ตอบแบบสอบถามที่เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่}\label{fig:user_test_search}
+      \end{figure}
+      
+      \hspace{1cm}จากการเก็บผลสำรวจ พบว่ามีบุคคลที่เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่ถึง 75\% 
+      ซึ่งเป็นผลดีต่อการทดสอบ เนื่องจากทำให้ได้รับข้อมูลเพิ่มเติมจากผู้ที่เคยมีประสบการณ์จริง
+      \newpage
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/tag.png}
+        \caption{สัดส่วนผู้ตอบแบบสอบถามที่เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง}\label{fig:user_test_tag}
+      \end{figure}
+      
+      \hspace{1cm}จากการเก็บผลสำรวจ พบว่ามีบุคคลที่เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง 20\% 
+      
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/design.png}
+        \caption{การให้คะแนนความพึงพอใจต่อเว็บไซต์ในด้านการออกแบบของผู้ตอบแบบสอบถาม}\label{fig:user_test_design}
+      \end{figure}
 
+      \hspace{1cm}สำหรับผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนน "มาก"
+      ในเรื่องของความสวยงาม สีสัน และความน่าสนใจ ส่วนในเรื่องของการจัดวางองค์ประกอบ การใช้งานง่าย และความสะดวกในการเชื่อมโยงเนื้อหาภายใน
+      ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนนอยู่ในช่วง "มาก" ถึง "มากที่สุด" 
+      แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถามมีความพึงพอใจในการออกแบบเว็บแอปพลิเคชันของคณะผู้จัดทำ
+      \newpage
+      \begin{figure}[!ht]\centering
+        \includegraphics[width=\textwidth]{./img/test/efficient.png}
+        \caption{การให้คะแนนความพึงพอใจต่อเว็บไซต์ในด้านประสิทธิภาพของผู้ตอบแบบสอบถาม}\label{fig:user_test_eff}
+      \end{figure}
 
-
-
-% \section{ประสิทฺธิภาพการทำงานของระบบ} 
-% \section{ความพึงพอใจการใช้งาน}
-% \section{การวิเคราะห์ข้อมูลและผลการทดลอง}
+      \hspace{1cm}สำหรับผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านประสิทธิภาพ ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนน
+      "มาก" ถึง "มากที่สุด" ไม่ว่าจะเป็นในเรื่องของความรวดเร็วหรือความแม่นยำของเว็บแอปพลิเคชัน 
+      แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถามมีความพึงพอใจในประสิทธิภาพของเว็บแอปพลิเคชัน
+    
+    \subsection{สรุปผลการสำรวจจากแบบสอบถาม}
+      \begin{longtable}{lcc}
+        \caption{ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ}
+        \label{tbl:design_score}\\
+        \hhline{===}
+        \multicolumn{1}{c}{\textbf{หัวข้อ}}                & \textbf{$\bar{X}$} & \textbf{$S.D.$} \\ \hline
+        \endhead
+        %
+        ความสวยงามของเว็บแอปพลิเคชัน                       & 4          & 0.56          \\
+        สีสันในการออกแบบมีความเหมาะสม                      & 4.1        & 0.64          \\
+        การจัดวางองค์ประกอบของเว็บแอปพลิเคชัน              & 4.1        & 0.79          \\
+        การใช้งานเว็บแอปพลิเคชันง่ายและสะดวก               & 4.2        & 0.70          \\
+        ความน่าสนใจในการนำเสนอเว็บแอปพลิเคชัน              & 3.95       & 0.51          \\
+        ความสะดวกในการเชื่อมโยงเนื้อหาภายในเว็บแอปพลิเคชัน & 4.15       & 0.81          \\ \hline
+        \textbf{เฉลี่ย}                                    & \textbf{4.08}        & \textbf{0.67}     \\ \hhline{===}    
+      \end{longtable}
+      \begin{longtable}{lcc}
+        \caption{ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ}
+        \label{tbl:eff_score}\\
+        \hhline{===}
+        \multicolumn{1}{c}{\textbf{หัวข้อ}}                & \textbf{$\bar{X}$} & \textbf{$S.D.$} \\ \hline
+        \endhead
+        %
+        ความรวดเร็วในการแสดงผลของเว็บแอปพลิเคชัน                        & 4.25          & 0.55          \\
+        ความรวดเร็วของระบบจัดหมวดหมู่ให้กับเนื้อหาออนไลน์                   & 4.25        & 0.55          \\
+        ความแม่นยำของระบบจัดหมวดหมู่ของบทความด้วยเนื้อหาในบทความ         & 4.45        & 0.76          \\
+        ความแม่นยำของระบบจัดหมวดหมู่ของบทความด้วย Web Link             & 4.44        & 0.68          \\
+        ความรวดเร็วโดยรวมของเว็บแอปพลิเคชัน                             & 4.35       & 0.59          \\ \hline
+        \textbf{เฉลี่ย}                                              & \textbf{4.35}        & \textbf{0.63}     \\ \hhline{===}    
+      \end{longtable}
+      \hspace{1cm}จากผลการสำรวจผู้ทำแบบทดสอบทั้งหมด 20 คน สามารถแบ่งได้เป็น 2 กลุ่ม ได้แก่ 
+      กลุ่มที่เคยจัดการเกี่ยวกับหมวดหมู่ของเนื้อหาออนไลน์และกลุ่มที่ไม่เคยจัดการเกี่ยวกับหมวดหมู่ของเนื้อหาออนไลน์
+      ซึ่งคิดเป็น 20\% และ 80\% ตามลำดับ พบว่าในภาพรวมผู้ทำแบบทดสอบมีความพึงพอใจในการใช้งานเว็บแอปพลิเคชัน
+      โดยพิจารณาจากค่าเฉลี่ยการให้คะแนนในด้านต่าง ๆ ของผู้ทำแบบทดสอบ ซึ่งมีค่าเฉลี่ยคะแนนด้านการออกแบบอยู่ที่ 4.08
+      และมีค่าเฉลี่ยคะแนนด้านประสิทธิภาพอยู่ที่ 4.35 ซึ่งถือเป็นค่าในช่วงเกณฑ์ "ดีมาก" ถึง "ดีมากที่สุด" 
+      ประกอบกับมีค่าส่วนเบี่ยงเบนมาตรฐานอยู่ในช่วง 0.60 ถึง 0.70
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%% Conclusions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{บทสรุปและอภิปราย}
 
 % This chapter is optional for proposal and progress reports but 
