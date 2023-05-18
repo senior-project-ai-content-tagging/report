@@ -1079,6 +1079,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
     \includegraphics[width=\textwidth]{./img/architechture_simple.png}
     \caption{โครงสร้างทางสถาปัตยกรรมของระบบ}\label{fig:architecture_simple} 
   \end{figure}
+  \newpage
   \hspace{1cm}ระบบจะถูกแบ่งเป็น 2 ส่วนหลัก ๆ ได้แก่ ส่วนที่ 1 จะเป็นส่วนที่ผู้ใช้งานสามารถเข้าถึงได้ 
   Ffpจะแบ่งเป็น Frontend ของเว็บไซต์และ Backend ของเว็บไซต์ที่จะประมวลผลเบื้องต้น เช่น การเข้าสู่ระบบหรือการสมัครสมาชิก 
   ซึ่งผู้ใช้งานจะสามารถติดต่อกับระบบได้ 2 วิธีด้วยกัน วิธีที่ 1 คือ การทำงานผ่านทางหน้าเว็บไซต์ โดยใช้ Email และ Password ในการเข้าสู่ระบบก่อนสร้างคำร้องขอต่าง ๆ 
@@ -1091,7 +1092,8 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
     \includegraphics[width=\textwidth]{./img/architechture.png}
     \caption{เครื่องมือในโครงสร้างทางสถาปัตยกรรมของระบบ}\label{fig:architecture} 
   \end{figure}
-  \newline\hspace*{1cm}จากภาพการออกแบบโครงสร้างทางสถาปัตยกรรมของระบบข้างต้น (รูปที่:\ref{fig:architecture}) ทำให้สามารถเลือกใช้เทคโนโลยีได้ดังภาพ ในส่วนของ Frontend จะใช้ Firebase Hosting 
+  
+  \hspace{1cm}จากภาพการออกแบบโครงสร้างทางสถาปัตยกรรมของระบบข้างต้น (รูปที่:\ref{fig:architecture}) ทำให้สามารถเลือกใช้เทคโนโลยีได้ดังภาพ ในส่วนของ Frontend จะใช้ Firebase Hosting 
   ในการนำเว็บไซต์ที่พัฒนาแล้ว ไปติดตั้งให้ผู้ใช้งานสามารถเข้าถึงได้ ในส่วนของ Server ประมวลผลต่าง ๆ จะมีการนำ Cloud Run มาใช้ในการประมวลผล 
   และในส่วนของ Messaging System จะใช้ Cloud Pub/Sub ซึ่งบริการทั้งหมดจะอยู่บน Google Cloud Platform 
 
@@ -1106,7 +1108,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
   \hspace{1cm}ในส่วนของการจัดเตรียมเนื้อหา (Content-Preparing) จะรับการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความเข้ามาในระบบผ่าน Cloud Pub/Sub 
   จากนั้นจะทำการดักจับหน้าเว็บไซต์และดึงข้อมูลเฉพาะส่วนที่ต้องการ แล้วจึงทำการแปลภาษาเป็นภาษาอังกฤษเพื่อเก็บข้อมูลไปยังฐานข้อมูลและทำการกระจายข้อมูลไปยัง 
   Cloud Pub/Sub เพื่อให้ Service อื่น ๆ ได้ประมวลผลต่อ
-
+\newpage
 \subsection{General-Backend}
   \hspace{1cm}ในส่วนของการติดต่อกับ Frontend จะเป็นหน้าที่ของ General-Backend ซึ่งมีหน้าที่ต่าง ๆ เช่น การสมัครสมาชิก เข้าสู่ระบบ 
   และสำหรับการใช้งาน Cloud Pub/Sub ขั้นแรกจะต้องทำการสร้าง Topic สำหรับใช้เป็นหัวข้อในการกระจายข้อมูลไปยัง Subscriber ต่าง ๆ ที่ทำการ Subscribe กับ Topic นั้น ๆ
