@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.11.14)  18 MAY 2023 23:24
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.11.14)  19 MAY 2023 03:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,14 +1420,14 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 \tf@toc=\write5
 \openout5 = `undergrad-sample-thai.toc'.
 
- [7] (undergrad-sample-thai.lot)
+ [7] (undergrad-sample-thai.lot
+[8
+
+])
 \tf@lot=\write6
 \openout6 = `undergrad-sample-thai.lot'.
 
-
-[8
-
-] [9] (undergrad-sample-thai.lof [10
+ [9] (undergrad-sample-thai.lof [10
 
 ] [11])
 \tf@lof=\write7
@@ -2147,15 +2147,15 @@ Underfull \hbox (badness 1715) in paragraph at lines 2075--2079
 File: ./img/thai_stat/boxplot_all.png Graphic file (type bmp)
 <./img/thai_stat/boxplot_all.png>
 
-Underfull \hbox (badness 7168) in paragraph at lines 2098--2103
+Underfull \hbox (badness 10000) in paragraph at lines 2098--2103
 \TU/THSarabunNew(0)/m/n/10 จำนวนคำของเนื้อหาในหมวดหมู่อาชญากรรมส่วนใหญ่จะมีค่าม
-ากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่ธุรกิจส่วน
+ากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่เศรษฐกิจ
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 2098--2103
-\TU/THSarabunNew(0)/m/n/10 ใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น นอกจากนี้ยังพบว่า จำ
-นวนคำของชุดข้อมูลในหมวดหมู่กีฬามีการกระจายตัวของกลุ่มข้อมูลสูงสุดและ
+Underfull \hbox (badness 4156) in paragraph at lines 2098--2103
+\TU/THSarabunNew(0)/m/n/10 ส่วนใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น นอกจากนี้ยังพบว่
+า จำนวนคำของชุดข้อมูลในหมวดหมู่กีฬามีการกระจายตัวของกลุ่มข้อมูลสูงสุด
  []
 
 [64]
@@ -2256,9 +2256,15 @@ Underfull \hbox (badness 3189) in paragraph at lines 2383--2387
  []
 
 
+Underfull \hbox (badness 2213) in paragraph at lines 2383--2387
+\TU/THSarabunNew(0)/m/n/10 ข้อมูลในแต่ละหมวดหมู่จะอยู่ในบริเวณที่ใกล้เคียงกัน แ
+ต่จะมีหมวดหมู่การเมืองที่ความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัว และมีบาง
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2383--2387
-\TU/THSarabunNew(0)/m/n/10 ที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากรรมและธุร
-กิจ นอกจากนี้หมวดหมู่เทคโนโลยีในชุดข้อมูลที่เป็นภาษาไทยก็มีความสัมพันธ์
+\TU/THSarabunNew(0)/m/n/10 คำที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากรรมและเ
+ศรษฐกิจ นอกจากนี้หมวดหมู่เทคโนโลยีในชุดข้อมูลที่เป็นภาษาไทยก็มีความ
  []
 
 [74]
@@ -2334,11 +2340,35 @@ Underfull \hbox (badness 4752) in paragraph at lines 2531--2538
 คลดลง หรืออาจเป็นเพราะการใช้ Library ตัดคำของภาษาไทยไม่ได้มี
  []
 
-[77] [78]
+[77]
+Underfull \hbox (badness 1337) in paragraph at lines 2569--2571
+[] \TU/THSarabunNew(0)/m/n/10 จากตาราง [][]4.17[][] จะเห็นได้ว่าเมื่อทดสอบโมเดล
+ด้วยชุดข้อมูลที่อยู่ภายในโมเดล พบว่า หมวดหมู่กีฬาเป็นหมวดหมู่ที่ทำนายได้
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 2597--2601
+[] \TU/THSarabunNew(0)/m/n/10 จากตาราง [][]4.18[][] จะเห็นได้ว่าเมื่อทดสอบโมเดล
+ด้วยชุดข้อมูลที่อยู่ภายในโมเดล พบว่า หมวดหมู่กีฬาและบันเทิงเป็นหมวดหมู่
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 2597--2601
+\TU/THSarabunNew(0)/m/n/10 ที่ทำนายได้แม่นยำมากที่สุดและหมวดหมู่การเทคโนโลยีเป็
+นหมวดหมู่ที่ทำนายได้แม่นยำน้อยที่สุด ทั้งนี้เป็นเพราะว่าบทความที่คณะผู้จัด
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 2597--2601
+\TU/THSarabunNew(0)/m/n/10 ทำได้นำมาใช้ทดสอบในหมวดหมู่เทคโนโลยี เป็นบทความที่มี
+ความคล้ายคลึงกับหมวดหมู่เศรษฐกิจ เนื่องจากมีการพูดถึงการลงทุนด้าน
+ []
+
+[78]
 File: ./img/project_ui/4_1.png Graphic file (type bmp)
 <./img/project_ui/4_1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 2584--2586
+Underfull \hbox (badness 10000) in paragraph at lines 2615--2617
 [] \TU/THSarabunNew(0)/m/n/10 เป็นหน้าแรกที่ผู้ใช้งานจะได้เห็นเมื่อมาเยี่ยมชมเว
 ็บแอปพลิเคชัน ซึ่งจะให้ข้อมูลเกี่ยวกับเว็บแอปพลิเคชันาว่ามีกระบวนการใน
  []
@@ -2347,7 +2377,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2584--2586
 File: ./img/project_ui/4_2.png Graphic file (type bmp)
 <./img/project_ui/4_2.png>
 
-Underfull \hbox (badness 2894) in paragraph at lines 2600--2602
+Underfull \hbox (badness 2894) in paragraph at lines 2631--2633
 [] \TU/THSarabunNew(0)/m/n/10 เป็นหน้าที่ผู้ใช้งานต้องกรอก Email และรหัสผ่านให้
 ถูกต้องเพื่อเข้าสู่ระบบ ถ้าผู้ใช้งานต้องการเข้าสู่ระบบแต่ไม่มีบัญชีผู้ใช้ ก็
  []
@@ -2355,7 +2385,7 @@ Underfull \hbox (badness 2894) in paragraph at lines 2600--2602
 File: ./img/project_ui/4_3.png Graphic file (type bmp)
 <./img/project_ui/4_3.png>
 
-Underfull \hbox (badness 6775) in paragraph at lines 2611--2613
+Underfull \hbox (badness 6775) in paragraph at lines 2642--2644
  \TU/THSarabunNew(0)/m/n/10 กรณีที่ผู้ใช้งานเข้าสู่ระบบผิดพลาด เว็บแอปพลิเคชันจ
 ะแจ้งเตือนให้ผู้ใช้งานกรอก Email และรหัสผ่านให้ถูกต้องตามวงกลม
  []
@@ -2371,7 +2401,7 @@ File: ./img/project_ui/4_6.png Graphic file (type bmp)
 File: ./img/project_ui/4_7.png Graphic file (type bmp)
 <./img/project_ui/4_7.png>
  [82]
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2661
+Underfull \hbox (badness 10000) in paragraph at lines 2690--2692
  \TU/THSarabunNew(0)/m/n/10 ถ้าหากต้องการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความอ
 ีกครั้งหรือออกจากระบบ สมาชิกสามารถดำเนินการได้ตามวงกลม
  []
@@ -2379,33 +2409,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 2659--2661
 File: ./img/unit_test.png Graphic file (type bmp)
 <./img/unit_test.png>
 [83]
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2704--2712
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2735--2743
  [] [] [] [] 
  []
 
 
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2712--2715
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2743--2746
  [] [] [] [] 
  []
 
 
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2715--2717
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2746--2748
  [] [] [] [] 
  []
 
 
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2717--2724
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2748--2755
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2729
+Underfull \hbox (badness 10000) in paragraph at lines 2758--2760
 [] \TU/THSarabunNew(0)/m/n/10 คณะผู้จัดทำจะให้ผู้ทำแบบสอบถามใช้งานเว็บแอปพลิเคช
 ันสำหรับการจัดหมวดหมู่เนื้อหาออนไลน์ จากนั้นจึงทำแบบสอบถาม
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 2731--2733
+Underfull \hbox (badness 1874) in paragraph at lines 2762--2764
 []\TU/THSarabunNew(0)/m/n/10 แบบประเมินแบบให้คะแนน เป็นแบบประเมินความพึงพอใจในก
 ารใช้งานเว็บแอปพลิเคชัน ทั้งส่วนการออกแบบ ประสิทธิภาพ
  []
@@ -2414,7 +2444,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 2731--2733
 \c@ql=\count389
 \qt=\skip77
 
-Underfull \hbox (badness 4036) in paragraph at lines 2863--2864
+Underfull \hbox (badness 4036) in paragraph at lines 2894--2895
 []\TU/THSarabunNew(0)/m/n/10 1. หลังการทดลองใช้งาน ท่านคิดว่าเว็บแอปพลิเคชันนี้
 จะทำให้ท่านจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้สะดวกกว่าจัดหมวดหมู่ด้วย
  []
@@ -2438,7 +2468,7 @@ File: ./img/test/design.png Graphic file (type bmp)
 File: ./img/test/efficient.png Graphic file (type bmp)
 <./img/test/efficient.png>
 
-Overfull \hbox (14.77498pt too wide) in paragraph at lines 2927--2930
+Overfull \hbox (14.77498pt too wide) in paragraph at lines 2958--2961
 \TU/THSarabunNew(0)/m/n/10 "มาก" ถึง "มากที่สุด" ไม่ว่าจะเป็นในเรื่องของความรวด
 เร็วหรือความแม่นยำของเว็บแอปพลิเคชัน แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถาม
  []
@@ -2448,11 +2478,65 @@ Overfull \hbox (14.77498pt too wide) in paragraph at lines 2927--2930
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 2972.
+(hyperref)                removed on input line 3003.
 
-(undergrad-sample-thai.bbl [91
+
+Underfull \hbox (badness 4582) in paragraph at lines 3010--3024
+[] \TU/THSarabunNew(0)/m/n/10 ในการพัฒนาเว็บแอปพลิเคชันสำหรับการจัดหมวดหมู่ให้ก
+ับเนื้อหาออนไลน์ คณะผู้จัดทำได้นำชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 3010--3024
+\TU/THSarabunNew(0)/m/n/10 มาแปลงเป็นภาษาอังกฤษ เพื่อใช้ในการเปรียบเทียบว่าการพ
+ัฒนาด้วยชุดข้อมูลภาษาใดทำให้ประสิทธิภาพของโมเดลดีที่สุด ซึ่งชุดข้อมูล
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 3010--3024
+\TU/THSarabunNew(0)/m/n/10 เป็นภาษาไทย ซึ่งก็ทำให้เว็บแอปพลิเคชันนี้เป็นแพลตฟอร
+์มสําหรับการวิเคราะห์เนื้อหาเพื่อจัดหมวดหมู่ โดยใช้เนื้อหาภายในของ Web
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 3050--3055
+[]\TU/THSarabunNew(0)/m/n/10 เนื่องจาก Library ที่ใช้สำหรับจัดการชุดข้อมูลที่เป
+็นภาษาไทยนั้นมีอย่างจำกัด ทำให้การจัดการข้อมูลที่เป็นภาษาไทยได้อย่างมี
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 3050--3055
+\TU/THSarabunNew(0)/m/n/10 จากเดิม และเมื่อนำชุดข้อมูลนี้ไปพัฒนาโมเดลก็ส่งผลให้
+ความแม่นยำของโมเดลลดลง ซึ่งแตกต่างจากภาษาอัังกฤษที่สามารถตัด
+ []
+
+[91
 
 ]
+Overfull \hbox (1.28842pt too wide) in paragraph at lines 3058--3060
+[]\TU/THSarabunNew(0)/m/n/10 เนื่องจากคอมพิวเตอร์ที่ใช้ในการพัฒนาโมเดลไม่ได้มีป
+ระสิทธิภาพที่เพียงพอต่อการพัฒนาโมเดล จึงต้องใช้ Google Colaboratory
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 3060--3061
+[]\TU/THSarabunNew(0)/m/n/10 โมเดลที่พัฒนายังสามารถจัดหมวดหมู่ได้เพียง 1 หมวดหม
+ู่ต่อข่าว ยังไม่สามารถทำนายข่าวที่มีหลายหมวดหมู่ในข่าวเดียวอย่าง
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3066--3067
+[]\TU/THSarabunNew(0)/m/n/10 อาจมีการสร้างโมเดลเพื่อจำแนกว่าคำแต่ละคำควรอยู่หมว
+ดหมู่ไหน ก่อนที่จะมีการพัฒนาโมเดลเพื่อจำแนกหมวดหมู่ของเนื้อหา
+ []
+
+
+Overfull \hbox (6.08534pt too wide) in paragraph at lines 3068--3069
+[]\TU/THSarabunNew(0)/m/n/10 พัฒนาโมเดลให้สามารถจำแนกหมวดหมู่ได้อย่างหลากหลายมา
+กขึ้นกว่าปัจจุบันและพัฒนาให้เว็บแอปพลิเคชันสามารถรองรับโดเมน
+ []
+
+(undergrad-sample-thai.bbl [92]
 \thai@year=\count390
 LaTeX Info: Redefining \rmfamily on input line 7.
 LaTeX Info: Redefining \sffamily on input line 7.
@@ -2559,7 +2643,7 @@ LaTeX Info: Redefining \ttfamily on input line 177.
 LaTeX Info: Redefining \rmfamily on input line 184.
 LaTeX Info: Redefining \sffamily on input line 184.
 LaTeX Info: Redefining \ttfamily on input line 184.
-[92
+[93
 
 ]
 \thai@year=\count415
@@ -2742,22 +2826,22 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
- [93] (undergrad-sample-thai.aux
+ [94] (undergrad-sample-thai.aux
 \thai@year=\count436
 )
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: 9885ABEDDEBB9DFC1097B75D1EA0BDEC;23488.
+(rerunfilecheck)             Checksum: DC307D738FDFF9F47AEBBCBFB93910EF;23915.
  ) 
 Here is how much of TeX's memory you used:
- 33453 strings out of 410654
- 681474 string characters out of 2816704
- 1129109 words of memory out of 3000000
- 53904 multiletter control sequences out of 15000+600000
+ 33456 strings out of 410654
+ 681518 string characters out of 2816704
+ 1129361 words of memory out of 3000000
+ 53907 multiletter control sequences out of 15000+600000
  471958 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,13n,117p,943b,803s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on undergrad-sample-thai.pdf (106 pages).
+Output written on undergrad-sample-thai.pdf (107 pages).

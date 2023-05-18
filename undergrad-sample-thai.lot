@@ -124,6 +124,7 @@
 \contentsline {table}{\numberline {4.15}{\ignorespaces แสดงค่า Evaluation Metrics ของโมเดลแต่ละโมเดลสำหรับชุดข้อมูลที่เป็นภาษาไทย\relax }}{77}{table.4.15}%
 \contentsline {table}{\numberline {4.16}{\ignorespaces แสดงค่า Evaluation Metrics ของโมเดลแต่ละโมเดลสำหรับชุดข้อมูลที่เป็นภาษาอังกฤษ\relax }}{77}{table.4.16}%
 \contentsline {table}{\numberline {4.17}{\ignorespaces ผลการทดสอบโมเดลด้วยชุดข้อมูลที่อยู่ภายใน Domain ที่ระบบรองรับ\relax }}{78}{table.4.17}%
+\contentsline {table}{\numberline {4.18}{\ignorespaces ผลการทดสอบโมเดลด้วยชุดข้อมูลที่อยู่ภายนอก Domain ที่ระบบรองรับ\relax }}{78}{table.4.18}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -132,9 +133,9 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {4.18}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ใช้งาน\relax }}{83}{table.4.18}%
-\contentsline {table}{\numberline {4.18}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ใช้งาน\relax }}{84}{table.4.18}%
-\contentsline {table}{\numberline {4.19}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ดูแลระบบ\relax }}{84}{table.4.19}%
+\contentsline {table}{\numberline {4.19}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ใช้งาน\relax }}{83}{table.4.19}%
+\contentsline {table}{\numberline {4.19}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ใช้งาน\relax }}{84}{table.4.19}%
+\contentsline {table}{\numberline {4.20}{\ignorespaces แสดงผลการทดสอบเว็บแอปพลิเคชันฝั่งผู้ดูแลระบบ\relax }}{84}{table.4.20}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -142,6 +143,6 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {4.21}{\ignorespaces ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ\relax }}{90}{table.4.21}%
 \contentsline {table}{\numberline {4.22}{\ignorespaces ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ\relax }}{90}{table.4.22}%
+\contentsline {table}{\numberline {4.23}{\ignorespaces ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ\relax }}{90}{table.4.23}%
 \addvspace {0em}
