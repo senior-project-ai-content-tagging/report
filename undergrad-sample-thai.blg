@@ -7,44 +7,44 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: string.bib
 Database file #2: cpe.bib
-You've used 38 entries,
+You've used 39 entries,
             2177 wiz_defined-function locations,
-            931 strings with 17581 characters,
-and the built_in function-call counts, 8419 in all, are:
-= -- 891
-> -- 287
+            935 strings with 18030 characters,
+and the built_in function-call counts, 8634 in all, are:
+= -- 914
+> -- 294
 < -- 0
-+ -- 122
-- -- 84
-* -- 454
-:= -- 1494
-add.period$ -- 38
-call.type$ -- 38
-change.case$ -- 118
++ -- 125
+- -- 86
+* -- 465
+:= -- 1532
+add.period$ -- 39
+call.type$ -- 39
+change.case$ -- 121
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 275
-empty$ -- 770
-format.name$ -- 84
-if$ -- 1789
+cite$ -- 39
+duplicate$ -- 282
+empty$ -- 790
+format.name$ -- 86
+if$ -- 1835
 int.to.chr$ -- 0
-int.to.str$ -- 38
+int.to.str$ -- 39
 missing$ -- 3
-newline$ -- 194
-num.names$ -- 76
-pop$ -- 265
+newline$ -- 199
+num.names$ -- 78
+pop$ -- 272
 preamble$ -- 1
-purify$ -- 118
+purify$ -- 121
 quote$ -- 0
-skip$ -- 263
+skip$ -- 270
 stack$ -- 0
-substring$ -- 215
-swap$ -- 38
+substring$ -- 220
+swap$ -- 39
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 150
+type$ -- 154
 warning$ -- 0
-while$ -- 78
-width$ -- 40
-write$ -- 458
+while$ -- 80
+width$ -- 41
+write$ -- 470

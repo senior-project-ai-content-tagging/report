@@ -25,6 +25,7 @@
 \contentsline {subsection}{\numberline {2.1.5}K-Nearest Neighbor (KNN)}{7}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Neural Network (NN)}{8}{subsection.2.1.6}%
 \contentsline {subsection}{\numberline {2.1.7}RESTful API}{9}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Agile}{10}{subsection.2.1.8}%
 \contentsline {section}{\numberline {2.2}งานวิจัยที่เกี่ยวข้อง}{10}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Machine learning approach to auto-tagging online content for content marketing efficiency: A comparative analysis between methods and content type}{10}{subsection.2.2.1}%
 \contentsline {section}{\numberline {2.3}ผลิตภัณฑ์ที่เกี่ยวข้อง}{11}{section.2.3}%

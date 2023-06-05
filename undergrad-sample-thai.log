@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.11.14)  4 JUN 2023 21:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.11.14)  5 JUN 2023 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1589,13 +1589,19 @@ Underfull \hbox (badness 1097) in paragraph at lines 658--659
  []
 
 [9]
-Overfull \hbox (0.49768pt too wide) in paragraph at lines 676--683
+Underfull \hbox (badness 10000) in paragraph at lines 681--686
+\TU/THSarabunNew(0)/m/n/10 และปรับเปลี่ยนงานได้อย่างรวดเร็วตามความต้องการของลูก
+ค้าหรือการเปลี่ยนแปลงในสภาพแวดล้อมได้ง่ายขึ้น นอกจากนี้การทํางาน
+ []
+
+
+Overfull \hbox (0.49768pt too wide) in paragraph at lines 690--697
 [] \TU/THSarabunNew(0)/m/n/10 ปัจจุบันนักการตลาดด้านเนื้อหาจะต้องประสบพบเจอกับเ
 นื้อหาที่มีความซับซ้อนมากขึ้น เนื่องจากเนื้อหาที่ไม่มีโครงสร้างที่ชัดเจน
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 688--692
+Underfull \hbox (badness 4713) in paragraph at lines 702--706
 [] \TU/THSarabunNew(0)/m/n/10 ในส่วนของการเตรียมข้อมูล งานวิจัยนี้ได้มีการวิจัย
 ใช้ลักษณะของบทความที่แตกต่างกัน เพื่อที่จะทราบว่าส่วนใดของบทความ
  []
@@ -1607,73 +1613,73 @@ File: ./img/vector.png Graphic file (type bmp)
 File: ./img/aws.png Graphic file (type bmp)
 <./img/aws.png>
 
-Underfull \hbox (badness 2626) in paragraph at lines 713--716
+Underfull \hbox (badness 2626) in paragraph at lines 727--730
 \TU/THSarabunNew(0)/m/n/10 หาข้อมูลเชิงลึกที่มีคุณค่าจากข้อความในเอกสาร สามารถล
 ดความซับซ้อนของการทำงานการประมวลผลข้อมูลโดยการแยกข้อความ วลี
  []
 
 [10] [11]
-Overfull \hbox (8.94658pt too wide) in paragraph at lines 782--785
+Overfull \hbox (8.94658pt too wide) in paragraph at lines 796--799
 \TU/THSarabunNew(0)/m/n/10 ทั้งหมด เพื่อสร้างเว็บแอปพลิเคชันได้เร็วขึ้นและง่ายข
 ึ้นอีกด้วย ตัวอย่างเช่น นักพัฒนาสามารถสร้างโครงสร้างเว็บแอปพลิเคชัน
  []
 
 
-Overfull \hbox (0.37357pt too wide) in paragraph at lines 782--785
+Overfull \hbox (0.37357pt too wide) in paragraph at lines 796--799
 \TU/THSarabunNew(0)/m/n/10 ได้ภายในไม่กี่วินาที เนื่องจากไม่จำเป็นต้องเขียนขึ้น
 ใหม่ทั้งหมด จากนั้นนักพัฒนาสามารถทดสอบได้โดยใช้เครื่องมือทดสอบ
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 787--789
+Underfull \hbox (badness 10000) in paragraph at lines 801--803
 [] \TU/THSarabunNew(0)/m/n/10 วิทยาศาสตร์ข้อมูลดึงความรู้อันมีคุณค่าจากข้อมูลแล
 ะแมชชีนเลิร์นนิง (ML) จะสอนคอมพิวเตอร์ให้เรียนรู้จาก
  []
 
 [13]
-Underfull \hbox (badness 6910) in paragraph at lines 864--866
+Underfull \hbox (badness 6910) in paragraph at lines 878--880
 [] \TU/THSarabunNew(0)/m/n/10 แพลตฟอร์มซอฟต์แวร์ที่ช่วยให้นักพัฒนาซอฟต์แวร์สามา
 รถสร้าง ทดสอบ และติดตั้งแอปพลิเคชันผ่านมาตราฐานของ
  []
 
 [14]
-Underfull \hbox (badness 1242) in paragraph at lines 914--915
+Underfull \hbox (badness 1242) in paragraph at lines 928--929
 []\TU/THSarabunNew(0)/m/n/10 การสร้าง Range ของวันและความถี่ของการเปลี่ยนแปลง ก
 ารย้าย Window Statistics การย้าย Window Linear
  []
 
 
-Overfull \hbox (8.17935pt too wide) in paragraph at lines 941--944
+Overfull \hbox (8.17935pt too wide) in paragraph at lines 955--958
 [] \TU/THSarabunNew(0)/m/n/10 เป็น Library ในการทำ Machine Learning ที่ควรศึกษา
 เอาไว้ เนื่องจากมีความง่ายและมีประสิทธิภาพในการทำ Predictive
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 958--960
+Underfull \hbox (badness 1584) in paragraph at lines 972--974
 [] \TU/THSarabunNew(0)/m/n/10 เป็น Library สำหรับทำ Web scraping หรือการดึงข้อม
 ูลผ่านทางหน้าเว็บไซต์ ซึ่งหลังจากดึงข้อมูลเสร็จ จะเข้าสู่
  []
 
 [15]
-Underfull \hbox (badness 1072) in paragraph at lines 965--968
+Underfull \hbox (badness 1072) in paragraph at lines 979--982
 [] \TU/THSarabunNew(0)/m/n/10 เป็นบริการ Cloud ที่ให้บริการโดยบริษัท Google ซึ่
 งมีบริการที่ช่วยส่งเสริมการพัฒนาแอปพลิเคชันให้มีความสะดวก
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 995--998
+Underfull \hbox (badness 4846) in paragraph at lines 1009--1012
 \TU/THSarabunNew(0)/m/n/10 a Service) มีความสามารถในการสเกลขึ้นลงได้โดยอัตโนมัต
 ิตามจำนวนการใช้งาน ซึ่งทำให้ประหยัดค่าใช้จ่ายในส่วนการดูแล
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 1003--1008
+Underfull \hbox (badness 1189) in paragraph at lines 1017--1022
 \TU/THSarabunNew(0)/m/n/10 อีกมากมาย ทำให้สามารถจัดการทุกอย่างได้ในที่เดียว ช่ว
 ยทำให้การทำงานมีประสิทธิภาพมากขึ้น ซึ่ง ClickUp สามารถสร้าง
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 1011--1014
+Underfull \hbox (badness 4378) in paragraph at lines 1025--1028
 [] \TU/THSarabunNew(0)/m/n/10 เป็นแพลตฟอร์มที่ช่วยให้การทำงานออนไลน์เป็นทีมได้ด
 ียิ่งขึ้น สามารถระดมความคิดแบบเรียลไทม์ได้จากทุกที่ผ่านทาง
  []
@@ -1683,7 +1689,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 1011--1014
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1056.
+(hyperref)                removed on input line 1070.
 
 File: ./img/architechture_simple.png Graphic file (type bmp)
 <./img/architechture_simple.png>
@@ -1693,7 +1699,7 @@ File: ./img/architechture_simple.png Graphic file (type bmp)
 File: ./img/architechture.png Graphic file (type bmp)
 <./img/architechture.png>
 
-Underfull \hbox (badness 1127) in paragraph at lines 1108--1111
+Underfull \hbox (badness 1127) in paragraph at lines 1122--1125
 \TU/THSarabunNew(0)/m/n/10 Cloud Pub/Sub จากนั้นจะทำการดักจับหน้าเว็บไซต์และดึง
 ข้อมูลเฉพาะส่วนที่ต้องการ แล้วจึงทำการแปลภาษาเป็นภาษาอังกฤษเพื่อ
  []
@@ -1717,7 +1723,7 @@ File: ./img/nav.png Graphic file (type bmp)
 File: ./img/nav_admin.png Graphic file (type bmp)
 <./img/nav_admin.png>
 
-Underfull \hbox (badness 1005) in paragraph at lines 1165--1176
+Underfull \hbox (badness 1005) in paragraph at lines 1179--1190
 \TU/THSarabunNew(0)/m/n/10 เพื่อรับบริการได้ เมื่อเข้าสู่ระบบแล้ว ผู้ใช้งานจะสา
 มารถส่งคำร้องขอเพื่อขอการวิเคราะห์หมวดหมู่ของบทความที่ต้องการได้ 2 วิธี คือ
  []
@@ -1725,7 +1731,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 1165--1176
 File: ./img/data_proc.png Graphic file (type bmp)
 <./img/data_proc.png>
 [23]
-Overfull \hbox (8.14714pt too wide) in paragraph at lines 1192--1194
+Overfull \hbox (8.14714pt too wide) in paragraph at lines 1206--1208
 []\TU/THSarabunNew(0)/m/n/10 Tokenization คือ การแยกคำแต่ละคำในประโยคออกจากกัน 
 โดยที่ยังมีความหมายถูกต้องสมบูรณ์ตามฐานข้อมูลพจนานุกรม
  []
@@ -1736,7 +1742,7 @@ File: ./img/usecase.png Graphic file (type bmp)
 File: ./img/seq_regis.png Graphic file (type bmp)
 <./img/seq_regis.png>
  [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1277
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1291
 
  []
 
@@ -1744,7 +1750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1269--1277
 File: ./img/seq_login.png Graphic file (type bmp)
 <./img/seq_login.png>
  [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1308--1314
+Underfull \hbox (badness 10000) in paragraph at lines 1322--1328
 
  []
 
@@ -1764,7 +1770,7 @@ File: ./img/seq_linkapi.png Graphic file (type bmp)
 File: ./img/seq_contapi.png Graphic file (type bmp)
 <./img/seq_contapi.png>
  [38]
-Underfull \hbox (badness 10000) in paragraph at lines 1486--1492
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1506
 
  []
 
@@ -1772,7 +1778,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1486--1492
 File: ./img/seq_request.png Graphic file (type bmp)
 <./img/seq_request.png>
  [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1519--1525
+Underfull \hbox (badness 10000) in paragraph at lines 1533--1539
 
  []
 
@@ -1786,187 +1792,187 @@ File: ./img/seq_searchid.png Graphic file (type bmp)
 File: ./img/database.png Graphic file (type bmp)
 <./img/database.png>
 
-Overfull \hbox (1.3337pt too wide) in paragraph at lines 1595--1595
+Overfull \hbox (1.3337pt too wide) in paragraph at lines 1609--1609
 []|\TU/THSarabunNew(0)/b/n/10 Key| 
  []
 
 
-Overfull \hbox (0.28532pt too wide) in alignment at lines 1592--1596
+Overfull \hbox (0.28532pt too wide) in alignment at lines 1606--1610
  [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1598--1598
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
 []|\TU/THSarabunNew(0)/m/n/10 เลขสำหรับระบุตัวตนผู้ใช้งานเป็น
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1599--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1613
 []|\TU/THSarabunNew(0)/m/n/10 รหัสผ่านของบัญชีผู้ใช้ที่ต้องการเข้า
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1599--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1613
 \TU/THSarabunNew(0)/m/n/10 สู่ระบบที่ถูกเข้ารหัสด้วย Argon2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1599--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1613
 []|\TU/THSarabunNew(0)/m/n/10 $argon2d$v=19$m=12,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1599--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1613
 \TU/THSarabunNew(0)/m/n/10 t=3,p=1$MGtvM3Rzc2R
  []
 
 
-Overfull \hbox (3.64513pt too wide) in paragraph at lines 1599--1599
+Overfull \hbox (3.64513pt too wide) in paragraph at lines 1613--1613
 \TU/THSarabunNew(0)/m/n/10 6bWpjMDAwMA$09LkH+
  []
 
 
-Overfull \hbox (3.35164pt too wide) in paragraph at lines 1603--1603
+Overfull \hbox (3.35164pt too wide) in paragraph at lines 1617--1617
 []|[]| 
  []
 
 
-Overfull \hbox (1.53021pt too wide) in paragraph at lines 1604--1604
+Overfull \hbox (1.53021pt too wide) in paragraph at lines 1618--1618
 []|\TU/THSarabunNew(0)/m/n/10 varchar(255)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1604--1604
+Underfull \hbox (badness 10000) in paragraph at lines 1618--1618
 []|\TU/THSarabunNew(0)/m/n/10 รหัสสำหรับการยืนยันตัวตนการเข้า
  []
 
 
-Overfull \hbox (7.03992pt too wide) in paragraph at lines 1604--1604
+Overfull \hbox (7.03992pt too wide) in paragraph at lines 1618--1618
 \TU/THSarabunNew(0)/m/n/10 629280e686cf0c3f5d5a86
  []
 
 
-Overfull \hbox (5.6869pt too wide) in paragraph at lines 1604--1604
+Overfull \hbox (5.6869pt too wide) in paragraph at lines 1618--1618
 \TU/THSarabunNew(0)/m/n/10 aff3ca12020c923adc6c92| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1606--1606
+Underfull \hbox (badness 10000) in paragraph at lines 1620--1620
 []|\TU/THSarabunNew(0)/m/n/10 www.abc.com/
  []
 
 
-Overfull \hbox (5.1341pt too wide) in paragraph at lines 1607--1607
+Overfull \hbox (5.1341pt too wide) in paragraph at lines 1621--1621
 []|\TU/THSarabunNew(0)/m/n/10 webhook_url| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
+Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
 []|\TU/THSarabunNew(0)/m/n/10 www.efg.com/content/
  []
 
 
-Overfull \hbox (0.28532pt too wide) in alignment at lines 1596--1609
+Overfull \hbox (0.28532pt too wide) in alignment at lines 1610--1623
  [] [] [] [] [] [] 
  []
 
 [44]
-Overfull \hbox (1.3337pt too wide) in paragraph at lines 1614--1614
+Overfull \hbox (1.3337pt too wide) in paragraph at lines 1628--1628
 []|\TU/THSarabunNew(0)/b/n/10 Key| 
  []
 
 
-Overfull \hbox (3.1787pt too wide) in paragraph at lines 1614--1614
+Overfull \hbox (3.1787pt too wide) in paragraph at lines 1628--1628
 []|\TU/THSarabunNew(0)/b/n/10 Null| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1623--1623
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1637
 []|\TU/THSarabunNew(0)/m/n/10 Enum(Open,
  []
 
 
-Overfull \hbox (1.3337pt too wide) in paragraph at lines 1630--1630
+Overfull \hbox (1.3337pt too wide) in paragraph at lines 1644--1644
 []|\TU/THSarabunNew(0)/b/n/10 Key| 
  []
 
 
-Overfull \hbox (3.1787pt too wide) in paragraph at lines 1630--1630
+Overfull \hbox (3.1787pt too wide) in paragraph at lines 1644--1644
 []|\TU/THSarabunNew(0)/b/n/10 Null| 
  []
 
 
-Overfull \hbox (0.29192pt too wide) in alignment at lines 1627--1631
+Overfull \hbox (0.29192pt too wide) in alignment at lines 1641--1645
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.29192pt too wide) in alignment at lines 1631--1633
+Overfull \hbox (0.29192pt too wide) in alignment at lines 1645--1647
  [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1635
+Underfull \hbox (badness 10000) in paragraph at lines 1649--1649
 []|\TU/THSarabunNew(0)/m/n/10 เลขสำหรับระบุอ้างอิงเนื้อหาเป็น
  []
 
 
-Overfull \hbox (1.53021pt too wide) in paragraph at lines 1636--1636
+Overfull \hbox (1.53021pt too wide) in paragraph at lines 1650--1650
 []|\TU/THSarabunNew(0)/m/n/10 varchar(255)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1636--1636
+Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
 []|\TU/THSarabunNew(0)/m/n/10 https://www.sanook.com/money/
  []
 
 
-Overfull \hbox (1.53021pt too wide) in paragraph at lines 1637--1637
+Overfull \hbox (1.53021pt too wide) in paragraph at lines 1651--1651
 []|\TU/THSarabunNew(0)/m/n/10 varchar(255)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1638--1638
+Underfull \hbox (badness 10000) in paragraph at lines 1652--1652
 \TU/THSarabunNew(0)/m/n/10 สุดยอดผู้นำในการประชุมเอเปค 2022
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 1638--1638
+Underfull \hbox (badness 1062) in paragraph at lines 1652--1652
 \TU/THSarabunNew(0)/m/n/10 Soft Power นำอัตลักษณ์ท้องถิ่นไทยสู่
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 1638--1638
+Underfull \hbox (badness 5133) in paragraph at lines 1652--1652
 \TU/THSarabunNew(0)/m/n/10 สายตาชาวโลก นายวุฒิไกร ลีวีระพันธุ์
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1653--1653
 []|\TU/THSarabunNew(0)/m/n/10 ตัวอ้างอิงเนื้อหาซึ่งจะอยู่ในรูปแบบ
  []
 
 
-Overfull \hbox (0.29192pt too wide) in alignment at lines 1633--1641
+Overfull \hbox (0.29192pt too wide) in alignment at lines 1647--1655
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.3337pt too wide) in paragraph at lines 1646--1646
+Overfull \hbox (1.3337pt too wide) in paragraph at lines 1660--1660
 []|\TU/THSarabunNew(0)/b/n/10 Key| 
  []
 
 
-Overfull \hbox (3.1787pt too wide) in paragraph at lines 1646--1646
+Overfull \hbox (3.1787pt too wide) in paragraph at lines 1660--1660
 []|\TU/THSarabunNew(0)/b/n/10 Null| 
  []
 
 [45]
-Overfull \hbox (1.3337pt too wide) in paragraph at lines 1659--1659
+Overfull \hbox (1.3337pt too wide) in paragraph at lines 1673--1673
 []|\TU/THSarabunNew(0)/b/n/10 Key| 
  []
 
 
-Overfull \hbox (3.1787pt too wide) in paragraph at lines 1659--1659
+Overfull \hbox (3.1787pt too wide) in paragraph at lines 1673--1673
 []|\TU/THSarabunNew(0)/b/n/10 Null| 
  []
 
@@ -1978,7 +1984,7 @@ File: ./img/project_ui/landing_page1.png Graphic file (type bmp)
 File: ./img/project_ui/landing_page2.png Graphic file (type bmp)
 <./img/project_ui/landing_page2.png>
  [47]
-Underfull \hbox (badness 1496) in paragraph at lines 1703--1704
+Underfull \hbox (badness 1496) in paragraph at lines 1717--1718
 []\TU/THSarabunNew(0)/m/n/10 ส่วนรายละเอียดเว็บแอปพลิเคชัน เป็นส่วนที่จะอธิบายร
 ายละเอียดและการทำงานของเว็บแอปพลิเคชันคร่าว ๆ เพื่อให้ผู้ใช้งาน
  []
@@ -1998,7 +2004,7 @@ File: ./img/project_ui/login_fail.png Graphic file (type bmp)
 File: ./img/project_ui/4.png Graphic file (type bmp)
 <./img/project_ui/4.png>
 
-Overfull \hbox (21.62408pt too wide) in paragraph at lines 1748--1749
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1762--1763
  [][] 
  []
 
@@ -2017,14 +2023,14 @@ File: ./img/project_ui/thaionly.png Graphic file (type bmp)
 File: ./img/project_ui/7.png Graphic file (type bmp)
 <./img/project_ui/7.png>
 
-Overfull \hbox (21.62408pt too wide) in paragraph at lines 1781--1782
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1795--1796
  [][] 
  []
 
 File: ./img/project_ui/all_inform.png Graphic file (type bmp)
 <./img/project_ui/all_inform.png>
 
-Underfull \hbox (badness 1721) in paragraph at lines 1773--1790
+Underfull \hbox (badness 1721) in paragraph at lines 1787--1804
 | \TU/THSarabunNew(0)/m/n/10 เป็นหน้าสำหรับให้ผู้ใช้งานกรอกข้อมูลชื่อเล่น วันเก
 ิด และเพศ พร้อมแนบรูปถ่าย เพื่อสมัครสมาชิกของเว็บแอปพลิเคชัน AI
  []
@@ -2035,7 +2041,7 @@ File: ./img/project_ui/regis_ready.png Graphic file (type bmp)
 File: ./img/project_ui/homepage2.png Graphic file (type bmp)
 <./img/project_ui/homepage2.png>
  [53]
-Overfull \hbox (2.56667pt too wide) in paragraph at lines 1807--1808
+Overfull \hbox (2.56667pt too wide) in paragraph at lines 1821--1822
 []\TU/THSarabunNew(0)/m/n/10 Tag แสดงหมวดหมู่ของเนื้อหาในบทความนั้น ๆ ที่ได้มาก
 จากการวิเคราะห์หมวดหมู่ของบทความโดยเว็บแอปพลิเคชัน AI Platform
  []
@@ -2048,7 +2054,7 @@ File: ./img/project_ui/other_new.png Graphic file (type bmp)
 File: ./img/project_ui/weblink_1.png Graphic file (type bmp)
 <./img/project_ui/weblink_1.png>
 
-Overfull \hbox (21.62408pt too wide) in paragraph at lines 1831--1832
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1845--1846
  [][] 
  []
 
@@ -2058,12 +2064,12 @@ File: ./img/project_ui/linkfail.png Graphic file (type bmp)
 File: ./img/project_ui/content.png Graphic file (type bmp)
 <./img/project_ui/content.png>
 
-Overfull \hbox (21.62408pt too wide) in paragraph at lines 1847--1848
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1861--1862
  [][] 
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 1855--1856
+Underfull \hbox (badness 6493) in paragraph at lines 1869--1870
 []\TU/THSarabunNew(0)/m/n/10 เป็นส่วนสำหรับใส่เนื้อหาในบทความที่ต้องการวิเคราะห
 ์หมวดหมู่ของบทความ และจึงกดปุ่มยืนยันเพื่อส่งคำร้องขอเพื่อวิเคราะห์
  []
@@ -2071,7 +2077,7 @@ Underfull \hbox (badness 6493) in paragraph at lines 1855--1856
 File: ./img/project_ui/all_inform.png Graphic file (type bmp)
 <./img/project_ui/all_inform.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1861--1861
+Underfull \hbox (badness 10000) in paragraph at lines 1875--1875
 | \TU/THSarabunNew(0)/m/n/10 กรณีที่ผู้ใช้งานกรอกข้อมูลไม่ครบถ้วน เว็บแอปพลิเคช
 ันจะทำการแจ้งเตือนให้ผู้ใช้งานทราบและให้ผู้ใช้งานกรอกข้อมูลให้ครบ
  []
@@ -2080,7 +2086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1861--1861
 File: ./img/project_ui/ticket.png Graphic file (type bmp)
 <./img/project_ui/ticket.png>
 
-Overfull \hbox (21.62408pt too wide) in paragraph at lines 1865--1866
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1879--1880
  [][] 
  []
 
@@ -2088,7 +2094,7 @@ Overfull \hbox (21.62408pt too wide) in paragraph at lines 1865--1866
 File: ./img/project_ui/12.png Graphic file (type bmp)
 <./img/project_ui/12.png>
 
-Underfull \hbox (badness 3291) in paragraph at lines 1885--1887
+Underfull \hbox (badness 3291) in paragraph at lines 1899--1901
 []| \TU/THSarabunNew(0)/m/n/10 เป็นหน้าแสดงผลการวิเคราะห์หมวดหมู่ของบทความ โดยจ
 ะแสดงเลขอ้างอิงของบทความ หัวข้อบทความ เนื้อหาในบทความ
  []
@@ -2100,7 +2106,7 @@ File: ./img/class_dia.png Graphic file (type bmp)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1934.
+(hyperref)                removed on input line 1948.
 
 File: ./img/data_col_thai.png Graphic file (type bmp)
 <./img/data_col_thai.png>
@@ -2115,19 +2121,19 @@ File: ./img/news_th.png Graphic file (type bmp)
 File: ./img/news_eng.png Graphic file (type bmp)
 <./img/news_eng.png>
 
-Overfull \hbox (1.21103pt too wide) in paragraph at lines 2006--2009
+Overfull \hbox (1.21103pt too wide) in paragraph at lines 2020--2023
 [] \TU/THSarabunNew(0)/m/n/10 นอกจากนี้คณะผู้จัดทำได้ทำการแบ่งชุดข้อมูลออกเป็น 
 2 ส่วน ส่วนแรกสำหรับการพัฒนาโมเดลและส่วนที่สองสำหรับการประเมิน
  []
 
 
-Overfull \hbox (2.30284pt too wide) in paragraph at lines 2046--2049
+Overfull \hbox (2.30284pt too wide) in paragraph at lines 2060--2063
 \TU/THSarabunNew(0)/m/n/10 ช่องว่าง เพื่อเป็นการลบการรบกวนของข้อมูล จากนั้นจึงท
 ำการแบ่งคำสำหรับลบ Stop word และปรับคำให้อยู่ในรูปแบบที่เป็นบรรทัดฐาน
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 2046--2049
+Underfull \hbox (badness 5652) in paragraph at lines 2060--2063
 \TU/THSarabunNew(0)/m/n/10 เพื่อลดความซ้ำซ้อนของข้อมูล แล้วจึงนำมาเรียบเรียงต่อ
 กันเป็นประโยคใหม่ โดยนำหัวข้อและเนื้อหารวมกันเป็นบทความเดียว ทำให้
  []
@@ -2140,7 +2146,7 @@ File: ./img/news_eng_train.png Graphic file (type bmp)
 File: ./img/thai_stat/hist_all_word.png Graphic file (type bmp)
 <./img/thai_stat/hist_all_word.png>
  [63]
-Underfull \hbox (badness 1715) in paragraph at lines 2077--2081
+Underfull \hbox (badness 1715) in paragraph at lines 2091--2095
 [] \TU/THSarabunNew(0)/m/n/10 จะเห็นได้ว่าการกระจายตัวของจำนวนคำในแต่ละชุดข้อมู
 ลที่มีเนื้อหาเป็นภาษาไทย มีการกระจายตัวแบบเบ้ขวาและมี Outlier
  []
@@ -2148,13 +2154,13 @@ Underfull \hbox (badness 1715) in paragraph at lines 2077--2081
 File: ./img/thai_stat/boxplot_all.png Graphic file (type bmp)
 <./img/thai_stat/boxplot_all.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 2100--2105
+Underfull \hbox (badness 10000) in paragraph at lines 2114--2119
 \TU/THSarabunNew(0)/m/n/10 จำนวนคำของเนื้อหาในหมวดหมู่อาชญากรรมส่วนใหญ่จะมีค่าม
 ากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่เศรษฐกิจ
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 2100--2105
+Underfull \hbox (badness 4156) in paragraph at lines 2114--2119
 \TU/THSarabunNew(0)/m/n/10 ส่วนใหญ่จะมีค่าน้อยกว่าหมวดหมู่อื่น นอกจากนี้ยังพบว่
 า จำนวนคำของชุดข้อมูลในหมวดหมู่กีฬามีการกระจายตัวของกลุ่มข้อมูลสูงสุด
  []
@@ -2176,7 +2182,7 @@ File: ./img/thai_stat/tech_bar.png Graphic file (type bmp)
 File: ./img/thai_stat/crime_wc.png Graphic file (type bmp)
 <./img/thai_stat/crime_wc.png>
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 11.06996pt on input line 2137.
+(Font)              scaled to size 11.06996pt on input line 2151.
 File: ./img/thai_stat/sport_wc.png Graphic file (type bmp)
 <./img/thai_stat/sport_wc.png>
 File: ./img/thai_stat/polit_wc.png Graphic file (type bmp)
@@ -2188,7 +2194,7 @@ File: ./img/thai_stat/ent_wc.png Graphic file (type bmp)
 File: ./img/thai_stat/tech_wc.png Graphic file (type bmp)
 <./img/thai_stat/tech_wc.png>
 
-Underfull \hbox (badness 1112) in paragraph at lines 2169--2170
+Underfull \hbox (badness 1112) in paragraph at lines 2183--2184
 [] \TU/THSarabunNew(0)/m/n/10 จากรูปภาพที่ [][]4.15[][] เป็นการแสดงผลคำที่พบมาก
 ที่สุด 100 อันดับแรกในชุดข้อมูลที่เป็นภาษาไทยของแต่ละหมวดหมู่ โดยใช้
  []
@@ -2199,13 +2205,13 @@ File: ./img/eng_stat/hist_all_word.png Graphic file (type bmp)
 File: ./img/eng_stat/boxplot_tag.png Graphic file (type bmp)
 <./img/eng_stat/boxplot_tag.png>
  [68]
-Overfull \hbox (2.10898pt too wide) in paragraph at lines 2211--2216
+Overfull \hbox (2.10898pt too wide) in paragraph at lines 2225--2230
 [] \TU/THSarabunNew(0)/m/n/10 เนื่องจากในแต่หมวดหมู่ของชุดข้อมูลมีขนาดของข้อมูล
 แตกต่างกัน ซึ่งในชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษจะมีทั้งหมด 6 หมวด
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 2211--2216
+Underfull \hbox (badness 2564) in paragraph at lines 2225--2230
 \TU/THSarabunNew(0)/m/n/10 จำนวนคำของเนื้อหาในหมวดหมู่อาชญากรรมส่วนใหญ่จะมีค่าม
 ากกว่าหมวดหมู่อื่น ในขณะที่จำนวนคำของเนื้อหาในหมวดหมู่เทคโนโลยี
  []
@@ -2241,7 +2247,7 @@ File: ./img/eng_stat/tech_wc.png Graphic file (type bmp)
 File: ./img/tfidf_vector.png Graphic file (type bmp)
 <./img/tfidf_vector.png>
  [73]
-Underfull \hbox (badness 10000) in paragraph at lines 2368--2370
+Underfull \hbox (badness 10000) in paragraph at lines 2382--2384
 [] \TU/THSarabunNew(0)/m/n/10 การสังเกตเพียงคำสำคัญที่มากที่สุดนั้นยังไม่สามารถ
 เห็นการแบ่งกลุ่มของคำแต่ละคำในเนื้อหาได้อย่างชัดเจน ดังนั้นจึงมีการทำ
  []
@@ -2251,19 +2257,19 @@ File: ./img/thai_stat/tfidf.png Graphic file (type bmp)
 File: ./img/eng_stat/tfidf.png Graphic file (type bmp)
 <./img/eng_stat/tfidf.png>
 
-Underfull \hbox (badness 3189) in paragraph at lines 2385--2389
+Underfull \hbox (badness 3189) in paragraph at lines 2399--2403
 [] \TU/THSarabunNew(0)/m/n/10 จากรูปภาพที่ [][]4.26[][] จะเห็นได้ว่าคำในชุดข้อม
 ูลของแต่ละหมวดหมู่ค่อนข้างมีความสัมพันธ์กันอย่างชัดเจน การกระจายตัวของ
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 2385--2389
+Underfull \hbox (badness 2213) in paragraph at lines 2399--2403
 \TU/THSarabunNew(0)/m/n/10 ข้อมูลในแต่ละหมวดหมู่จะอยู่ในบริเวณที่ใกล้เคียงกัน แ
 ต่จะมีหมวดหมู่การเมืองที่ความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัว และมีบาง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2385--2389
+Underfull \hbox (badness 10000) in paragraph at lines 2399--2403
 \TU/THSarabunNew(0)/m/n/10 คำที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากรรมและเ
 ศรษฐกิจ นอกจากนี้หมวดหมู่เทคโนโลยีในชุดข้อมูลที่เป็นภาษาไทยก็มีความ
  []
@@ -2278,89 +2284,89 @@ File: ./img/lstm_eng_acc.png Graphic file (type bmp)
 File: ./img/lstm_eng_loss.png Graphic file (type bmp)
 <./img/lstm_eng_loss.png>
  [75]
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2463--2478
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2477--2492
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2478--2481
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2492--2495
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2481--2483
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2495--2497
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2483--2492
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2497--2506
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 [76]
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2493--2508
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2507--2522
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2508--2511
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2522--2525
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2511--2513
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2525--2527
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.02522pt too wide) in alignment at lines 2513--2522
+Overfull \hbox (1.02522pt too wide) in alignment at lines 2527--2536
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2523--2528
+Underfull \hbox (badness 10000) in paragraph at lines 2537--2542
 \TU/THSarabunNew(0)/m/n/10 เนื้อหาเป็นภาษาไทย หมวดหมู่กีฬาเป็นหมวดหมู่ที่มีการท
 ำนายได้แม่นยำมากที่สุดและหมวดหมู่การเมืองเป็นหมวดหมู่ที่มีการทำนายได้
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 2523--2528
+Underfull \hbox (badness 1303) in paragraph at lines 2537--2542
 \TU/THSarabunNew(0)/m/n/10 ข้อมูลค่อนข้างมาก (รูปที่:[][]4.26[][]) จึงทำให้ความ
 สามารถในการทำนายลดลง ในขณะที่การกระจายตัวของชุดข้อมูลของหมวดหมู่กีฬาค่อน
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2533--2540
+Underfull \hbox (badness 3815) in paragraph at lines 2547--2554
 \TU/THSarabunNew(0)/m/n/10 อังกฤษจะทำให้ได้โมเดลที่มีประสิทธิภาพมากกว่าการทำโมเ
 ดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย ทั้งนี้อาจเกิดจากการแปลภาษาไทย
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 2533--2540
+Underfull \hbox (badness 4752) in paragraph at lines 2547--2554
 \TU/THSarabunNew(0)/m/n/10 ให้กลายเป็นภาษาอังกฤษส่งผลให้ความซับซ้อนของคำในประโย
 คลดลง หรืออาจเป็นเพราะการใช้ Library ตัดคำของภาษาไทยไม่ได้มี
  []
 
 [77]
-Underfull \hbox (badness 1337) in paragraph at lines 2571--2573
+Underfull \hbox (badness 1337) in paragraph at lines 2585--2587
 [] \TU/THSarabunNew(0)/m/n/10 จากตาราง [][]4.17[][] จะเห็นได้ว่าเมื่อทดสอบโมเดล
 ด้วยชุดข้อมูลที่อยู่ภายในโมเดล พบว่า หมวดหมู่กีฬาเป็นหมวดหมู่ที่ทำนายได้
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 2599--2603
+Underfull \hbox (badness 1466) in paragraph at lines 2613--2617
 [] \TU/THSarabunNew(0)/m/n/10 จากตาราง [][]4.18[][] จะเห็นได้ว่าเมื่อทดสอบโมเดล
 ด้วยชุดข้อมูลที่อยู่ภายในโมเดล พบว่า หมวดหมู่กีฬาและบันเทิงเป็นหมวดหมู่
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 2599--2603
+Underfull \hbox (badness 7168) in paragraph at lines 2613--2617
 \TU/THSarabunNew(0)/m/n/10 ที่ทำนายได้แม่นยำมากที่สุดและหมวดหมู่การเทคโนโลยีเป็
 นหมวดหมู่ที่ทำนายได้แม่นยำน้อยที่สุด ทั้งนี้เป็นเพราะว่าบทความที่คณะผู้จัด
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 2599--2603
+Underfull \hbox (badness 5924) in paragraph at lines 2613--2617
 \TU/THSarabunNew(0)/m/n/10 ทำได้นำมาใช้ทดสอบในหมวดหมู่เทคโนโลยี เป็นบทความที่มี
 ความคล้ายคลึงกับหมวดหมู่เศรษฐกิจ เนื่องจากมีการพูดถึงการลงทุนด้าน
  []
@@ -2369,7 +2375,7 @@ Underfull \hbox (badness 5924) in paragraph at lines 2599--2603
 File: ./img/project_ui/4_1.png Graphic file (type bmp)
 <./img/project_ui/4_1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 2617--2619
+Underfull \hbox (badness 10000) in paragraph at lines 2631--2633
 [] \TU/THSarabunNew(0)/m/n/10 เป็นหน้าแรกที่ผู้ใช้งานจะได้เห็นเมื่อมาเยี่ยมชมเว
 ็บแอปพลิเคชัน ซึ่งจะให้ข้อมูลเกี่ยวกับเว็บแอปพลิเคชันาว่ามีกระบวนการใน
  []
@@ -2378,7 +2384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2617--2619
 File: ./img/project_ui/4_2.png Graphic file (type bmp)
 <./img/project_ui/4_2.png>
 
-Underfull \hbox (badness 2894) in paragraph at lines 2633--2635
+Underfull \hbox (badness 2894) in paragraph at lines 2647--2649
 [] \TU/THSarabunNew(0)/m/n/10 เป็นหน้าที่ผู้ใช้งานต้องกรอก Email และรหัสผ่านให้
 ถูกต้องเพื่อเข้าสู่ระบบ ถ้าผู้ใช้งานต้องการเข้าสู่ระบบแต่ไม่มีบัญชีผู้ใช้ ก็
  []
@@ -2386,7 +2392,7 @@ Underfull \hbox (badness 2894) in paragraph at lines 2633--2635
 File: ./img/project_ui/4_3.png Graphic file (type bmp)
 <./img/project_ui/4_3.png>
 
-Underfull \hbox (badness 6775) in paragraph at lines 2644--2646
+Underfull \hbox (badness 6775) in paragraph at lines 2658--2660
  \TU/THSarabunNew(0)/m/n/10 กรณีที่ผู้ใช้งานเข้าสู่ระบบผิดพลาด เว็บแอปพลิเคชันจ
 ะแจ้งเตือนให้ผู้ใช้งานกรอก Email และรหัสผ่านให้ถูกต้องตามวงกลม
  []
@@ -2402,7 +2408,7 @@ File: ./img/project_ui/4_6.png Graphic file (type bmp)
 File: ./img/project_ui/4_7.png Graphic file (type bmp)
 <./img/project_ui/4_7.png>
  [82]
-Underfull \hbox (badness 10000) in paragraph at lines 2692--2694
+Underfull \hbox (badness 10000) in paragraph at lines 2706--2708
  \TU/THSarabunNew(0)/m/n/10 ถ้าหากต้องการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความอ
 ีกครั้งหรือออกจากระบบ สมาชิกสามารถดำเนินการได้ตามวงกลม
  []
@@ -2410,33 +2416,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 2692--2694
 File: ./img/unit_test.png Graphic file (type bmp)
 <./img/unit_test.png>
 [83]
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2737--2745
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2751--2759
  [] [] [] [] 
  []
 
 
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2745--2748
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2759--2762
  [] [] [] [] 
  []
 
 
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2748--2750
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2762--2764
  [] [] [] [] 
  []
 
 
-Overfull \hbox (8.88884pt too wide) in alignment at lines 2750--2757
+Overfull \hbox (8.88884pt too wide) in alignment at lines 2764--2771
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2760--2762
+Underfull \hbox (badness 10000) in paragraph at lines 2774--2776
 [] \TU/THSarabunNew(0)/m/n/10 คณะผู้จัดทำจะให้ผู้ทำแบบสอบถามใช้งานเว็บแอปพลิเคช
 ันสำหรับการจัดหมวดหมู่เนื้อหาออนไลน์ จากนั้นจึงทำแบบสอบถาม
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 2764--2766
+Underfull \hbox (badness 1874) in paragraph at lines 2778--2780
 []\TU/THSarabunNew(0)/m/n/10 แบบประเมินแบบให้คะแนน เป็นแบบประเมินความพึงพอใจในก
 ารใช้งานเว็บแอปพลิเคชัน ทั้งส่วนการออกแบบ ประสิทธิภาพ
  []
@@ -2445,7 +2451,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 2764--2766
 \c@ql=\count389
 \qt=\skip77
 
-Underfull \hbox (badness 4036) in paragraph at lines 2896--2897
+Underfull \hbox (badness 4036) in paragraph at lines 2910--2911
 []\TU/THSarabunNew(0)/m/n/10 1. หลังการทดลองใช้งาน ท่านคิดว่าเว็บแอปพลิเคชันนี้
 จะทำให้ท่านจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้สะดวกกว่าจัดหมวดหมู่ด้วย
  []
@@ -2469,7 +2475,7 @@ File: ./img/test/design.png Graphic file (type bmp)
 File: ./img/test/efficient.png Graphic file (type bmp)
 <./img/test/efficient.png>
 
-Overfull \hbox (14.77498pt too wide) in paragraph at lines 2960--2963
+Overfull \hbox (14.77498pt too wide) in paragraph at lines 2974--2977
 \TU/THSarabunNew(0)/m/n/10 "มาก" ถึง "มากที่สุด" ไม่ว่าจะเป็นในเรื่องของความรวด
 เร็วหรือความแม่นยำของเว็บแอปพลิเคชัน แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถาม
  []
@@ -2479,34 +2485,34 @@ Overfull \hbox (14.77498pt too wide) in paragraph at lines 2960--2963
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 3005.
+(hyperref)                removed on input line 3019.
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 3012--3026
+Underfull \hbox (badness 4582) in paragraph at lines 3026--3040
 [] \TU/THSarabunNew(0)/m/n/10 ในการพัฒนาเว็บแอปพลิเคชันสำหรับการจัดหมวดหมู่ให้ก
 ับเนื้อหาออนไลน์ คณะผู้จัดทำได้นำชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 3012--3026
+Underfull \hbox (badness 2237) in paragraph at lines 3026--3040
 \TU/THSarabunNew(0)/m/n/10 มาแปลงเป็นภาษาอังกฤษ เพื่อใช้ในการเปรียบเทียบว่าการพ
 ัฒนาด้วยชุดข้อมูลภาษาใดทำให้ประสิทธิภาพของโมเดลดีที่สุด ซึ่งชุดข้อมูล
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 3012--3026
+Underfull \hbox (badness 1442) in paragraph at lines 3026--3040
 \TU/THSarabunNew(0)/m/n/10 เป็นภาษาไทย ซึ่งก็ทำให้เว็บแอปพลิเคชันนี้เป็นแพลตฟอร
 ์มสําหรับการวิเคราะห์เนื้อหาเพื่อจัดหมวดหมู่ โดยใช้เนื้อหาภายในของ Web
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 3052--3057
+Underfull \hbox (badness 1910) in paragraph at lines 3066--3071
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจาก Library ที่ใช้สำหรับจัดการชุดข้อมูลที่เป
 ็นภาษาไทยนั้นมีอย่างจำกัด ทำให้การจัดการข้อมูลที่เป็นภาษาไทยได้อย่างมี
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 3052--3057
+Underfull \hbox (badness 2165) in paragraph at lines 3066--3071
 \TU/THSarabunNew(0)/m/n/10 จากเดิม และเมื่อนำชุดข้อมูลนี้ไปพัฒนาโมเดลก็ส่งผลให้
 ความแม่นยำของโมเดลลดลง ซึ่งแตกต่างจากภาษาอัังกฤษที่สามารถตัด
  []
@@ -2514,25 +2520,25 @@ Underfull \hbox (badness 2165) in paragraph at lines 3052--3057
 [91
 
 ]
-Overfull \hbox (1.28842pt too wide) in paragraph at lines 3060--3062
+Overfull \hbox (1.28842pt too wide) in paragraph at lines 3074--3076
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากคอมพิวเตอร์ที่ใช้ในการพัฒนาโมเดลไม่ได้มีป
 ระสิทธิภาพที่เพียงพอต่อการพัฒนาโมเดล จึงต้องใช้ Google Colaboratory
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 3062--3063
+Underfull \hbox (badness 2980) in paragraph at lines 3076--3077
 []\TU/THSarabunNew(0)/m/n/10 โมเดลที่พัฒนายังสามารถจัดหมวดหมู่ได้เพียง 1 หมวดหม
 ู่ต่อข่าว ยังไม่สามารถทำนายข่าวที่มีหลายหมวดหมู่ในข่าวเดียวอย่าง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3068--3069
+Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
 []\TU/THSarabunNew(0)/m/n/10 อาจมีการสร้างโมเดลเพื่อจำแนกว่าคำแต่ละคำควรอยู่หมว
 ดหมู่ไหน ก่อนที่จะมีการพัฒนาโมเดลเพื่อจำแนกหมวดหมู่ของเนื้อหา
  []
 
 
-Overfull \hbox (6.08534pt too wide) in paragraph at lines 3070--3071
+Overfull \hbox (6.08534pt too wide) in paragraph at lines 3084--3085
 []\TU/THSarabunNew(0)/m/n/10 พัฒนาโมเดลให้สามารถจำแนกหมวดหมู่ได้อย่างหลากหลายมา
 กขึ้นกว่าปัจจุบันและพัฒนาให้เว็บแอปพลิเคชันสามารถรองรับโดเมน
  []
@@ -2583,165 +2589,173 @@ LaTeX Info: Redefining \rmfamily on input line 76.
 LaTeX Info: Redefining \sffamily on input line 76.
 LaTeX Info: Redefining \ttfamily on input line 76.
 \thai@year=\count401
-LaTeX Info: Redefining \rmfamily on input line 98.
-LaTeX Info: Redefining \sffamily on input line 98.
-LaTeX Info: Redefining \ttfamily on input line 98.
+LaTeX Info: Redefining \rmfamily on input line 86.
+LaTeX Info: Redefining \sffamily on input line 86.
+LaTeX Info: Redefining \ttfamily on input line 86.
 \thai@year=\count402
+LaTeX Info: Redefining \rmfamily on input line 88.
+LaTeX Info: Redefining \sffamily on input line 88.
+LaTeX Info: Redefining \ttfamily on input line 88.
+\thai@year=\count403
 LaTeX Info: Redefining \rmfamily on input line 108.
 LaTeX Info: Redefining \sffamily on input line 108.
 LaTeX Info: Redefining \ttfamily on input line 108.
-\thai@year=\count403
-LaTeX Info: Redefining \rmfamily on input line 110.
-LaTeX Info: Redefining \sffamily on input line 110.
-LaTeX Info: Redefining \ttfamily on input line 110.
+\thai@year=\count404
+LaTeX Info: Redefining \rmfamily on input line 118.
+LaTeX Info: Redefining \sffamily on input line 118.
+LaTeX Info: Redefining \ttfamily on input line 118.
+\thai@year=\count405
+LaTeX Info: Redefining \rmfamily on input line 120.
+LaTeX Info: Redefining \sffamily on input line 120.
+LaTeX Info: Redefining \ttfamily on input line 120.
 
-Underfull \hbox (badness 5954) in paragraph at lines 105--113
+Underfull \hbox (badness 5954) in paragraph at lines 115--123
 []\TU/THSarabunNew(0)/m/n/10 Java, 2022,  ``Java คืออะไร จาวา คือภาษาคอมพิวเตอร
 ์ สำหรับเขียนโปรแกรมเชิงวัตถุ,'' จากเว็บไซต์ [][]https://
  []
 
-\thai@year=\count404
-LaTeX Info: Redefining \rmfamily on input line 119.
-LaTeX Info: Redefining \sffamily on input line 119.
-LaTeX Info: Redefining \ttfamily on input line 119.
-\thai@year=\count405
-LaTeX Info: Redefining \rmfamily on input line 126.
-LaTeX Info: Redefining \sffamily on input line 126.
-LaTeX Info: Redefining \ttfamily on input line 126.
 \thai@year=\count406
-LaTeX Info: Redefining \rmfamily on input line 135.
-LaTeX Info: Redefining \sffamily on input line 135.
-LaTeX Info: Redefining \ttfamily on input line 135.
+LaTeX Info: Redefining \rmfamily on input line 129.
+LaTeX Info: Redefining \sffamily on input line 129.
+LaTeX Info: Redefining \ttfamily on input line 129.
 \thai@year=\count407
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
+LaTeX Info: Redefining \rmfamily on input line 136.
+LaTeX Info: Redefining \sffamily on input line 136.
+LaTeX Info: Redefining \ttfamily on input line 136.
 \thai@year=\count408
-LaTeX Info: Redefining \rmfamily on input line 153.
-LaTeX Info: Redefining \sffamily on input line 153.
-LaTeX Info: Redefining \ttfamily on input line 153.
+LaTeX Info: Redefining \rmfamily on input line 145.
+LaTeX Info: Redefining \sffamily on input line 145.
+LaTeX Info: Redefining \ttfamily on input line 145.
 \thai@year=\count409
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
+LaTeX Info: Redefining \rmfamily on input line 154.
+LaTeX Info: Redefining \sffamily on input line 154.
+LaTeX Info: Redefining \ttfamily on input line 154.
 \thai@year=\count410
 LaTeX Info: Redefining \rmfamily on input line 163.
 LaTeX Info: Redefining \sffamily on input line 163.
 LaTeX Info: Redefining \ttfamily on input line 163.
 \thai@year=\count411
-LaTeX Info: Redefining \rmfamily on input line 169.
-LaTeX Info: Redefining \sffamily on input line 169.
-LaTeX Info: Redefining \ttfamily on input line 169.
-\thai@year=\count412
 LaTeX Info: Redefining \rmfamily on input line 171.
 LaTeX Info: Redefining \sffamily on input line 171.
 LaTeX Info: Redefining \ttfamily on input line 171.
+\thai@year=\count412
+LaTeX Info: Redefining \rmfamily on input line 173.
+LaTeX Info: Redefining \sffamily on input line 173.
+LaTeX Info: Redefining \ttfamily on input line 173.
 \thai@year=\count413
-LaTeX Info: Redefining \rmfamily on input line 177.
-LaTeX Info: Redefining \sffamily on input line 177.
-LaTeX Info: Redefining \ttfamily on input line 177.
+LaTeX Info: Redefining \rmfamily on input line 179.
+LaTeX Info: Redefining \sffamily on input line 179.
+LaTeX Info: Redefining \ttfamily on input line 179.
 \thai@year=\count414
-LaTeX Info: Redefining \rmfamily on input line 184.
-LaTeX Info: Redefining \sffamily on input line 184.
-LaTeX Info: Redefining \ttfamily on input line 184.
+LaTeX Info: Redefining \rmfamily on input line 181.
+LaTeX Info: Redefining \sffamily on input line 181.
+LaTeX Info: Redefining \ttfamily on input line 181.
+\thai@year=\count415
+LaTeX Info: Redefining \rmfamily on input line 187.
+LaTeX Info: Redefining \sffamily on input line 187.
+LaTeX Info: Redefining \ttfamily on input line 187.
 [93
 
 ]
-\thai@year=\count415
-LaTeX Info: Redefining \rmfamily on input line 191.
-LaTeX Info: Redefining \sffamily on input line 191.
-LaTeX Info: Redefining \ttfamily on input line 191.
 \thai@year=\count416
-LaTeX Info: Redefining \rmfamily on input line 193.
-LaTeX Info: Redefining \sffamily on input line 193.
-LaTeX Info: Redefining \ttfamily on input line 193.
+LaTeX Info: Redefining \rmfamily on input line 194.
+LaTeX Info: Redefining \sffamily on input line 194.
+LaTeX Info: Redefining \ttfamily on input line 194.
 \thai@year=\count417
 LaTeX Info: Redefining \rmfamily on input line 201.
 LaTeX Info: Redefining \sffamily on input line 201.
 LaTeX Info: Redefining \ttfamily on input line 201.
 \thai@year=\count418
-LaTeX Info: Redefining \rmfamily on input line 207.
-LaTeX Info: Redefining \sffamily on input line 207.
-LaTeX Info: Redefining \ttfamily on input line 207.
+LaTeX Info: Redefining \rmfamily on input line 203.
+LaTeX Info: Redefining \sffamily on input line 203.
+LaTeX Info: Redefining \ttfamily on input line 203.
 \thai@year=\count419
-LaTeX Info: Redefining \rmfamily on input line 209.
-LaTeX Info: Redefining \sffamily on input line 209.
-LaTeX Info: Redefining \ttfamily on input line 209.
+LaTeX Info: Redefining \rmfamily on input line 211.
+LaTeX Info: Redefining \sffamily on input line 211.
+LaTeX Info: Redefining \ttfamily on input line 211.
 \thai@year=\count420
-LaTeX Info: Redefining \rmfamily on input line 216.
-LaTeX Info: Redefining \sffamily on input line 216.
-LaTeX Info: Redefining \ttfamily on input line 216.
+LaTeX Info: Redefining \rmfamily on input line 217.
+LaTeX Info: Redefining \sffamily on input line 217.
+LaTeX Info: Redefining \ttfamily on input line 217.
 \thai@year=\count421
-LaTeX Info: Redefining \rmfamily on input line 218.
-LaTeX Info: Redefining \sffamily on input line 218.
-LaTeX Info: Redefining \ttfamily on input line 218.
+LaTeX Info: Redefining \rmfamily on input line 219.
+LaTeX Info: Redefining \sffamily on input line 219.
+LaTeX Info: Redefining \ttfamily on input line 219.
 \thai@year=\count422
-LaTeX Info: Redefining \rmfamily on input line 224.
-LaTeX Info: Redefining \sffamily on input line 224.
-LaTeX Info: Redefining \ttfamily on input line 224.
-\thai@year=\count423
 LaTeX Info: Redefining \rmfamily on input line 226.
 LaTeX Info: Redefining \sffamily on input line 226.
 LaTeX Info: Redefining \ttfamily on input line 226.
+\thai@year=\count423
+LaTeX Info: Redefining \rmfamily on input line 228.
+LaTeX Info: Redefining \sffamily on input line 228.
+LaTeX Info: Redefining \ttfamily on input line 228.
 \thai@year=\count424
-LaTeX Info: Redefining \rmfamily on input line 241.
-LaTeX Info: Redefining \sffamily on input line 241.
-LaTeX Info: Redefining \ttfamily on input line 241.
+LaTeX Info: Redefining \rmfamily on input line 234.
+LaTeX Info: Redefining \sffamily on input line 234.
+LaTeX Info: Redefining \ttfamily on input line 234.
 \thai@year=\count425
-LaTeX Info: Redefining \rmfamily on input line 242.
-LaTeX Info: Redefining \sffamily on input line 242.
-LaTeX Info: Redefining \ttfamily on input line 242.
+LaTeX Info: Redefining \rmfamily on input line 236.
+LaTeX Info: Redefining \sffamily on input line 236.
+LaTeX Info: Redefining \ttfamily on input line 236.
 \thai@year=\count426
-LaTeX Info: Redefining \rmfamily on input line 249.
-LaTeX Info: Redefining \sffamily on input line 249.
-LaTeX Info: Redefining \ttfamily on input line 249.
+LaTeX Info: Redefining \rmfamily on input line 251.
+LaTeX Info: Redefining \sffamily on input line 251.
+LaTeX Info: Redefining \ttfamily on input line 251.
 \thai@year=\count427
-LaTeX Info: Redefining \rmfamily on input line 258.
-LaTeX Info: Redefining \sffamily on input line 258.
-LaTeX Info: Redefining \ttfamily on input line 258.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
 \thai@year=\count428
-LaTeX Info: Redefining \rmfamily on input line 261.
-LaTeX Info: Redefining \sffamily on input line 261.
-LaTeX Info: Redefining \ttfamily on input line 261.
+LaTeX Info: Redefining \rmfamily on input line 259.
+LaTeX Info: Redefining \sffamily on input line 259.
+LaTeX Info: Redefining \ttfamily on input line 259.
+\thai@year=\count429
+LaTeX Info: Redefining \rmfamily on input line 268.
+LaTeX Info: Redefining \sffamily on input line 268.
+LaTeX Info: Redefining \ttfamily on input line 268.
+\thai@year=\count430
+LaTeX Info: Redefining \rmfamily on input line 271.
+LaTeX Info: Redefining \sffamily on input line 271.
+LaTeX Info: Redefining \ttfamily on input line 271.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--264
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
 [][]\TU/THSarabunNew(0)/m/n/10 https://www.beryl8.com/th/newsroom/insights/102/
 เหตุผลที่หลายๆ-ธุรกิจเลือกใช้-gcp-google-cloud-platform-เพื่อ
  []
 
-\thai@year=\count429
-LaTeX Info: Redefining \rmfamily on input line 269.
-LaTeX Info: Redefining \sffamily on input line 269.
-LaTeX Info: Redefining \ttfamily on input line 269.
-\thai@year=\count430
-LaTeX Info: Redefining \rmfamily on input line 278.
-LaTeX Info: Redefining \sffamily on input line 278.
-LaTeX Info: Redefining \ttfamily on input line 278.
 \thai@year=\count431
-LaTeX Info: Redefining \rmfamily on input line 280.
-LaTeX Info: Redefining \sffamily on input line 280.
-LaTeX Info: Redefining \ttfamily on input line 280.
+LaTeX Info: Redefining \rmfamily on input line 279.
+LaTeX Info: Redefining \sffamily on input line 279.
+LaTeX Info: Redefining \ttfamily on input line 279.
 \thai@year=\count432
-LaTeX Info: Redefining \rmfamily on input line 287.
-LaTeX Info: Redefining \sffamily on input line 287.
-LaTeX Info: Redefining \ttfamily on input line 287.
+LaTeX Info: Redefining \rmfamily on input line 288.
+LaTeX Info: Redefining \sffamily on input line 288.
+LaTeX Info: Redefining \ttfamily on input line 288.
 \thai@year=\count433
-LaTeX Info: Redefining \rmfamily on input line 294.
-LaTeX Info: Redefining \sffamily on input line 294.
-LaTeX Info: Redefining \ttfamily on input line 294.
+LaTeX Info: Redefining \rmfamily on input line 290.
+LaTeX Info: Redefining \sffamily on input line 290.
+LaTeX Info: Redefining \ttfamily on input line 290.
 \thai@year=\count434
-LaTeX Info: Redefining \rmfamily on input line 305.
-LaTeX Info: Redefining \sffamily on input line 305.
-LaTeX Info: Redefining \ttfamily on input line 305.
+LaTeX Info: Redefining \rmfamily on input line 297.
+LaTeX Info: Redefining \sffamily on input line 297.
+LaTeX Info: Redefining \ttfamily on input line 297.
 \thai@year=\count435
-LaTeX Info: Redefining \rmfamily on input line 323.
-LaTeX Info: Redefining \sffamily on input line 323.
-LaTeX Info: Redefining \ttfamily on input line 323.
+LaTeX Info: Redefining \rmfamily on input line 304.
+LaTeX Info: Redefining \sffamily on input line 304.
+LaTeX Info: Redefining \ttfamily on input line 304.
+\thai@year=\count436
+LaTeX Info: Redefining \rmfamily on input line 315.
+LaTeX Info: Redefining \sffamily on input line 315.
+LaTeX Info: Redefining \ttfamily on input line 315.
+\thai@year=\count437
+LaTeX Info: Redefining \rmfamily on input line 333.
+LaTeX Info: Redefining \sffamily on input line 333.
+LaTeX Info: Redefining \ttfamily on input line 333.
 ) [94]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 3096.
+(Font)              scaled to size 21.25432pt on input line 3110.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 3096.
+(Font)              scaled to size 21.25432pt on input line 3110.
  [95]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
@@ -2749,10 +2763,10 @@ Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 3096.
+(hyperref)                replaced by space on input line 3110.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3097--3098
+Underfull \hbox (badness 10000) in paragraph at lines 3111--3112
 
  []
 
@@ -2846,19 +2860,19 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
 [96] (undergrad-sample-thai.aux
-\thai@year=\count436
+\thai@year=\count438
 )
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: 90A3E52DA70BE1F1E2AF67D89D9E0D02;24197.
+(rerunfilecheck)             Checksum: DC2459A4CC49648F7353E204A54EC555;24285.
  ) 
 Here is how much of TeX's memory you used:
- 33461 strings out of 410654
- 681680 string characters out of 2816704
- 1129362 words of memory out of 3000000
- 53910 multiletter control sequences out of 15000+600000
+ 33462 strings out of 410654
+ 681687 string characters out of 2816704
+ 1129390 words of memory out of 3000000
+ 53911 multiletter control sequences out of 15000+600000
  471974 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,13n,117p,943b,803s stack positions out of 10000i,1000n,20000p,200000b,80000s
