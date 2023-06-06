@@ -1051,12 +1051,6 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
       \hspace{1cm}บริการจัดเก็บ Image ของ Docker ให้บริการบน GCP มีหน้าที่ในการจัดการเก็บ และทำ Version Control ของ Image 
       ซึ่งจะเป็น Private Registry และสามารถทำ Version ของแต่ละ Image ได้ทำให้เมื่อเกิดปัญหาสามารถย้อนกลับไปใช้ Version ก่อนหน้าได้ 
       ซึ่งทำให้สามารถนำ Image ที่อยู่บน Container Registry ไปสร้างเป็น Instance ได้ \cite{GCR}
-      
-      \item Cloud Build
-      
-      \hspace{1cm}บริการสร้าง Image ของ Docker ให้บริการบน GCP ในรูปแบบของ Serverless CI/CD Platform 
-      สามารถจัดการ Testing, Building และ Deploying ได้ในตนเอง โดยสามารถทำการดึง Source Code ที่บน Github และ สร้างเป็น Image 
-      และเก็บบน Container Registry โดยอัตโนมัติหากมีการแก้ไข เปลี่ยนแปลงข้อมูลต่าง ๆ ที่อยู่บน Github \cite{cloud_build}
 
       \item Cloud Run
       
@@ -1176,7 +1170,8 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
   โดย Backend จะส่งคำร้องขอไปยังส่วนที่ 2 ที่เป็นส่วนประมวลผลวิเคราะห์ข้อมูลและไม่สามารถเข้าถึงได้จากภายนอก 
   นอกจากนี้ระบบจะมีการสื่อสารระหว่างระบบด้วย Messaging System เพื่อให้สามารถทำงานแบบ Asynchronous ได้ 
   เนื่องจากการประมวลผลในแต่ละขั้นตอนอาจจะใช้เวลานาน การสื่อสารแบบ Asynchronous จะช่วยให้จัดการการทำงาน ไม่จำเป็นต้องรอให้ส่วนวิเคราะห์เสร็จสิ้นตามลำดับ 
-  ทำให้สามารถประมวลผลส่วนอื่นได้ เมื่อประมวลผลเสร็จแล้ว ระบบก็จะส่งข้อมูลผ่าน Messaging System กลับมา
+  ทำให้สามารถประมวลผลส่วนอื่นได้ เมื่อประมวลผลเสร็จแล้ว ระบบก็จะส่งข้อมูลผ่าน Messaging System กลับมาซึ่งจะเป็นการทำงานแบบ Event Driver Architecture
+  ซึ่งจะทำให้ระบบสามารถทำงานได้เร็วขึ้น และสามารถทำงานได้หลายอย่างพร้อมกันได้
   \begin{figure}[!ht]\centering
     \includegraphics[width=\textwidth]{./img/architechture.png}
     \caption{เครื่องมือในโครงสร้างทางสถาปัตยกรรมของระบบ}\label{fig:architecture} 
@@ -2099,6 +2094,8 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
 \end{enumerate}
 \newpage
 \section{Class Diagram}
+  \hspace{1cm}การออกแบบ Class Diagram จะออกแบบให้มีความ Loose Coupling โดยจะมีการทำ Interface และ Dependency Injection ในการเชื่อมต่อกันระหว่างคลาสต่าง ๆ
+  เพื่อให้โค้ดสามารถทดสอบได้ง่าย
 \begin{figure}[!ht]\centering
   \includegraphics[width=15cm]{./img/class_dia.png} 
   \caption{Class Diagram ของระบบ}\label{fig:class_diagram} 
@@ -2901,17 +2898,6 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
           \hspace{1cm}ถ้าหากต้องการส่งคำร้องขอวิเคราะห์หมวดหมู่ของบทความอีกครั้งหรือออกจากระบบ สมาชิกสามารถดำเนินการได้ตามวงกลมหมายเลข 2 
           ในภาพที่ \ref{fig:exp_result} 
 
-      \subsection{รายการ Unit tests ภายใน General Backend} 
-        \begin{figure}[!ht]\centering
-          \includegraphics[width=\textwidth]{./img/unit_test.png}
-          \caption{รายการ Unit tests ภายใน General Backend}\label{fig:unit_test}
-        \end{figure}
-        \hspace{1cm}เป็นการทดสอบที่ครอบคลุมทั้ง 19 กรณีตามหลักในการใช้งานเว็บแอปพลิเคชันทั้วไป 
-        ซึ่งเป็นส่วนที่ช่วยให้การพัฒนาซอฟต์แวร์ให้มีคุณภาพมากยิ่งขึ้นและสามารถพัฒนาฟีเจอร์ใหม่ ๆ ได้อย่างมีความมั่นใจ
-        เนื่องจากสามารถตรวจสอบได้จากกรณีทดสอบเดิมที่ทำการเขียนไว้ 
-        อีกทั้งยังเป็นส่วนช่วยให้นักพัฒนามีความรอบคอบมากขึ้นในการพัฒนาเว็บแอปพลิเคชัน
-        ซึ่งจากการทดสอบ พบว่า ไม่มีกรณีไหนที่ล้มเหลว
-      
       \subsection{การทดสอบความสามารถของระบบ}
         \hspace{1cm}ในการพัฒนาเว็บแอปพลิเคชันต้องทำการทดสอบการใช้งานของเว็บแอปพลิเคชันว่าสามารถทำงานได้ที่คาดหวังหรือไม่ 
         โดยวิธีการทดสอบสามารถแบ่งได้เป็น 2 วิธี ได้แก่
@@ -2967,7 +2953,17 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
           4          & จัดการหมวดหมู่ที่จัดเตรียมไบนเว็บแอปพลิเคชัน           & สามารถ เพิ่ม/ลบ/แก้ไข หมวดหมู่ได้                      & \checkmark \\ \hline
           5          & แก้ไขและพัฒนาเทคโนโลยีปัญญาประดิษฐ์               & สามารถแก้ไขเทคโนโลยีปัญญาประดิษฐ์ได้                   & \checkmark \\ \hhline{====}
         \end{longtable}
-        2. การทดสอบการทำงานของเว็บแอปพลิเคชัน โดยใช้วิธีการ Automate Testing
+        2. การทดสอบการทำงานของเว็บแอปพลิเคชัน โดยใช้วิธีการ Automate Testing ในที่นี้จะใช้วิธีการ Unit Testing โดยใช้ JUnit ในการทดสอบการทำงานของ Code ที่เขียนขึ้นมาซึ่งหลังจากที่ทำการทดสอบแล้ว 
+        จะสามารถสร้างรายงานการทดสอบได้
+        เป็นการทดสอบที่ครอบคลุมทั้ง 19 กรณีตามหลักในการใช้งานเว็บแอปพลิเคชันทั้วไป 
+        ซึ่งเป็นส่วนที่ช่วยให้การพัฒนาซอฟต์แวร์ให้มีคุณภาพมากยิ่งขึ้นและสามารถพัฒนาฟีเจอร์ใหม่ ๆ ได้อย่างมีความมั่นใจ
+        เนื่องจากสามารถตรวจสอบได้จากกรณีทดสอบเดิมที่ทำการเขียนไว้ 
+        อีกทั้งยังเป็นส่วนช่วยให้นักพัฒนามีความรอบคอบมากขึ้นในการพัฒนาเว็บแอปพลิเคชัน
+        ซึ่งจากการทดสอบ พบว่า ไม่มีกรณีไหนที่ล้มเหลว
+        \begin{figure}[!ht]\centering
+          \includegraphics[width=\textwidth]{./img/unit_test.png}
+          \caption{รายการ Unit tests ภายใน General Backend}\label{fig:unit_test}
+        \end{figure}
 
       \subsection{การทดสอบประสิทธิภาพของระบบ}
         \hspace{1cm}ในการทดสอบประสิทธิภาพของระบบจะทำการทดสอบด้วยวิธีการ Load Testing โดยจะเป็นการทดสอบประสิทธิภาพการทำงานส่วนที่เกี่ยวข้องกับการวิเคราะห์หมวดหมู่ของบทความ
