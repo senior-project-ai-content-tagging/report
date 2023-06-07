@@ -318,7 +318,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
   สำหรับการพัฒนาโมเดลเพื่อใช้ในการสร้างเทคโนโลยีปัญญาประดิษฐ์ ได้มีการใช้บริการ Google Translate เพื่อเตรียมชุดข้อมูลสำหรับการพัฒนาโมเดล
   รวมถึงใช้หลักการของ TF-IDF ในการแปลงข้อความเป็น Vector เพื่อทำ Text Representation จากนั้นจึงพัฒนาโมเดลโดยใช้ทฤษฎี
   Random Forest, K-Nearest Neighbor และ Neural Network ร่วมกับเครื่องมือใน Library Scikit-Learn และ Tensorflow
-  สำหรับการพัฒนาเว็บแอปพลิเคชัน ในส่วนของระบบหลังบ้านได้มีการพัฒนาด้วยภาษา Java และการแสดงผลโดยส่วนหน้าบ้านด้มีการพัฒนาด้วยภาษา Javascript ผ่าน NuxtJs Framework
+  สำหรับการพัฒนาเว็บแอปพลิเคชัน ในส่วนของระบบหลังบ้านได้มีการพัฒนาด้วยภาษา Java และการแสดงผลโดยส่วนหน้าบ้านได้มีการพัฒนาด้วยภาษา Javascript ผ่าน NuxtJs Framework
   นอกจากนี้ยังมีการสร้างระบบสำหรับผู้ดูแลระบบ เพื่อให้ผู้ดูแลระบบสามารถเพิ่มและจัดการหมวดหมู่ได้ด้วยตนเอง 
   สามารถอัพเดทโมเดลที่ใช้ในการจัดหมวดหมู่ได้ และสามารถดูประวัติการจัดหมวดหมู่ของเนื้อหา
 
@@ -1760,7 +1760,6 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
     \hhline{==} 
 \end{longtable}
 
-
 \section{โครงสร้างฐานข้อมูล}
 \begin{figure}[!ht]\centering
   \includegraphics[width=\textwidth]{./img/database.png}
@@ -2090,7 +2089,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
   \item ผู้ดูแลระบบสามารถอัพเดทโมเดลผ่านทางเว็บแอปพลิเคชันด้วยการเลือกที่ปุ่มอัพโหลด ซึ่งสามารถอัพโหลดได้เพียงแค่นามสกุลไฟล์ joblib เท่านั้น
   \item เป็นส่วนที่แสดงให้เห็นสถานะการอัพเดทโมเดล โดยจะสามารถเลือกที่ปุ่ม "Go to pipeline" เพื่อดูรายละเอียดเพิ่มเติมได้
 \end{enumerate}
-\newpage
+
 \section{Class Diagram}
   \hspace{1cm}การออกแบบ Class Diagram จะออกแบบให้มีความ Loose Coupling โดยจะมีการทำ Interface และ Dependency Injection ในการเชื่อมต่อกันระหว่างคลาสต่าง ๆ
   เพื่อให้โค้ดสามารถทดสอบได้ง่าย
@@ -2098,6 +2097,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
   \includegraphics[width=15cm]{./img/class_dia.png} 
   \caption{Class Diagram ของระบบ}\label{fig:class_diagram} 
 \end{figure} 
+\newpage
 
 \section{การออกแบบการทดลอง}
 \subsection{User Evaluation}
@@ -2115,22 +2115,6 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
 กล่าวคือต้องใช้บทความที่มีการจัดหมวดหมู่อย่างถูกต้องจำนวนมาก เพื่อนำบทความนั้นมาทดสอบกับ Artificial Intelligence และเปรียบเทียบผลลัพธ์ว่าตรงตามหมวดหมู่ของบทความที่เตรียมมาหรือไม่
 โดยจะใช้ตัววัดผลคือ ค่า Accuracy, Precision, Recall, F1 Score และ Loss Function ในการวัดประสิทธิภาพของ Artificial Intelligence
 
-
-
-% \begin{table}[!ht]
-% \centering
-% \caption{test table x1}\label{tbl:symbols}
-% \begin{tabular}{@{}p{0.07\textwidth}|p{0.7\textwidth}p{0.1\textwidth}}\hline
-% \multicolumn{2}{l}{\textbf{SYMBOL}}  & \textbf{UNIT} \\ \hline 
-% $\alpha$ & Test variable\hfill & m$^2$ \\
-% $\lambda$ & Interarrival rate\hfill &  jobs/second\\
-% $\mu$ & Service rate\hfill & jobs/second \\ \hline
-% \end{tabular}
-% \begin{tabular}{c|c} \hline
-% $\alpha$ & $\beta$ \\ \hline
-% $\delta$ & $\mu$ \\ \hline
-% \end{tabular}
-% \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%% Experiments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2488,7 +2472,8 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         \newpage
 
     \subsection{การทำ Text Representation ด้วย TF-IDF}
-      \hspace{1cm}เนื่องจากคณะผู้จัดทำได้นำชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยและภาษาอังกฤษมาทำ Text Representation ด้วยการใช้ TF-IDF ซึ่งใช้โครงสร้างของโมเดลแตกต่างกัน ดังนี้ 
+      \hspace{1cm}เนื่องจากคณะผู้จัดทำได้นำชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยและภาษาอังกฤษมาทำ Text Representation ด้วยการใช้ TF-IDF ซึ่งต้องใช้โครงสร้างของโมเดลแตกต่างกัน 
+      ทำให้มีการปรับ tune พารามิเตอร์ในแต่ละโมเดล ดังนี้ 
       \begin{longtable}[!ht]{lcc}
         \caption{โครงสร้างของโมเดล TF-IDF ในรูปแบบภาษาไทยและภาษาอังกฤษ}\label{tbl:tfidf_feature} \\
         \hhline{===}
@@ -2504,10 +2489,27 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         norm          & l2                & l2           \\ 
         encoding      & utf-8             & utf-8        \\ \hhline{===}
       \end{longtable} 
+      \hspace{1cm}จากการปรับ tune พารามิเตอร์ในแต่ละโมเดลจะได้โครงสร้างของโมเดล TF-IDF ทั้ง 2 ภาษาเป็นไปตามในตารางที่ \ref{tbl:tfidf_feature}
+      โดยในส่วนของ tokenizer ได้ใช้การแบ่งด้วยเว้นวรรคสำหรับโมเดล TF-IDF ในรูปแบบภาษาไทย 
+      เนื่องจากมีการตัดคำด้วย Library PyThai มาก่อนแล้วจึงนำมารวมกันและคั่นด้วยเว้นวรรค ส่วนโมเดล TF-IDF ในรูปแบบภาษาอังกฤษได้ใช้รูปแบบการแบ่งด้วย default
+      \newline\hspace*{1cm}ในส่วนของ stop\_words ได้ใช้รายการคำ stopwords ที่ต้องการตัดออกของแต่ละภาษา
+      \newline\hspace*{1cm}ในส่วนของ ngram\_range ได้ใช้การแบ่งคำแบบ Unigram สำหรับโมเดล TF-IDF ในรูปแบบภาษาไทย
+      เนื่องจากในภาษาไทยคำประสมส่วนใหญ่มักเป็นคำที่ติดกันและไม่มีการเว้นวรรค เช่น สถานีตำรวจ แม่น้ำ ซึ่งเมื่อนำมาแบ่งแยกเป็นคำก็อาจนับเป็นคำเดียว
+      ส่วนโมเดล TF-IDF ในรูปแบบภาษาอังกฤษได้ใช้การแบ่งคำแบบ Unigram และ Bigram 
+      เนื่องจากในภาษาอังกฤษมักมีคำประสมอยู่ เช่น Police officer, Premier League ดังนั้นจึงมีการทำ Bigram เพื่อหาคำประสมในชุดข้อมูลที่เป็นภาษาอังกฤษ
+      \newline\hspace*{1cm}ในส่วนของ min\_df ได้ใช้ค่าเป็น 5 เนื่องจากโดยส่วนใหญ่จะกำหนดให้ min\_df มีค่าตั้งแต่ 5 ถึง 10 ขึ้นอยู่กับขนาดของข้อมูลและจำนวนคำที่แตกต่างกันไป
+      การเลือกใช้ค่า 5 จะช่วยลดคำที่ปรากฎน้อยในชุดข้อมูลซึ่งเป็นคำไม่สำคัญและเพิ่มความสัมพันธ์กับคำอื่นที่มีความถี่สูงมากขึ้น
+      \newline\hspace*{1cm}ในส่วนของ max\_df ได้ใช้ค่าเป็น 5 เนื่องจากโดยส่วนใหญ่จะกำหนดให้ max\_df มีค่าตั้งแต่ 0.95 ถึง 0.98 เพื่อให้คำที่มีความถี่สูงไม่มีอิทธิพลมากเกินไป
+      การเลือกใช้ค่า 0.95 จะช่วยลดคำที่มีความถี่สูงเกินไปจนเกินขีดจำกัดและเป็นคำที่ไม่มีความหมายสำคัญ
+      \newline\hspace*{1cm}ในส่วนของ max\_features ได้ใช้ค่าเป็น 50\% ของจำนวนคำที่ไม่ซ้ำกันทั้งหมด
+      เนื่องจากจากการทดลองพบว่า การใช้ max\_features เป็น 50\% ของจำนวนคำที่ไม่ซ้ำกันทั้งหมด เป็นค่าที่เหมาะสม
+      \newline\hspace*{1cm}ในส่วนของ norm ได้เลือกใช้เป็น l2 เนื่องจากจากการทดลองพบว่า 
+      การปรับค่าขนาดของเวกเตอร์ TF-IDF หลังจากที่คำนวณค่า TF-IDF ของแต่ละคำด้วย l2 ให้ผลลัพธ์ในการคำนวณที่เหมาะสม
       \begin{figure}[!ht]\centering
         \includegraphics[width=0.8\textwidth]{./img/tfidf_vector.png}
         \caption{ตัวอย่าง Text Representation ของชุดข้อมูลที่ได้จากการทำ TF-IDF}\label{fig:tfidf_vec}
       \end{figure}
+      
       \hspace{1cm}จะเห็นได้ว่าผลลัพธ์ของการทำ Text Representation ด้วย TF-IDF (รูปที่:\ref{fig:tfidf_vec}) เป็น Vector ที่ถูกแสดงออกมาในรูปแบบของตัวเลข
       ซึ่งตัวเลขแต่ละค่าจะสื่อถึงความสำคัญหรือความเกี่ยวข้องของคำในชุดข้อมูลนั้น ๆ โดยชุดข้อมูลในแต่ละหมวดหมู่จะมีคำที่สำคัญที่แตกต่างกัน ดังนี้
       \begin{longtable}{llll}
@@ -2533,7 +2535,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
           เทคโนโลยี &
           \begin{tabular}[c]{@{}l@{}}- หุ่นยนต์\\ - ดวงจันทร์\\ - อวกาศ\end{tabular} \\ \hhline{====}
       \end{longtable}
-      \newpage
+      
       \begin{longtable}{llllll}
         \caption{แสดง 3 คำที่มีความสำคัญมากที่สุดในชุดข้อมูลที่เป็นภาษาอังกฤษของแต่ละหมวดหมู่}
         \label{tbl:tfidf_eng}\\
@@ -2565,9 +2567,6 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
           \begin{tabular}[c]{@{}l@{}}- iphone\\ - twitter\\ - apple\end{tabular} &
           \begin{tabular}[c]{@{}l@{}}- artificial intelligence\\ - iphone pro\\ - elon musk\end{tabular} \\ \hhline{======}
       \end{longtable}
-      \hspace{1cm}เนื่องจากในภาษาอังกฤษมักมีคำประสมอยู่ เช่น Police officer, Premier League ดังนั้นจึงมีการทำ Bigram เพื่อหาคำประสมในชุดข้อมูลที่เป็นภาษาอังกฤษ
-      แต่สำหรับภาษาไทย คำประสมส่วนใหญ่มักเป็นคำที่ติดกันและไม่มีการเว้นวรรค เช่น สถานีตำรวจ แม่น้ำ ซึ่งเมื่อนำมาแบ่งแยกเป็นคำก็อาจนับเป็นคำเดียว จึงทำเพียง Unigram 
-      ในชุดข้อมูลที่เป็นภาษาไทยเท่านั้น 
       
       \hspace{1cm}การสังเกตเพียงคำสำคัญที่มากที่สุดนั้นยังไม่สามารถเห็นการแบ่งกลุ่มของคำแต่ละคำในเนื้อหาได้อย่างชัดเจน ดังนั้นจึงมีการทำ 
       T-distributed Stochastic Neighbor Embedding (t-SNE) เพื่อลดมิติข้อมูลแบบไม่เชิงเส้น ช่วยให้เห็นรูปแบบและความสัมพันธ์ของคำในชุดข้อมูลมากยิ่งขึ้น
@@ -2588,13 +2587,13 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
       \end{figure}
       \hspace{1cm}จากรูปภาพที่ \ref{fig:tsne} จะเห็นได้ว่าคำในชุดข้อมูลของแต่ละหมวดหมู่ค่อนข้างมีความสัมพันธ์กันอย่างชัดเจน 
       การกระจายตัวของข้อมูลในแต่ละหมวดหมู่จะอยู่ในบริเวณที่ใกล้เคียงกัน แต่จะมีหมวดหมู่การเมืองที่ความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัว
-      และมีบางคำที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากรรมและเศรษฐกิจ นอกจากนี้หมวดหมู่เทคโนโลยีในชุดข้อมูลที่เป็นภาษาไทยก็มีความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัวเช่นกัน
-      แต่ก็ยังมีการกระจายตัวที่อยู่ในบริเวณใกล้เคียงกับคำในหมวดหมู่ตนเอง
-      \newpage
+      เนื่องจากมีบางคำที่มีความสัมพันธ์ใกล้เคียงกับหมวดหมู่อาชญากรรมและเศรษฐกิจ นอกจากนี้หมวดหมู่เทคโนโลยีในชุดข้อมูลที่เป็นภาษาไทยก็มีความสัมพันธ์ของข้อมูลค่อนข้างกระจายตัวเช่นกัน
+      เนื่องจากมีบางคำที่ใกล้เคียงกับหมวดหมู่เศรษฐกิจ แต่ก็ยังมีการกระจายตัวที่อยู่ในบริเวณใกล้เคียงกับคำในหมวดหมู่ตนเอง
     
     \subsection{การเลือก Model ระหว่าง Random Forest KNN และ NN}
       \hspace{1cm}คณะผู้จัดทำได้ทำการศึกษาและพัฒนาโมเดลทั้งหมด 3 โมเดล ได้แก่ Random Forest, K-Nearest Neighbor และ LSTM
-      โดยใช้การทำ Text Representation ด้วย TF-IDF เป็นข้อมูลนำเข้าสำหรับการพัฒนาโมเดล ซึ่งได้ประสิทธิภาพดังนี้
+      โดยใช้การทำ Text Representation ด้วย TF-IDF เป็นข้อมูลนำเข้าสำหรับการพัฒนาโมเดล 
+      ซึ่งจากการปรับ tune พารามิเตอร์ในแต่ละโมเดล ทำให้ได้โครงสร้างและประสิทธิภาพของโมเดล ดังนี้
       \begin{longtable}{clc}
         \caption{ค่า Accuracy ของแต่ละโมเดลเมื่อใช้ TF-IDF กับชุดข้อมูลที่เป็นภาษาไทย}
         \label{tbl:thaiacc_before}\\
@@ -2604,7 +2603,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         %
         Random Forest      & \begin{tabular}[c]{@{}l@{}}n\_estimators: 180, \\ max\_depth: 110, \\ min\_samples\_split: 9, \\ min\_samples\_leaf: 1\end{tabular}              & 0.9372 \\ \hline
         K-Nearest Neighbor & \begin{tabular}[c]{@{}l@{}}n\_neighbors: 10, \\ weights: 'distance',\\ metric: 'euclidean',\\ n\_jobs = -1\end{tabular}                      & 0.9261 \\ \hline
-        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 104, \\ dropout: 0.102,\\ activation: softmax,\\ optimizers: Adam,\\loss: categorical\_crossentropy,\\ learning\_rate=0.00018\end{tabular} & 0.1994 \\ \hhline{===}
+        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 104, \\ dropout: 0.102,\\ activation: softmax,\\ optimizers: Adam,\\loss: categorical\_crossentropy,\\ learning\_rate=0.00018\end{tabular} & 0.1572 \\ \hhline{===}
       \end{longtable}
       \begin{longtable}{clc}
         \caption{ค่า Accuracy ของแต่ละโมเดลเมื่อใช้ TF-IDF กับชุดข้อมูลที่เป็นภาษาอังกฤษ}
@@ -2615,13 +2614,45 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         %
         Random Forest      & \begin{tabular}[c]{@{}l@{}}n\_estimators: 450, \\ max\_depth: 114, \\ min\_samples\_split: 2, \\ min\_samples\_leaf: 1\end{tabular}              & 0.9456 \\ \hline
         K-Nearest Neighbor & \begin{tabular}[c]{@{}l@{}}n\_neighbors: 15, \\ weights: 'distance',\\ metric: 'euclidean',\\ n\_jobs = -1\end{tabular}                      & 0.9311 \\ \hline
-        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 108, \\ dropout: 0.174,\\ activation: softmax,\\ optimizers: Adam,\\loss: categorical\_crossentropy,\\ learning\_rate=0.00040\end{tabular} & 0.2094 \\ \hhline{===}
+        LSTM               & \begin{tabular}[c]{@{}l@{}}units: 108, \\ dropout: 0.174,\\ activation: softmax,\\ optimizers: Adam,\\loss: categorical\_crossentropy,\\ learning\_rate=0.00040\end{tabular} & 0.1691 \\ \hhline{===}
       \end{longtable}
-      \hspace{1cm}จากตารางที่ \ref{tbl:thaiacc_before} และตารางที่ \ref{tbl:engacc_before} พบว่า การทำ Text Representation ด้วย TF-IDF 
-      เมื่อนำมาใช้งานกับโมเดล Random Forest และ K-Nearest Neighbor ค่า Accuracy ที่ได้ค่อนข้างสูง ในขณะที่ ค่า Accuracy ที่ได้จากโมเดล LSTM ค่อนข้างต่ำ
-      โดยมีค่า Accuracy ประมาณ 0.20 ทั้งนี้อาจเป็นเพราะว่า Text Representation ที่ได้จากการทำ TF-IDF อาจมีขนาดใหญ่เกินไปหรือไม่เหมาะสมกับโมเดล LSTM
-      ดังนั้นคณะผู้จัดทำจึงเลือกที่จะเปลี่ยนวิธีการทำ Text Representation สำหรับโมเดล LSTM ด้วยการทำ Pad Sequence แทน ทำให้ได้ประสิทธิภาพของโมเดลดังนี้
-      
+      \begin{figure}[!ht]\centering
+        \begin{subfigure}{0.49\textwidth}
+          \includegraphics[width=\linewidth]{./img/lstm_tfidf_thai_acc.png} 
+          \caption{Accuracy}
+          \label{fig:lstm_tfidf_thai_acc}
+        \end{subfigure}
+        \begin{subfigure}{0.49\textwidth}
+          \includegraphics[width=\linewidth]{./img/lstm_tfidf_thai_loss.png}
+          \caption{Loss}
+          \label{fig:lstm_tfidf_thai_loss}
+        \end{subfigure}
+        \caption{กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาไทยโดยใช้การทำ Text Representation ด้วย TF-IDF}
+        \label{fig:lstm_tfidf_thai}
+      \end{figure}
+      \begin{figure}[!ht]\centering
+        \begin{subfigure}{0.49\textwidth}
+          \includegraphics[width=\linewidth]{./img/lstm_tfidf_eng_acc.png} 
+          \caption{Accuracy}
+          \label{fig:lstm_tfidf_eng_acc}
+        \end{subfigure}
+        \begin{subfigure}{0.49\textwidth}
+          \includegraphics[width=\linewidth]{./img/lstm_tfidf_eng_loss.png}
+          \caption{Loss}
+          \label{fig:lstm_tfidf_eng_loss}
+        \end{subfigure}
+        \caption{กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาอังกฤษโดยใช้การทำ Text Representation ด้วย TF-IDF}
+        \label{fig:lstm_tfidf_eng}
+      \end{figure}
+      \hspace{1cm}จากตารางที่ \ref{tbl:thaiacc_before} และตารางที่ \ref{tbl:engacc_before} การทำ Text Representation ด้วย TF-IDF 
+      เมื่อนำมาใช้งานกับโมเดล Random Forest และ K-Nearest Neighbor พบว่า ค่า Accuracy ที่ได้ค่อนข้างสูง ในขณะที่ค่า Accuracy ที่ได้จากโมเดล LSTM ค่อนข้างต่ำ
+      โดยมีค่า Accuracy ประมาณ 0.15 - 0.17 ทั้งนี้อาจเป็นเพราะว่า Text Representation ที่ได้จากการทำ TF-IDF โดยใช้ max\_features เป็น 50\% ของจำนวนคำที่ไม่ซ้ำกันทั้งหมด
+      อาจทำให้มีขนาดใหญ่เกินไปหรือไม่เหมาะสมกับโมเดล LSTM เมื่อฝึกฝนโมเดล LSTM ด้วย Text Representation ที่ได้จากการทำ TF-IDF โดยใช้ max\_features เป็น 50\% ของจำนวนคำที่ไม่ซ้ำกันทั้งหมด
+      พบว่า ไม่สามารถฝึกฝนโมเดล LSTM ได้ อาจด้วยข้อจำกัดของทรัพยากรของเครื่องที่ใช้พัฒนา ทำให้ไม่สามารถฝึกฝนโมเดล LSTM ด้วย Text Representation ดังกล่าวได้
+      และเมื่อลดขนาด max\_features ลงเพื่อให้สามารถฝึกฝนโมเดล LSTM ด้วย Text Representation ที่ได้จากการทำ TF-IDFได้ 
+      ก็ส่งผลให้โมเดล LSTM ไม่มีประสิทธิภาพเพียงพอต่อการพัฒนาและได้ค่า Accuracy ดังตารางที่ \ref{tbl:thaiacc_before} และตารางที่ \ref{tbl:engacc_before}
+      ดังนั้นคณะผู้จัดทำจึงทดลองเปลี่ยนวิธีการทำ Text Representation สำหรับโมเดล LSTM ด้วยการทำ Pad Sequence ใน Library Tensorflow แทน ทำให้ได้ประสิทธิภาพของโมเดลดังนี้
+      \newpage
       \begin{figure}[!ht]\centering
         \begin{subfigure}{0.49\textwidth}
           \includegraphics[width=\linewidth]{./img/lstm_thai_acc.png} 
@@ -2633,7 +2664,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
           \caption{Loss}
           \label{fig:lstm_thai_loss}
         \end{subfigure}
-        \caption{กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาไทย}
+        \caption{กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาไทยโดยใช้การทำ Text Representation ด้วย Pad Sequence}
         \label{fig:lstm_thai}
       \end{figure}
       \begin{figure}[!ht]\centering
@@ -2647,11 +2678,11 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
           \caption{Loss}
           \label{fig:lstm_eng_loss}
         \end{subfigure}
-        \caption{กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาอังกฤษ}
+        \caption{กราฟแสดงค่า Accuracy และ Loss ของโมเดล LSTM สำหรับภาษาอังกฤษโดยใช้การทำ Text Representation ด้วย Pad Sequence}
         \label{fig:lstm_eng}
       \end{figure}
       \begin{longtable}[!ht]{lcccc}
-        \caption{แสดงค่า Evaluation Metrics ของโมเดล LSTM}
+        \caption{แสดงค่า Evaluation Metrics ของโมเดล LSTM โดยใช้การทำ Text Representation ด้วย Pad Sequence}
         \label{tbl:lstm}\\
         \hhline{=====}
         \multicolumn{1}{c}{\textbf{ชื่อโมเดล}}    & \textbf{Accuracy} & \multicolumn{1}{l}{\textbf{Precision}} & \multicolumn{1}{l}{\textbf{Recall}} & \multicolumn{1}{l}{\textbf{F1-score}} \\ \hline
@@ -2662,7 +2693,8 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
       \end{longtable}
       \hspace{1cm}จากตารางที่ \ref{tbl:lstm} เมื่อเปลี่ยนวิธีการทำ Text Representation สำหรับโมเดล LSTM ด้วยการทำ Pad Sequence แทน
       พบว่าโมเดล LSTM มีประสิทธิภาพสูงขึ้น โดยมีค่า Accuracy สูงถึง 0.9233 สำหรับชุดข้อมูลที่เป็นภาษาไทยและมีค่า Accuracy สูงถึง 0.9378 สำหรับชุดข้อมูลที่เป็นภาษาอังกฤษ
-      เมื่อนำโมเดล LSTM ที่ทำการพัฒนาแล้วมาเปรียบเทียบกับประสิทธิภาพของโมเดล Random Forest และ K-Nearest Neighbor ที่ทำไว้ จะได้ผลลัพธ์ดังนี้
+      ทั้งนี้เป็นเพราะว่าการทำ Text Representation ด้วยการทำ Pad Sequence เหมาะสมกับการใช้งานในโมเดล LSTM
+      และเมื่อนำโมเดล LSTM ที่ทำการพัฒนาแล้วมาเปรียบเทียบกับประสิทธิภาพของโมเดล Random Forest และ K-Nearest Neighbor ที่ทำไว้ จะได้ผลลัพธ์ดังนี้
 
       \begin{longtable}[!ht]{lccccccccc}
         \caption{แสดงค่า Evaluation Metrics ของโมเดลแต่ละโมเดลสำหรับชุดข้อมูลที่เป็นภาษาไทย}
@@ -2728,7 +2760,8 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
       จึงเป็นโมเดลที่มีประสิทธิภาพและความแม่นยำสูงสุดสำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทยและจากการสังเกตเพิ่มเติม พบว่า ในชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย
       หมวดหมู่กีฬาเป็นหมวดหมู่ที่มีการทำนายได้แม่นยำมากที่สุดและหมวดหมู่การเมืองเป็นหมวดหมู่ที่มีการทำนายได้แม่นยำน้อยที่สุด โดยสังเกตจากค่า F1-score
       ทั้งนี้อาจเป็นเพราะว่าชุดข้อมูลของหมวดหมู่การเมืองมีการกระจายตัวของความสัมพันธ์ของข้อมูลค่อนข้างมาก (รูปที่:\ref{fig:tsne}) 
-      จึงทำให้ความสามารถในการทำนายลดลง ในขณะที่การกระจายตัวของชุดข้อมูลของหมวดหมู่กีฬาค่อนข้างมีความสัมพันธ์กันอย่างชัดเจนสำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย 
+      จึงทำให้ความสามารถในการทำนายลดลงเนื่องจากหาความสัมพันธ์ของคำได้ยากกว่าหมวดหมู่อื่น 
+      ในขณะที่การกระจายตัวของชุดข้อมูลของหมวดหมู่กีฬาค่อนข้างมีความสัมพันธ์กันอย่างชัดเจนสำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย 
 
       \hspace{1cm}สำหรับชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ จากตารางที่ \ref{tbl:class_report_eng} พบว่า โมเดล Random Forest 
       เป็นโมเดลที่มีค่า Accuracy สูงที่สุด โดยมีค่า Accuracy อยู่ที่ 0.9456 และจากการสังเกตเพิ่มเติม พบว่า ในชุดข้อมูลที่มีเนื้อหาเป็นอังกฤษ
@@ -2736,12 +2769,20 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
       
       \hspace{1cm}เมื่อมองโดยภาพรวมจากตารางที่ \ref{tbl:class_report_thai} และตารางที่ \ref{tbl:class_report_eng} 
       จะเห็นได้ว่าโมเดล Random Forest เป็นโมเดลที่มีประสิทธิภาพมากที่สุด รองลงมาก็คือ LSTM และ K-Nearest Neighbor ตามลำดับ
+      เนื่องจากโมเดล Random Forest เป็นโมเดลที่มีหลักการคือใช้ Decision Tree หลาย ๆ ต้นในการทำนายผลลัพธ์และใช้วิธี Majority vote 
+      โดยค่าทำนายของ Decision Tree ไหนได้รับค่าผลโหวตมากที่สุดจะถูกเลือกให้เป็นผลลัพธ์ ทำให้ประสิทธิภาพการทำงานและทำนายสูงขึ้น
+      ในขณะเดียวกันโมเดล LSTM มีการทำงาที่เรียนรู้ข้อมูลเชิงลึก lส่งผลให้โมเดลมีประสิทธิภาพที่ดี 
+      แต่เนื่องจากไม่สามารถใช้ Text Representation ด้วยการทำ TF-IDF จึงส่งผลให้วัดค่าความสำคัญของคำได้ จึงได้ประสิทธิภาพต่ำกว่า Random Forest
+      ส่วนโมเดล K-Nearest Neighbor ที่มีประสิทธิภาพน้อยที่สุด ทั้งนี้อาจเกิดจากการกระจายตัวของความสัมพันธ์ของคำในแต่ละหมวดหมู่ (รูปที่:\ref{fig:tsne}) 
+      ทำให้เมื่อมีการเปรียบเทียบความคล้ายคลึงกันของข้อมูลที่สนใจกับข้อมูลอื่นว่ามีความคล้ายคลึงหรืออยู่ใกล้กับข้อมูลใดมากที่สุด k ตัว ตามหลักการของ KNN แล้ว
+      ส่งผลให้คำตอบของข้อมูลที่สนใจที่ควรเป็นคำตอบเดียวกับข้อมูลที่อยู่ใกล้ที่สุด k ตัวนั้น เกิดความคลาดเคลื่อนและทำนายผิดพลาดได้ ส่งผลให้ประสิทธิภาพของโมเดลลดลง
       นอกจากนี้จะเห็นได้ว่าการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษจะทำให้ได้โมเดลที่มีประสิทธิภาพมากกว่าการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาไทย 
-      ทั้งนี้อาจเกิดจากการแปลภาษาไทยให้กลายเป็นภาษาอังกฤษส่งผลให้ความซับซ้อนของคำในประโยคลดลง 
-      หรืออาจเป็นเพราะการใช้ Library ตัดคำของภาษาไทยไม่ได้มีประสิทธิภาพในการตัดคำที่เป็นคำทับศัพท์ เช่น ชื่อของคนที่ทับศัพท์มาจากภาษาอังกฤษ 
-      จึงส่งผลต่อประสิทธิภาพของการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ
+      ทั้งนี้อาจเกิดจากการแปลภาษาไทยให้กลายเป็นภาษาอังกฤษส่งผลให้ความซับซ้อนของคำในประโยคลดลง
+      ประกอบกับเครื่องมือที่ใช้ในการจัดการข้อมูลที่เป็นภาษาอังกฤษมีให้เลือกหลากหลายมากกว่า 
+      หรืออาจเป็นเพราะเครื่องมือที่ใช้ในการจัดการข้อมูลที่เป็นภาษาไทยมีน้อยกว่า
+      ประกอบกับการใช้ Library ตัดคำของภาษาไทยไม่ได้มีประสิทธิภาพในการตัดคำที่เป็นคำทับศัพท์ เช่น ชื่อของคนที่ทับศัพท์มาจากภาษาอังกฤษ 
+      จึงส่งผลต่อประสิทธิภาพของการทำโมเดลด้วยชุดข้อมูลที่มีเนื้อหาเป็นไทย 
       ซึ่งโมเดลที่มีค่า Accuracy สูงสุด คือ โมเดล Random Forest ที่ใช้ชุดข้อมูลที่มีเนื้อหาเป็นภาษาอังกฤษ โดยมีค่า Accuracy สูงถึง 0.9456
-      \newpage
 
     \subsection{การทดสอบโมเดล}
       \hspace{1cm}นำโมเดลที่ได้ค่า Accuracy สูงที่สุดมาทดสอบด้วยชุดข้อมูลอื่น โดยจะใช้ชุดข้อมูลที่อยู่ภายใน Domain ที่ระบบรองรับอย่างละ 100 ชุดต่อหมวดหมู่
@@ -2993,203 +3034,17 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
             ซึ่งจะแบ่งเป็น 2 ส่วนย่อยด้วยกัน ได้แก่ ส่วนของเว็บแอปพลิเคชันและส่วนของการจัดหมวดหมู่ในเนื้อหาของบทความแบบอัตโนมัติ
       \item แบบสอบถามแบบถาม-ตอบ เป็นการสอบถามความรู้สึกและความคิดเห็นที่มีต่อเว็บแอปพลิเคชัน รวมถึงข้อเสนอแนะและสิ่งที่ต้องปรับปรุงด้วย
     \end{enumerate}
-    \newpage
-    \newcommand{\Qline}[1]{\noindent\rule{#1}{0.6pt}}
-    \newcounter{ql}
-    \newcommand{\Qlines}[1]{\forloop{ql}{0}{\value{ql}<#1}{\vskip0em\Qline{\linewidth}}}
-    \newcommand{\QO}{$\square$}
-    \newlength{\qt}
-    \newcommand{\Qtab}[2]{
-      \setlength{\qt}{\linewidth}
-      \addtolength{\qt}{-#1}
-      \hfill\parbox[t]{\qt}{\raggedright #2}
-    }
-    \begin{center}
-      \textbf{\large ตัวอย่างแบบสอบถามความพึงพอใจหลังจากการใช้งานเว็บแอปพลิเคชันสําหรับการจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทย 
-      โดยใช้เทคโนโลยีปัญญาประดิษฐ์}
-      \Qlines{1}
-    \end{center}\vskip1em
-    \underline{\textbf{คำอธิบาย}} แบบสอบถามนี้มีทั้งหมด 3 ส่วน ขอให้ผู้ตอบแบบสอบถามตอบให้ครบทั้ง 3 ส่วน
-    \newline \textbf{ตอนที่ 1} ข้อมูลทั่วไป
-    \newline 1. เพศ \Qtab{1.5cm}{\QO{} ชาย\hskip1cm \QO{} หญิง}
-    \newline 2. อายุ
-    
-    \Qtab{1.5cm}{\QO{} ต่ำกว่า 18 ปี \hskip1cm \QO{} 18 - 20 ปี \hskip1cm \QO{} 21 - 25 ปี}
-    
-    
-    \Qtab{1.5cm}{\QO{} 26 - 30 ปี \hskip1.25cm \QO{} 31 - 40 ปี \hskip1cm \QO{} มากกว่า 40 ปี}
-    \newline 3. อาชีพ
-
-    \Qtab{1.5cm}{\QO{} ข้าราชการ/พนักงานรัฐวิสาหกิจ/เจ้าหน้าที่รัฐ \hskip1cm \QO{} พนักงาน/ลูกจ้างเอกชน}
-
-    \Qtab{1.5cm}{\QO{} ค้าขาย/ประกอบธุรกิจส่วนตัว \hskip2.7cm \QO{} เกษตรกร}
-
-    \Qtab{1.5cm}{\QO{} รับจ้างทั่วไป \hskip4.64cm \QO{} นักเรียน/นักศึกษา}
-
-    \Qtab{1.5cm}{\QO{} ไม่ได้ประกอบอาชีพ \hskip3.82cm \QO{} อื่นๆ (โปรดระบุ)\Qline{3cm}}
-    \newline 4. เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่ 
-    
-    \Qtab{1.5cm}{\QO{} เคย \hskip1cm \QO{} ไม่เคย}
-    \newline 5. เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง 
-    
-    \Qtab{1.5cm}{\QO{} เคย \hskip1cm \QO{} ไม่เคย}
-    \vskip1em
-    \textbf{ตอนที่ 2} แบบประเมินแบบให้คะแนน
-    \begin{longtable}{|lcclll|}
-      \hline
-      \multicolumn{1}{|c|}{} &
-        \multicolumn{5}{c|}{\textbf{ระดับความพึงพอใจ/ความรู้ความเข้าใจ}} \\ \cline{2-6} 
-      \multicolumn{1}{|c|}{\multirow{-2}{*}{\textbf{หมวดหมู่}}} &
-        \multicolumn{1}{c|}{\textbf{มากที่สุด}} &
-        % \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}มาก\\ ที่สุด\end{tabular}}} &
-        \multicolumn{1}{c|}{\textbf{มาก}} &
-        \multicolumn{1}{c|}{\textbf{ปานกลาง}} &
-        % \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}ปาน\\ กลาง\end{tabular}}} &
-        \multicolumn{1}{c|}{\textbf{น้อย}} &
-        \multicolumn{1}{c|}{\textbf{น้อยที่สุด}} \\ \hline
-        % \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}น้อย\\ ที่สุด\end{tabular}}} \\ \hline
-      \endhead
-      %
-      \multicolumn{6}{|l|}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{ด้านการออกแบบ}}} \\ \hline
-      \multicolumn{1}{|l|}{1. ความสวยงามของเว็บแอปพลิเคชัน} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{2. สีสันในการออกแบบมีความเหมาะสม} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{3. การจัดวางองค์ประกอบของเว็บแอปพลิเคชัน} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{4. การใช้งานเว็บแอปพลิเคชันง่ายและสะดวก} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{5. ความน่าสนใจในการนำเสนอเว็บแอปพลิเคชั่น} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{6. ความสะดวกในการเชื่อมโยงเนื้อหาภายในเว็บแอปพลิเคชัน} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{c|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{6}{|l|}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{ด้านประสิทธิภาพ}}} \\ \hline
-      \multicolumn{1}{|l|}{1. ความรวดเร็วในการแสดงผลของเว็บแอปพลิเคชัน} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{2. ความรวดเร็วของระบบจัดหมวดหมู่ให้กับเนื้อหาออนไลน์   } &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{3. ความแม่นยำของระบบจัดหมวดหมู่ของบทความด้วยเนื้อหาในบทความ} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-      \multicolumn{1}{|l|}{4. ความแม่นยำของระบบจัดหมวดหมู่ของบทความด้วย Web Link} &
-      \multicolumn{1}{l|}{} &
-      \multicolumn{1}{l|}{} &
-      \multicolumn{1}{l|}{} &
-      \multicolumn{1}{l|}{} &
-        \\ \hline
-      \multicolumn{1}{|l|}{5. ความรวดเร็วโดยรวมของเว็บแอปพลิเคชัน} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-        \multicolumn{1}{l|}{} &
-         \\ \hline
-    \end{longtable}
-    \textbf{ตอนที่ 3} แบบสอบถามแบบถาม - ตอบ
-    
-    1. หลังการทดลองใช้งาน ท่านคิดว่าเว็บแอปพลิเคชันนี้จะทำให้ท่านจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้สะดวกกว่าจัดหมวดหมู่ด้วยตนเองหรือไม่ อย่างไร
-    \Qlines{4}
-    \newpage
-    2. ท่านคิดว่าเว็บแอปพลิเคชันนี้สามารถช่วยจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้โดยไม่ต้องอาศัยความรู้หรือไม่ อย่างไร
-    \Qlines{4}
-    \vskip0.7em 
-    3. ท่านคิดเห็นอย่างไรกับการที่เว็บแอปพลิเคชันสามารถจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้ โดยการใช้เนื้อหาในบทความหรือ Web Link
-    \Qlines{4}
-    \vskip0.7em 
-    4. ข้อควรปรับปรุง/ข้อเสนอแนะเพิ่มเติม
-    \Qlines{4}
-    \newpage
     
     \subsection{ผลสำรวจจากการตอบแบบสอบถามของผู้ใช้งาน}
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/gender.png}
-        \caption{สัดส่วนเพศของผู้ตอบแบบสอบถาม}\label{fig:user_test_gender}
-      \end{figure}
-      
       \hspace{1cm}จากการเก็บผลสำรวจ คณะผู้จัดทำได้เก็บข้อมูลจากเพศชาย 45\% เพศหญิง 40\% และไม่ต้องการระบุเพศ 15\%
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/age.png}
-        \caption{สัดส่วนอายุของผู้ตอบแบบสอบถาม}\label{fig:user_test_age}
-      \end{figure}
-      
-      \hspace{1cm}จากการเก็บผลสำรวจ ส่วนใหญ่จะเป็นกลุ่ม Early Adopter ซึ่งมีอายุ 21 - 25 ปี
-      เนื่องจากการทำแบบทดสอบนี้เป็นการทำแบบทดสอบผ่านทางออนไลน์ จึงเข้าถึงกลุ่มอายุ 21 - 25 ปีมากกว่ากลุ่มอายุอื่น
-      \newpage
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/job.png}
-        \caption{สัดส่วนอาชีพของผู้ตอบแบบสอบถาม}\label{fig:user_test_job}
-      \end{figure}
-      
-      \hspace{1cm}จากการเก็บผลสำรวจ ส่วนใหญ่จะเป็นกลุ่มนักเรียน/นักศึกษา โดยคิดเป็น 70\% และเป็นกลุ่มพนักงาน/ลูกจ้างเอกชน 30 \%
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/search.png}
-        \caption{สัดส่วนผู้ตอบแบบสอบถามที่เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่}\label{fig:user_test_search}
-      \end{figure}
-      
-      \hspace{1cm}จากการเก็บผลสำรวจ พบว่ามีบุคคลที่เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่ถึง 75\% 
+      โดยส่วนใหญ่จะเป็นกลุ่ม Early Adopter ซึ่งมีอายุ 21 - 25 ปี เนื่องจากการทำแบบทดสอบนี้เป็นการทำแบบทดสอบผ่านทางออนไลน์ จึงเข้าถึงกลุ่มอายุ 21 - 25 ปีมากกว่ากลุ่มอายุอื่น
+      และส่วนใหญ่จะเป็นกลุ่มนักเรียน/นักศึกษา โดยคิดเป็น 70\% และเป็นกลุ่มพนักงาน/ลูกจ้างเอกชน 30 \%
+      ซึ่งจากการสอบถามเกี่ยวกับประการณ์ด้านการค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่ 
+      พบว่ามีบุคคลที่เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่ถึง 75\% 
       ซึ่งเป็นผลดีต่อการทดสอบ เนื่องจากทำให้ได้รับข้อมูลเพิ่มเติมจากผู้ที่เคยมีประสบการณ์จริง
-      \newpage
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/tag.png}
-        \caption{สัดส่วนผู้ตอบแบบสอบถามที่เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง}\label{fig:user_test_tag}
-      \end{figure}
+      และจากการสอบถามเกี่ยวกับประการณ์ด้านการจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง
+      พบว่ามีบุคคลที่เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง 20\% 
       
-      \hspace{1cm}จากการเก็บผลสำรวจ พบว่ามีบุคคลที่เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง 20\% 
-      
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/design.png}
-        \caption{การให้คะแนนความพึงพอใจต่อเว็บไซต์ในด้านการออกแบบของผู้ตอบแบบสอบถาม}\label{fig:user_test_design}
-      \end{figure}
-
-      \hspace{1cm}สำหรับผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนน "มาก"
-      ในเรื่องของความสวยงาม สีสัน และความน่าสนใจ ส่วนในเรื่องของการจัดวางองค์ประกอบ การใช้งานง่าย และความสะดวกในการเชื่อมโยงเนื้อหาภายใน
-      ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนนอยู่ในช่วง "มาก" ถึง "มากที่สุด" 
-      แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถามมีความพึงพอใจในการออกแบบเว็บแอปพลิเคชันของคณะผู้จัดทำ
-      \newpage
-      \begin{figure}[!ht]\centering
-        \includegraphics[width=\textwidth]{./img/test/efficient.png}
-        \caption{การให้คะแนนความพึงพอใจต่อเว็บไซต์ในด้านประสิทธิภาพของผู้ตอบแบบสอบถาม}\label{fig:user_test_eff}
-      \end{figure}
-
-      \hspace{1cm}สำหรับผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านประสิทธิภาพ ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนน
-      "มาก" ถึง "มากที่สุด" ไม่ว่าจะเป็นในเรื่องของความรวดเร็วหรือความแม่นยำของเว็บแอปพลิเคชัน 
-      แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถามมีความพึงพอใจในประสิทธิภาพของเว็บแอปพลิเคชัน
-    
-    \subsection{สรุปผลการสำรวจจากแบบสอบถาม}
       \begin{longtable}{lcc}
         \caption{ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ}
         \label{tbl:design_score}\\
@@ -3205,6 +3060,11 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         ความสะดวกในการเชื่อมโยงเนื้อหาภายในเว็บแอปพลิเคชัน & 4.15       & 0.81          \\ \hline
         \textbf{เฉลี่ย}                                    & \textbf{4.08}        & \textbf{0.67}     \\ \hhline{===}    
       \end{longtable}
+      \hspace{1cm}สำหรับผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนน "มาก"
+      ในเรื่องของความสวยงาม สีสัน และความน่าสนใจ ส่วนในเรื่องของการจัดวางองค์ประกอบ การใช้งานง่าย และความสะดวกในการเชื่อมโยงเนื้อหาภายใน
+      ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนนอยู่ในช่วง "มาก" ถึง "มากที่สุด" 
+      แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถามมีความพึงพอใจในการออกแบบเว็บแอปพลิเคชันของคณะผู้จัดทำ
+
       \begin{longtable}{lcc}
         \caption{ผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านการออกแบบ}
         \label{tbl:eff_score}\\
@@ -3219,6 +3079,10 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         ความรวดเร็วโดยรวมของเว็บแอปพลิเคชัน                             & 4.35       & 0.59          \\ \hline
         \textbf{เฉลี่ย}                                              & \textbf{4.35}        & \textbf{0.63}     \\ \hhline{===}    
       \end{longtable}
+      \hspace{1cm}สำหรับผลลัพธ์ของการให้คะแนนความพึงพอใจของผู้ทำแบบสอบถามในด้านประสิทธิภาพ ผู้ทำแบบสอบถามส่วนใหญ่ให้คะแนน
+      "มาก" ถึง "มากที่สุด" ไม่ว่าจะเป็นในเรื่องของความรวดเร็วหรือความแม่นยำของเว็บแอปพลิเคชัน 
+      แสดงให้เห็นว่าโดยภาพรวมผู้ทำแบบสอบถามมีความพึงพอใจในประสิทธิภาพของเว็บแอปพลิเคชัน
+
       \hspace{1cm}จากผลการสำรวจผู้ทำแบบทดสอบทั้งหมด 20 คน สามารถแบ่งได้เป็น 2 กลุ่ม ได้แก่ 
       กลุ่มที่เคยจัดการเกี่ยวกับหมวดหมู่ของเนื้อหาออนไลน์และกลุ่มที่ไม่เคยจัดการเกี่ยวกับหมวดหมู่ของเนื้อหาออนไลน์
       ซึ่งคิดเป็น 20\% และ 80\% ตามลำดับ พบว่าในภาพรวมผู้ทำแบบทดสอบมีความพึงพอใจในการใช้งานเว็บแอปพลิเคชัน
@@ -3297,6 +3161,7 @@ Random Forest ที่ค่า Accuracy อยู่ที่ 0.9372 สำห
       \item พัฒนาโมเดลให้เป็น Multi-labels เพื่อที่จะสามารถจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่มีหลายหมวดหมู่ในบทความเดียวได้
       \item พัฒนาโมเดลให้สามารถจำแนกหมวดหมู่ได้อย่างหลากหลายมากขึ้นกว่าปัจจุบันและพัฒนาให้เว็บแอปพลิเคชันสามารถรองรับโดเมนได้มากกว่าปัจจุบัน
       \item พัฒนาโมเดลให้สามารถจำแนกหมวดหมู่ได้อย่างรวดเร็วและมีความแม่นยำมากกว่าปัจจุบัน
+      \item พัฒนาเว็บแอปพลิเคชันให้สามารถจัดหมวดหมู่ให้กับวิดีโอหรือเสียงได้ ด้วยการนำเสียงมาแปลงเป็นข้อความแล้วจึงนำมาวิเคราะห์เพื่อจัดหมวดหมู่
     \end{itemize}
 
 
@@ -3321,105 +3186,245 @@ Random Forest ที่ค่า Accuracy อยู่ที่ 0.9372 สำห
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%% Appendix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix{ชื่อภาคผนวกที่ 1}
-\noindent{\large\bf ใส่หัวข้อตามความเหมาะสม} \\
+\appendix{ผลสำรวจจากการตอบแบบสอบถามของผู้ใช้งาน}
 
-This is where you put hardware circuit diagrams, detailed experimental data in tables or source codes, etc.. \\ \bigskip
+\newcommand{\Qline}[1]{\noindent\rule{#1}{0.6pt}}
+\newcounter{ql}
+\newcommand{\Qlines}[1]{\forloop{ql}{0}{\value{ql}<#1}{\vskip0em\Qline{\linewidth}}}
+\newcommand{\QO}{$\square$}
+\newlength{\qt}
+\newcommand{\Qtab}[2]{
+  \setlength{\qt}{\linewidth}
+  \addtolength{\qt}{-#1}
+  \hfill\parbox[t]{\qt}{\raggedright #2}
+}
+\begin{center}
+  \textbf{\large ตัวอย่างแบบสอบถามความพึงพอใจหลังจากการใช้งานเว็บแอปพลิเคชันสําหรับการจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทย 
+  โดยใช้เทคโนโลยีปัญญาประดิษฐ์}
+  \Qlines{1}
+\end{center}\vskip1em
+\underline{\textbf{คำอธิบาย}} แบบสอบถามนี้มีทั้งหมด 3 ส่วน ขอให้ผู้ตอบแบบสอบถามตอบให้ครบทั้ง 3 ส่วน
+\newline \textbf{ตอนที่ 1} ข้อมูลทั่วไป
+\newline 1. เพศ \Qtab{1.5cm}{\QO{} ชาย\hskip1cm \QO{} หญิง}
+\newline 2. อายุ
+
+\Qtab{1.5cm}{\QO{} ต่ำกว่า 18 ปี \hskip1cm \QO{} 18 - 20 ปี \hskip1cm \QO{} 21 - 25 ปี}
 
 
+\Qtab{1.5cm}{\QO{} 26 - 30 ปี \hskip1.25cm \QO{} 31 - 40 ปี \hskip1cm \QO{} มากกว่า 40 ปี}
+\newline 3. อาชีพ
 
-% This appendix describes two static allocation methods for fGn (or fBm)
-% traffic. Here, $\lambda$ and $C$ are respectively the traffic arrival
-% rate and the service rate per dimensionless time step. Their unit are
-% converted to a physical time unit by multiplying the step size
-% $\Delta$. For a fBm self-similar traffic source,
-% Norros~\cite{norros95} provides its EB as
-% \begin{equation}\label{eq:norros}
-%   C = \lambda + (\kappa(H)\sqrt{-2\ln\epsilon})^{1/H}a^{1/(2H)}x^{-(1-H)/H}\lambda^{1/(2H)}
-% \end{equation}
-% where $\kappa(H) = H^H(1-H)^{(1-H)}$. Simplicity in the calculation is
-% the attractive feature of (\ref{eq:norros}).
+\Qtab{1.5cm}{\QO{} ข้าราชการ/พนักงานรัฐวิสาหกิจ/เจ้าหน้าที่รัฐ \hskip1cm \QO{} พนักงาน/ลูกจ้างเอกชน}
 
-% The MVA technique developed in~\cite{kim01} so far provides the most
-% accurate estimation of the loss probability compared to previous
-% bandwidth allocation techniques according to simulation results.
-% Consider a discrete-time queueing system with constant service rate
-% $C$ and input process $\lambda_n$ with $\mathbb{E}\{\lambda_n\} =
-% \lambda$ and $\mathrm{Var}\{\lambda_n\} = \sigma^2$.  Define $X_n \equiv
-% \sum_{k=1}^n \lambda_k - Cn$.  The loss probability due to the MVA
-% approach is given by
-% \begin{equation}\label{eq:loss_mva}
-%   \varepsilon \approx \alpha e^{-m_x/2}
-% \end{equation}
-% where
-% \begin{equation}\label{eq:mx}
-% m_x = \min_{n \geq 0} \frac{((C-\lambda)n + B)^2}{\mathrm{Var}\{X_n\}} =
-% \frac{((C-\lambda)n^\ast + B)^2}{\mathrm{Var}\{X_{n^{\ast}}\}}
-% \end{equation} 
-% and 
-% \begin{equation}\label{eq:alpha}
-%   \alpha =
-%   \frac{1}{\lambda\sqrt{2\pi\sigma^2}}\exp\left(\frac{(C-\lambda)^2}{2\sigma^2}\right)
-%   \int_C^\infty (r-C)\exp\left(\frac{(r-\lambda)^2}{2\sigma^2}\right)\, dr
-% \end{equation}
-% For a given $\varepsilon$, we numerically solve for $C$ that satisfies
-% (\ref{eq:loss_mva}). Any search algorithm can be used to do the task.
-% Here, the bisection method is used.  
+\Qtab{1.5cm}{\QO{} ค้าขาย/ประกอบธุรกิจส่วนตัว \hskip2.7cm \QO{} เกษตรกร}
 
-% Next, we show how $\mathrm{Var}\{X_n\}$ can be determined.  Let
-% $C_{\lambda}(l)$ be the autocovariance function of $\lambda_n$.  The
-% MVA technique basically approximates the input process $\lambda_n$
-% with a Gaussian process, which allows $\mathrm{Var}\{X_n\}$ to be
-% represented by the autocovariance function.  In particular, the
-% variance of $X_n$ can be expressed in terms of $C_{\lambda}(l)$ as
-% \begin{equation}
-%   \mathrm{Var}\{X_n\} = nC_{\lambda}(0) + 2\sum_{l=1}^{n-1} (n-l)C_{\lambda}(l)
-% \end{equation} 
-% Therefore, $C_{\lambda}(l)$ must be known in the MVA technique, either
-% by assuming specific traffic models or by off-line analysis in case of
-% traces.  In most practical situations, $C_{\lambda}(l)$ will not be
-% known in advance, and an on-line measurement algorithm developed
-% in~\cite{eun01} is required to jointly determine both $n^\ast$ and
-% $m_x$. For fGn traffic, $\mathrm{Var}\{X_n\}$ is equal to $\sigma^2
-% n^{2H}$, where $\sigma^2 = \mathrm{Var}\{\lambda_n\}$, and we can find
-% the $n^\ast$ that minimizes (\ref{eq:mx}) directly. Although $\lambda$
-% can be easily measured, it is not the case for $\sigma^2$ and $H$.
-% Consequently, the MVA technique suffers from the need of prior
-% knowledge traffic parameters.
+\Qtab{1.5cm}{\QO{} รับจ้างทั่วไป \hskip4.64cm \QO{} นักเรียน/นักศึกษา}
 
+\Qtab{1.5cm}{\QO{} ไม่ได้ประกอบอาชีพ \hskip3.82cm \QO{} อื่นๆ (โปรดระบุ)\Qline{3cm}}
+\newline 4. เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่ 
+
+\Qtab{1.5cm}{\QO{} เคย \hskip1cm \QO{} ไม่เคย}
+\newline 5. เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง 
+
+\Qtab{1.5cm}{\QO{} เคย \hskip1cm \QO{} ไม่เคย}
+\vskip1em
+\textbf{ตอนที่ 2} แบบประเมินแบบให้คะแนน
+\begin{longtable}{|lcclll|}
+  \hline
+  \multicolumn{1}{|c|}{} &
+    \multicolumn{5}{c|}{\textbf{ระดับความพึงพอใจ/ความรู้ความเข้าใจ}} \\ \cline{2-6} 
+  \multicolumn{1}{|c|}{\multirow{-2}{*}{\textbf{หมวดหมู่}}} &
+    \multicolumn{1}{c|}{\textbf{มากที่สุด}} &
+    % \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}มาก\\ ที่สุด\end{tabular}}} &
+    \multicolumn{1}{c|}{\textbf{มาก}} &
+    \multicolumn{1}{c|}{\textbf{ปานกลาง}} &
+    % \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}ปาน\\ กลาง\end{tabular}}} &
+    \multicolumn{1}{c|}{\textbf{น้อย}} &
+    \multicolumn{1}{c|}{\textbf{น้อยที่สุด}} \\ \hline
+    % \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}น้อย\\ ที่สุด\end{tabular}}} \\ \hline
+  \endhead
+  %
+  \multicolumn{6}{|l|}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{ด้านการออกแบบ}}} \\ \hline
+  \multicolumn{1}{|l|}{1. ความสวยงามของเว็บแอปพลิเคชัน} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{2. สีสันในการออกแบบมีความเหมาะสม} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{3. การจัดวางองค์ประกอบของเว็บแอปพลิเคชัน} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{4. การใช้งานเว็บแอปพลิเคชันง่ายและสะดวก} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{5. ความน่าสนใจในการนำเสนอเว็บแอปพลิเคชั่น} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{6. ความสะดวกในการเชื่อมโยงเนื้อหาภายในเว็บแอปพลิเคชัน} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{c|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{6}{|l|}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{ด้านประสิทธิภาพ}}} \\ \hline
+  \multicolumn{1}{|l|}{1. ความรวดเร็วในการแสดงผลของเว็บแอปพลิเคชัน} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{2. ความรวดเร็วของระบบจัดหมวดหมู่ให้กับเนื้อหาออนไลน์   } &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{3. ความแม่นยำของระบบจัดหมวดหมู่ของบทความด้วยเนื้อหาในบทความ} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+  \multicolumn{1}{|l|}{4. ความแม่นยำของระบบจัดหมวดหมู่ของบทความด้วย Web Link} &
+  \multicolumn{1}{l|}{} &
+  \multicolumn{1}{l|}{} &
+  \multicolumn{1}{l|}{} &
+  \multicolumn{1}{l|}{} &
+    \\ \hline
+  \multicolumn{1}{|l|}{5. ความรวดเร็วโดยรวมของเว็บแอปพลิเคชัน} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{l|}{} &
+     \\ \hline
+\end{longtable}
+\textbf{ตอนที่ 3} แบบสอบถามแบบถาม - ตอบ
+
+1. หลังการทดลองใช้งาน ท่านคิดว่าเว็บแอปพลิเคชันนี้จะทำให้ท่านจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้สะดวกกว่าจัดหมวดหมู่ด้วยตนเองหรือไม่ อย่างไร
+\Qlines{4}
+\newpage
+2. ท่านคิดว่าเว็บแอปพลิเคชันนี้สามารถช่วยจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้โดยไม่ต้องอาศัยความรู้หรือไม่ อย่างไร
+\Qlines{4}
+\vskip0.7em 
+3. ท่านคิดเห็นอย่างไรกับการที่เว็บแอปพลิเคชันสามารถจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้ โดยการใช้เนื้อหาในบทความหรือ Web Link
+\Qlines{4}
+\vskip0.7em 
+4. ข้อควรปรับปรุง/ข้อเสนอแนะเพิ่มเติม
+\Qlines{4}
+\newpage
+
+\noindent{\large\bf ด้านข้อมูลทั่วไป} \\
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/gender.png}
+  \caption{สัดส่วนเพศของผู้ตอบแบบสอบถาม}\label{fig:user_test_gender}
+\end{figure}
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/age.png}
+  \caption{สัดส่วนอายุของผู้ตอบแบบสอบถาม}\label{fig:user_test_age}
+\end{figure}
+
+\newpage
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/job.png}
+  \caption{สัดส่วนอาชีพของผู้ตอบแบบสอบถาม}\label{fig:user_test_job}
+\end{figure}
+
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/search.png}
+  \caption{สัดส่วนผู้ตอบแบบสอบถามที่เคยค้นหาเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยหมวดหมู่}\label{fig:user_test_search}
+\end{figure}
+
+\newpage
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/tag.png}
+  \caption{สัดส่วนผู้ตอบแบบสอบถามที่เคยจัดหรือจำแนกหมวดหมู่ให้กับเนื้อหาออนไลน์ที่เป็นภาษาไทยด้วยตนเอง}\label{fig:user_test_tag}
+\end{figure}
+
+\noindent{\large\bf ด้านการออกแบบและด้านประสิทธิภาพ} \\
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/design.png}
+  \caption{การให้คะแนนความพึงพอใจต่อเว็บไซต์ในด้านการออกแบบของผู้ตอบแบบสอบถาม}\label{fig:user_test_design}
+\end{figure}
+\begin{figure}[!ht]\centering
+  \includegraphics[width=\textwidth]{./img/test/efficient.png}
+  \caption{การให้คะแนนความพึงพอใจต่อเว็บไซต์ในด้านประสิทธิภาพของผู้ตอบแบบสอบถาม}\label{fig:user_test_eff}
+\end{figure}
+
+\newpage
+\noindent{\large\bf แบบสอบถามแบบถาม - ตอบและความคิดเห็นของผู้ใช้งาน} \\
+\begin{enumerate}
+  \item หลังการทดลองใช้งาน ท่านคิดว่าเว็บแอปพลิเคชันนี้จะทำให้ท่านจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้สะดวกกว่าจัดหมวดหมู่ด้วยตนเองหรือไม่ อย่างไร
+        \begin{itemize}
+          \item สะดวกกว่า เพราะมีความรวดเร็วและถูกต้อง
+          \item สะดวกกว่าจัดด้วยตนเอง เพราะบางครั้งการจัดหมวดหมู่ให้กับบทความเยอะๆอาจทำให้สับสนบ้าง
+          \item คิดว่าสะดวกกว่าจัดด้วยตัวเอง เพราะมีระบบจัดการให้
+          \item สะดวกขึ้น แค่ก๊อปวางก็ได้หมวดหมู่เลย
+          \item แอปพลิเคชันนี้ช่วยให้สามารถจัดหมวดหมู่ของเนื้อหาได้รวดเร็วขึ้นและไม่ต้องมาอ่านเพื่อวิเคราะห์ด้วยตัวเอง
+          \item สะดวกมากขึ้น สามารถทำให้สรุปเนื้อหาภาพรวมของเว็บไซต์หรือบทความต่าง ๆ ได้ ว่าเป็นเนื้อหาเกี่ยวกับอะไร
+          \item สะดวกกว่า ถึงแม้ว่าจะต้องก๊อปเนื้อหาข่าวมาเองแต่การประมวลผลค่อนข้างตรง เลยน่าจะง่ายกว่าการจัดหมวดหมู่ด้วยตัวเอง
+          \item คิดว่าสามารถจัดหมวดหมู่ได้ง่ายกว่าจัดด้วยตนเอง เนื่องจากการตีความของเราที่มีต่อเนื้อหาของข่าว อาจผิดพลาดกันได้
+          \item ได้สะดวกยิ่งขึ้น
+          \item สะดวกกว่ามากๆ
+        \end{itemize}
+  \item ท่านคิดว่าเว็บแอปพลิเคชันนี้สามารถช่วยจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้โดยไม่ต้องอาศัยความรู้หรือไม่ อย่างไร
+        \begin{itemize}
+          \item สามารถทำได้ง่าย
+          \item คิดว่าไม่ เพราะน่าจะมีการประมวลผลเนื้อหาหรือหัวข้อต่าง ๆ ก่อนการจัดหมวดหมู่
+          \item ต้องมีความรู้และเข้าใจเกี่ยวกับหมวดหมู่เป็นพื้นฐานนิดหน่อย
+          \item จำเป็นต้องอาศัยความรู้ เพราะต้องมีการตรวจสอบความถูกต้องของการจัดหมวดหมู่
+          \item สามารถช่วยจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้โดยไม่ต้องอาศัยความรู้ เพราะแค่เรากรอกข่าวที่สนใจก็จะแยกหมวดหมู่ได้เลย
+          \item เห็นด้วย เพราะการใช้แอปพลิเคชันมาช่วยจัดหมวดหมู่ทำให้เราไม่ต้องทำการวิเคราะห์บทความต่างๆด้วยตัวเอง
+          \item สามารถทำได้ เพราะผู้ใช้ไม่จำเป็นต้องรู้ก่อนว่าเนื้อหาที่อ่านนั้นสรุปเป็นเนื้อหาอะไร แต่ระบบสามารถแยกให้ได้
+          \item ใช่ คิดว่าไม่มีความรู้เทคนิคก็สามารถใช้งานได้ แต่ตัวเว็บคิดว่าจำเป็นต้องอ่านทำความเข้าใจก่อนว่าต้องใช้ยังไงถึงจะสามารถใช้งานได้
+          \item คิดว่าได้ เพราะการแยกแยะของหมวดหมู่แต่ละอย่างจะมีคำพูดที่เป็นคีย์หลักของมัน เว็ปตัวนี้จึงช่วยให้แยกแยะ
+          \item สามารถใช้งานได้โดยไม่ต้องอาศัยความรู้มากนัก
+          \item ช่วย
+          \item ไม่ตัอง
+        \end{itemize}
+  \item ท่านคิดเห็นอย่างไรกับการที่เว็บแอปพลิเคชันสามารถจัดหมวดหมู่ให้กับเนื้อหาออนไลน์ได้ โดยการใช้เนื้อหาในบทความหรือ Web Link
+        \begin{itemize}
+          \item คิดว่าจะสามารถสร้างความสะดวกสบายในการจัดหมวดหมู่ข่าวหรือเนื้อหาบล็อคต่าง ๆ ได้
+          \item ใช้งานง่าย มีคำอธิบายให้เข้าใจได้อย่างชัดเจน 
+          \item มีความน่าสนใจ เพราะมีการนำเอา AI มาช่วยในการจัดหมวดหมู่ของข่าว ซึ่งได้ผลลัพธ์ที่น่าพอใจ และในอนาคตอาจมีการประยุกต์เพื่อช่วยในการจัดหมวดหมู่อื่นๆ
+          \item ช่วยอำนวยความสะดวกในการจัดหมวดหมู่บทความที่สนใจและมีการจัดเก็บไว้ทำให้สะดวกต่อการเปิดอ่านโดยที่ไม่ต้องไปค้นหาใหม่
+          \item เป็นประโยชน์ในการนำไปใช้ด้านการทำบทความ หรือการเขียน blog เพื่ออำนวยความสะดวกให้ผู้เขียนไม่จำเป็นต้องจัดหมวดหมู่เอง
+          \item คิดเห็นว่าการที่จัดหมวดหมู่ของข้อมูลทำให้ สะดวกต่อการค้นหา 
+          \item สะดวกดีมากๆ มีความแม่นยำ แต่เสียดาย weblink น่าจะใช้ได้
+          \item มีความสะดวกในการใช้งาน
+          \item ง่ายต่อการหาข้อมูล
+          \item ใช้งานง่าย
+        \end{itemize}
+  \item ข้อควรปรับปรุง/ข้อเสนอแนะเพิ่มเติม
+        \begin{itemize}
+          \item เพิ่มหมวดหมู่ อยากให้หน้า status ขึ้น category ให้เลยไม่ต้องกดไปหน้าอื่นหรือรีเว็บก่อน
+          \item ยังมีบางส่วนของเว็บที่ interact user คลาดเคลื่อนเล็กน้อย
+          \item font ตัวหนังสืออาจเล็กเกินไป ถ้าเทียบกับ resolution ของหน้าจอ
+          \item ในแง่ ux ยังมองว่ามีความสับสนอยู่บ้าง และ response ในการวิเคราะห์ ไม่ได้แสดงแบบ realtime ต้องมากด refresh เอง ในจุดนี้อาจจะต้องปรับปรุงให้ดีขึ้น และ ในความสะดวกการใช้งาน หากเป็นการออกแบบในรูปแบบ extension web browser น่าจะตอบโจทย์กว่านี้มาก
+          \item เพิ่มกราฟฟิกเพื่อดึงดูดการใช้งานและพัฒนาฟังก์ชันในการใช้งานให้เสร็จสมบูรณ์ครับ
+        \end{itemize}
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%% The 2nd appendix %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \appendix{ชื่อภาคผนวกที่ 2}
-% \noindent{\large\bf ใส่หัวข้อตามความเหมาะสม} \\
-
-% Next, we show how $\mathrm{Var}\{X_n\}$ can be determined.  Let
-% $C_{\lambda}(l)$ be the autocovariance function of $\lambda_n$.  The
-% MVA technique basically approximates the input process $\lambda_n$
-% with a Gaussian process, which allows $\mathrm{Var}\{X_n\}$ to be
-% represented by the autocovariance function.  In particular, the
-% variance of $X_n$ can be expressed in terms of $C_{\lambda}(l)$ as
-% \begin{equation}
-%   \mathrm{Var}\{X_n\} = nC_{\lambda}(0) + 2\sum_{l=1}^{n-1} (n-l)C_{\lambda}(l)
-% \end{equation} 
-
-% \noindent{\large\bf Add more topic as you need} \\
-
-% Therefore, $C_{\lambda}(l)$ must be known in the MVA technique, either
-% by assuming specific traffic models or by off-line analysis in case of
-% traces.  In most practical situations, $C_{\lambda}(l)$ will not be
-% known in advance, and an on-line measurement algorithm developed
-% in~\cite{eun01} is required to jointly determine both $n^\ast$ and
-% $m_x$. For fGn traffic, $\mathrm{Var}\{X_n\}$ is equal to $\sigma^2
-% n^{2H}$, where $\sigma^2 = \mathrm{Var}\{\lambda_n\}$, and we can find
-% the $n^\ast$ that minimizes (\ref{eq:mx}) directly. Although $\lambda$
-% can be easily measured, it is not the case for $\sigma^2$ and $H$.
-% Consequently, the MVA technique suffers from the need of prior
-% knowledge traffic parameters. 
-
-
-
+\newpage
+\appendix{การทดสอบระบบของเว็บแอปพลิเคชัน}
+\noindent{\large\bf ใส่หัวข้อตามความเหมาะสม} \\
 
 
 \end{document}
