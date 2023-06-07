@@ -318,7 +318,7 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
   สำหรับการพัฒนาโมเดลเพื่อใช้ในการสร้างเทคโนโลยีปัญญาประดิษฐ์ ได้มีการใช้บริการ Google Translate เพื่อเตรียมชุดข้อมูลสำหรับการพัฒนาโมเดล
   รวมถึงใช้หลักการของ TF-IDF ในการแปลงข้อความเป็น Vector เพื่อทำ Text Representation จากนั้นจึงพัฒนาโมเดลโดยใช้ทฤษฎี
   Random Forest, K-Nearest Neighbor และ Neural Network ร่วมกับเครื่องมือใน Library Scikit-Learn และ Tensorflow
-  สำหรับการพัฒนาเว็บแอปพลิเคชัน ในส่วนของระบบหลังบ้านได้มีการพัฒนาด้วยภาษา Java และการแสดงผลโดยส่วนหน้าบ้านได้มีการพัฒนาด้วยภาษา Javascript ผ่าน NuxtJs Framework
+  สำหรับการพัฒนาเว็บแอปพลิเคชัน ในส่วนของระบบหลังบ้านได้มีการพัฒนาด้วยภาษา Java และการแสดงผลโดยส่วนหน้าบ้านด้มีการพัฒนาด้วยภาษา Javascript ผ่าน NuxtJs Framework
   นอกจากนี้ยังมีการสร้างระบบสำหรับผู้ดูแลระบบ เพื่อให้ผู้ดูแลระบบสามารถเพิ่มและจัดการหมวดหมู่ได้ด้วยตนเอง 
   สามารถอัพเดทโมเดลที่ใช้ในการจัดหมวดหมู่ได้ และสามารถดูประวัติการจัดหมวดหมู่ของเนื้อหา
 
@@ -1101,33 +1101,6 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         \hspace{1cm}นอกจากนี้ Discord สามารถสร้างห้องสนทนาไว้พูดคุยกันในกลุ่มเฉพาะหรือเป็นแหล่งพบปะสังสรรค์ของกลุ่มคนที่สนใจในเรื่องเดียวกัน 
         รวมถึงค้นหาหรือเพิ่มเพื่อนเข้ามากลุ่มสนทนาได้อย่างง่ายดาย จึงสามารถใช้เป็นสื่อกลางในทำงานร่วมกับผู้อื่นได้ \cite{discord}
     \end{itemize}
-
-% \begin{table}[!ht]
-% \caption{test table method1}\label{tbl:method1}
-% \begin{tabular}{c|c|l|rr} \hline\hline
-% Center & Center & left aligned & Right & Right aligned \\ \hline\hline
-% Center & Center & left aligned & Right & Right aligned \\ \hline
-% Center & Center & left aligned & Right & Right aligned \\ 
-% Center & Center & left aligned & Right & Right aligned \\ \hline
-% Center & Center & left aligned & Right & Right aligned \\ \hline\hline
-% \end{tabular}
-% \end{table}
-
-
-% % Can define this in the preamble..
-% You can place the figure and refer to it as รูปที่~\ref{fig:model2}.
-% The figure and table numbering will be run and updated automatically when you add/remove tables/figures from the document.
-
-% \begin{figure}[!ht]\centering
-% \setlength{\fboxrule}{0.2mm} % can define this in the preamble
-% \setlength{\fboxsep}{1cm}
-% \fbox{\includegraphics[width=5cm]{./model2.pdf}}
-% \caption{The network model}\label{fig:model2}
-% \end{figure}
-
- 
-% \subsection{อัลกอริทึม I}
-% Add more subsections as you want.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2999,6 +2972,30 @@ Random Forest with TF-IDF, K-Nearest Neighbor with TF-IDF และ LSTM
         เนื่องจากสามารถตรวจสอบได้จากกรณีทดสอบเดิมที่ทำการเขียนไว้ 
         อีกทั้งยังเป็นส่วนช่วยให้นักพัฒนามีความรอบคอบมากขึ้นในการพัฒนาเว็บแอปพลิเคชัน
         ซึ่งจากการทดสอบ พบว่า ไม่มีกรณีไหนที่ล้มเหลว
+      \begin{table}[]
+      \begin{tabular}{llll}
+      รายการทดสอบที่ & รายละเอียด                                      & ผลที่คาดหวัง                                & ผ่านการทดสอบ \\
+      1              & หาเนื้อหาโดยใช้เลขอ้างอิงที่มีอยู่ในระบบ        & แสดงรายละเอียดเนื้อหา                       &              \\
+      2              & หาเนื้อหาโดยใช้เลขอ้างอิงที่ไม่มีอยู่ในระบบ     & ขึ้นไม่พบเนื้อหา                            &              \\
+      3              & หาคำร้องขอโดยใช้เลขอ้างอิงที่มีอยู่ในระบบ       & แสดงรายละเอียดคำร้องขอ                      &              \\
+      4              & หาคำร้องขอโดยใช้เลขอ้างอิงที่ไม่มีอยู่ในระบบ    & ขึ้นไม่พบคำร้องขอ                           &              \\
+      5              & ส่งคำร้องขอ                                     & สามารถส่งคำร้องขอได้                        &              \\
+      6              & สร้าง Api Key                                   & สามารถสร้าง Api Key ใหม่ได้                 &              \\
+      7              & เข้าสู่ระบบด้วยข้อมูลที่ถูกต้อง                 & เข้าสู่ระบบได้                              &              \\
+      8              & เข้าสู่ระบบด้วย username ในระบบแต่ password ผิด & ไม่สามารถเข้าสู่ระบบได้                     &              \\
+      9              & เข้าสู่ระบบด้วย username ที่ไม่ถูกต้อง          & ไม่สามารถเข้าสู่ระบบได้                     &              \\
+      10             & ขอข้อมูลโปรไฟล์                                 & แสดงรายละเอียดข้อมูลของตนเอง                &              \\
+      11             & ขอข้อมูลโปรไฟล์ที่ไม่มีอยู่                     & ขึ้นไม่พบโปรไฟล์                            &              \\
+      12             & สมัครสมาชิกใหม่                                 & สมัครสมาชิกสำเร็จ                           &              \\
+      13             & สมัครสมาชิก ด้วย username ที่มีอยู่ในระบบ       & สมัครสมาชิกไม่สำเร็จ                        &              \\
+      14             & ทดสอบ middleware admin                          & เฉพาะ role admin เข้าถึงได้                 &              \\
+      15             & ทดสอบ middleware member                         & เฉพาะ role member เข้าถึงได้                &              \\
+      16             & ทดสอบ middleware require login                  & เฉพาะคนที่ login แล้วเข้าถึงได้             &              \\
+      17             & ทดสอบ middleware api key                        & เฉพาะคนที่ใส่ token ถูกต้องสามารถเข้าถึงได้ &              \\
+      18             & ทดสอบ middleware api key ไม่พบ api key ในระบบ   & ปฎิเสธการเข้าถึง                            &              \\
+      19             & ทดสอบ middleware api key ไม่แนบ api key         & ปฎิเสธการเข้าถึง                            &             
+      \end{tabular}
+      \end{table}
         \begin{figure}[!ht]\centering
           \includegraphics[width=\textwidth]{./img/unit_test.png}
           \caption{รายการ Unit tests ภายใน General Backend}\label{fig:unit_test}
